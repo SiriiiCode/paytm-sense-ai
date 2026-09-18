@@ -1,0 +1,2001 @@
+transaction_id,date,description,amount,type,category,recurring
+TXN0001,2026-01-01,Salary,60000.0,Credit,Income,No
+TXN0719,2026-01-01,Uber,868.14,Debit,Transport,No
+TXN0770,2026-01-01,Amazon,7632.43,Debit,Shopping,No
+TXN0825,2026-01-01,Dominos,360.12,Debit,Food,No
+TXN1096,2026-01-01,Zepto,3186.35,Debit,Groceries,No
+TXN1120,2026-01-01,Amazon,3198.05,Debit,Shopping,No
+TXN1488,2026-01-01,Gift,1993.31,Debit,Other,No
+TXN1559,2026-01-01,Dominos,1184.24,Debit,Food,No
+TXN1933,2026-01-01,Service Payment,1410.05,Debit,Other,No
+TXN0002,2026-01-02,House Rent,18000.0,Debit,Housing,Yes
+TXN0003,2026-01-02,EMI,10000.0,Debit,EMI,Yes
+TXN0254,2026-01-02,Cafe Coffee Day,590.83,Debit,Food,No
+TXN0553,2026-01-02,Ajio,2408.43,Debit,Shopping,No
+TXN0707,2026-01-02,Metro Recharge,446.56,Debit,Transport,No
+TXN0942,2026-01-02,Wallet Transfer,1058.75,Debit,Other,No
+TXN0005,2026-01-03,Netflix,649.0,Debit,Entertainment,Yes
+TXN0006,2026-01-03,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0153,2026-01-03,Ola,245.28,Debit,Transport,No
+TXN0410,2026-01-03,BookMyShow,1231.78,Debit,Entertainment,No
+TXN0922,2026-01-03,PVR,638.33,Debit,Entertainment,No
+TXN1344,2026-01-03,DMart,3037.32,Debit,Groceries,No
+TXN1525,2026-01-03,Myntra,3108.9,Debit,Shopping,No
+TXN1550,2026-01-03,Gas Bill,2865.63,Debit,Utilities,No
+TXN1651,2026-01-03,Myntra,1788.3,Debit,Shopping,No
+TXN1944,2026-01-03,Amazon,5065.9,Debit,Shopping,No
+TXN0004,2026-01-04,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0086,2026-01-04,Airtel,1971.1,Debit,Utilities,No
+TXN0167,2026-01-04,Coding Course,4113.62,Debit,Education,No
+TXN0354,2026-01-04,YouTube Premium,954.68,Debit,Entertainment,No
+TXN1077,2026-01-04,Metro Recharge,1073.63,Debit,Transport,No
+TXN1102,2026-01-04,Swiggy,1320.1,Debit,Food,No
+TXN1190,2026-01-04,PVR,731.8,Debit,Entertainment,No
+TXN1346,2026-01-04,Metro Recharge,168.93,Debit,Transport,No
+TXN1367,2026-01-04,Cafe Coffee Day,684.47,Debit,Food,No
+TXN1438,2026-01-04,Ola,288.09,Debit,Transport,No
+TXN1519,2026-01-04,DMart,558.31,Debit,Groceries,No
+TXN1859,2026-01-04,Metro Recharge,941.53,Debit,Transport,No
+TXN0275,2026-01-05,Dominos,908.29,Debit,Food,No
+TXN0486,2026-01-05,Metro Recharge,400.04,Debit,Transport,No
+TXN0529,2026-01-05,Miscellaneous,2642.56,Debit,Other,No
+TXN0889,2026-01-05,Croma,650.39,Debit,Shopping,No
+TXN0890,2026-01-05,Ola,805.06,Debit,Transport,No
+TXN0935,2026-01-05,Ola,310.15,Debit,Transport,No
+TXN1148,2026-01-05,Ajio,2867.38,Debit,Shopping,No
+TXN1200,2026-01-05,Zomato,1330.07,Debit,Food,No
+TXN1214,2026-01-05,Water Bill,2472.86,Debit,Utilities,No
+TXN0070,2026-01-06,Metro Recharge,672.61,Debit,Transport,No
+TXN1040,2026-01-06,Dominos,1729.7,Debit,Food,No
+TXN1267,2026-01-06,Coursera,7602.95,Debit,Education,No
+TXN1446,2026-01-06,Myntra,4512.75,Debit,Shopping,No
+TXN1471,2026-01-06,Flipkart,2849.52,Debit,Shopping,No
+TXN1865,2026-01-06,Wallet Transfer,522.19,Debit,Other,No
+TXN1979,2026-01-06,Cafe Coffee Day,1449.33,Debit,Food,No
+TXN0212,2026-01-07,Ajio,1269.41,Debit,Shopping,No
+TXN0633,2026-01-07,Jio,2659.3,Debit,Utilities,No
+TXN0758,2026-01-07,Cafe Coffee Day,154.24,Debit,Food,No
+TXN0864,2026-01-07,Coding Course,4852.49,Debit,Education,No
+TXN0096,2026-01-08,Rapido,189.66,Debit,Transport,No
+TXN0583,2026-01-08,BMTC,419.57,Debit,Transport,No
+TXN1318,2026-01-08,Zepto,403.13,Debit,Groceries,No
+TXN1822,2026-01-08,Apollo Pharmacy,887.92,Debit,Healthcare,No
+TXN0202,2026-01-09,Ajio,3861.31,Debit,Shopping,No
+TXN0316,2026-01-09,Spotify,1554.36,Debit,Entertainment,No
+TXN0415,2026-01-09,Hospital,3104.67,Debit,Healthcare,No
+TXN0499,2026-01-09,Myntra,4061.69,Debit,Shopping,No
+TXN0565,2026-01-09,DMart,2267.75,Debit,Groceries,No
+TXN0591,2026-01-09,Airtel,2353.13,Debit,Utilities,No
+TXN1255,2026-01-09,BigBasket,3445.46,Debit,Groceries,No
+TXN1502,2026-01-09,Metro Recharge,1162.56,Debit,Transport,No
+TXN1059,2026-01-10,Swiggy,1350.25,Debit,Food,No
+TXN1086,2026-01-10,Service Payment,2878.89,Debit,Other,No
+TXN1198,2026-01-10,Ajio,1908.42,Debit,Shopping,No
+TXN1292,2026-01-10,Myntra,6982.12,Debit,Shopping,No
+TXN1487,2026-01-10,Blinkit,2787.16,Debit,Groceries,No
+TXN1707,2026-01-10,Croma,1854.51,Debit,Shopping,No
+TXN1818,2026-01-10,IRCTC,5488.69,Debit,Travel,No
+TXN1928,2026-01-10,Ola,1103.38,Debit,Transport,No
+TXN0085,2026-01-11,Zepto,504.88,Debit,Groceries,No
+TXN0166,2026-01-11,Rapido,1139.59,Debit,Transport,No
+TXN0233,2026-01-11,BESCOM,728.32,Debit,Utilities,No
+TXN0309,2026-01-11,Zepto,2353.45,Debit,Groceries,No
+TXN0872,2026-01-11,YouTube Premium,2263.17,Debit,Entertainment,No
+TXN1221,2026-01-11,Hospital,3745.99,Debit,Healthcare,No
+TXN1579,2026-01-11,McDonalds,1367.22,Debit,Food,No
+TXN1692,2026-01-11,Udemy,3707.15,Debit,Education,No
+TXN1950,2026-01-11,Wallet Transfer,127.15,Debit,Other,No
+TXN0561,2026-01-12,Ola,1015.0,Debit,Transport,No
+TXN1296,2026-01-12,Metro Recharge,707.97,Debit,Transport,No
+TXN1577,2026-01-12,Ola,663.17,Debit,Transport,No
+TXN1916,2026-01-12,Uber,630.45,Debit,Transport,No
+TXN0128,2026-01-13,Coursera,8873.45,Debit,Education,No
+TXN1022,2026-01-13,Rapido,890.85,Debit,Transport,No
+TXN1280,2026-01-13,Dominos,1129.9,Debit,Food,No
+TXN1362,2026-01-13,Flipkart,511.86,Debit,Shopping,No
+TXN1557,2026-01-13,DMart,3045.35,Debit,Groceries,No
+TXN1598,2026-01-13,Reliance Smart,674.0,Debit,Groceries,No
+TXN1965,2026-01-13,Zepto,1371.06,Debit,Groceries,No
+TXN0340,2026-01-14,Coding Course,6328.95,Debit,Education,No
+TXN1451,2026-01-14,Myntra,6566.72,Debit,Shopping,No
+TXN0135,2026-01-15,Croma,2983.62,Debit,Shopping,No
+TXN0170,2026-01-15,BMTC,568.14,Debit,Transport,No
+TXN0469,2026-01-15,Coding Course,891.35,Debit,Education,No
+TXN0811,2026-01-15,PharmEasy,4595.71,Debit,Healthcare,No
+TXN0880,2026-01-15,Rapido,1064.85,Debit,Transport,No
+TXN0957,2026-01-15,McDonalds,1435.62,Debit,Food,No
+TXN1131,2026-01-15,BookMyShow,1767.67,Debit,Entertainment,No
+TXN1368,2026-01-15,Blinkit,1392.36,Debit,Groceries,No
+TXN1686,2026-01-15,YouTube Premium,937.11,Debit,Entertainment,No
+TXN1715,2026-01-15,Uber,247.96,Debit,Transport,No
+TXN1762,2026-01-15,Metro Recharge,967.56,Debit,Transport,No
+TXN1927,2026-01-15,Metro Recharge,153.31,Debit,Transport,No
+TXN0471,2026-01-16,BookMyShow,1621.65,Debit,Entertainment,No
+TXN0840,2026-01-16,Cafe Coffee Day,1623.82,Debit,Food,No
+TXN1037,2026-01-16,BookMyShow,1077.25,Debit,Entertainment,No
+TXN1407,2026-01-16,YouTube Premium,1242.55,Debit,Entertainment,No
+TXN0061,2026-01-17,Udemy,2675.96,Debit,Education,No
+TXN0087,2026-01-17,BigBasket,1032.61,Debit,Groceries,No
+TXN0443,2026-01-17,Dominos,747.55,Debit,Food,No
+TXN0609,2026-01-17,Swiggy,1228.66,Debit,Food,No
+TXN0615,2026-01-17,Miscellaneous,2708.0,Debit,Other,No
+TXN0693,2026-01-17,Zepto,1252.67,Debit,Groceries,No
+TXN0826,2026-01-17,Service Payment,1235.64,Debit,Other,No
+TXN1001,2026-01-17,Myntra,2030.01,Debit,Shopping,No
+TXN1203,2026-01-17,Wallet Transfer,2121.11,Debit,Other,No
+TXN1235,2026-01-17,1mg,1139.6,Debit,Healthcare,No
+TXN1236,2026-01-17,McDonalds,466.17,Debit,Food,No
+TXN1542,2026-01-17,Gift,1074.08,Debit,Other,No
+TXN1642,2026-01-17,Netflix,651.61,Debit,Entertainment,No
+TXN1677,2026-01-17,Gas Bill,1866.55,Debit,Utilities,No
+TXN1679,2026-01-17,Book Store,4866.73,Debit,Education,No
+TXN0566,2026-01-18,Swiggy,316.48,Debit,Food,No
+TXN0798,2026-01-18,McDonalds,1607.65,Debit,Food,No
+TXN0836,2026-01-18,BigBasket,2857.42,Debit,Groceries,No
+TXN1207,2026-01-18,Metro Recharge,356.82,Debit,Transport,No
+TXN1440,2026-01-18,Rapido,725.51,Debit,Transport,No
+TXN1590,2026-01-18,Zomato,488.51,Debit,Food,No
+TXN1733,2026-01-18,Apollo Pharmacy,3333.37,Debit,Healthcare,No
+TXN0266,2026-01-19,Wallet Transfer,2629.91,Debit,Other,No
+TXN0429,2026-01-19,Service Payment,1472.86,Debit,Other,No
+TXN0527,2026-01-19,Ola,1125.99,Debit,Transport,No
+TXN0902,2026-01-19,McDonalds,817.59,Debit,Food,No
+TXN1352,2026-01-19,Service Payment,1144.55,Debit,Other,No
+TXN1370,2026-01-19,Wallet Transfer,2756.87,Debit,Other,No
+TXN1448,2026-01-19,BMTC,403.91,Debit,Transport,No
+TXN0392,2026-01-20,Udemy,5323.05,Debit,Education,No
+TXN0920,2026-01-20,Metro Recharge,509.31,Debit,Transport,No
+TXN1094,2026-01-20,Airtel,1689.67,Debit,Utilities,No
+TXN1115,2026-01-20,Dominos,282.07,Debit,Food,No
+TXN1324,2026-01-20,Croma,4953.54,Debit,Shopping,No
+TXN1523,2026-01-20,Zomato,1157.39,Debit,Food,No
+TXN0106,2026-01-21,Rapido,355.76,Debit,Transport,No
+TXN0581,2026-01-21,DMart,2455.75,Debit,Groceries,No
+TXN1068,2026-01-21,BookMyShow,2360.1,Debit,Entertainment,No
+TXN1071,2026-01-21,Metro Recharge,1067.34,Debit,Transport,No
+TXN1084,2026-01-21,Reliance Smart,815.61,Debit,Groceries,No
+TXN1597,2026-01-21,Swiggy,1357.21,Debit,Food,No
+TXN0124,2026-01-22,Airtel,1574.47,Debit,Utilities,No
+TXN0187,2026-01-22,Coding Course,8152.52,Debit,Education,No
+TXN0375,2026-01-22,Rapido,700.83,Debit,Transport,No
+TXN0438,2026-01-22,DMart,1424.95,Debit,Groceries,No
+TXN0613,2026-01-22,BESCOM,2736.98,Debit,Utilities,No
+TXN0691,2026-01-22,YouTube Premium,1446.7,Debit,Entertainment,No
+TXN1041,2026-01-22,Gas Bill,853.43,Debit,Utilities,No
+TXN1268,2026-01-22,Ajio,905.96,Debit,Shopping,No
+TXN1322,2026-01-22,Hotel Booking,5155.97,Debit,Travel,No
+TXN1325,2026-01-22,Metro Recharge,591.73,Debit,Transport,No
+TXN1503,2026-01-22,BigBasket,1380.7,Debit,Groceries,No
+TXN1719,2026-01-22,Flipkart,5332.2,Debit,Shopping,No
+TXN1771,2026-01-22,Miscellaneous,483.49,Debit,Other,No
+TXN1995,2026-01-22,Ola,197.43,Debit,Transport,No
+TXN0567,2026-01-23,Uber,354.1,Debit,Transport,No
+TXN1083,2026-01-23,Ajio,668.35,Debit,Shopping,No
+TXN1234,2026-01-23,Reliance Smart,2408.45,Debit,Groceries,No
+TXN1289,2026-01-23,Amazon,3324.55,Debit,Shopping,No
+TXN1530,2026-01-23,Ola,830.56,Debit,Transport,No
+TXN1793,2026-01-23,BESCOM,1323.57,Debit,Utilities,No
+TXN0494,2026-01-24,Water Bill,1750.19,Debit,Utilities,No
+TXN0590,2026-01-24,Miscellaneous,1007.47,Debit,Other,No
+TXN0614,2026-01-24,Cafe Coffee Day,934.58,Debit,Food,No
+TXN0763,2026-01-24,Uber,280.87,Debit,Transport,No
+TXN0978,2026-01-24,Jio,2255.24,Debit,Utilities,No
+TXN0982,2026-01-24,Amazon,6178.62,Debit,Shopping,No
+TXN1034,2026-01-24,Gas Bill,658.09,Debit,Utilities,No
+TXN1507,2026-01-24,Ajio,7303.84,Debit,Shopping,No
+TXN1769,2026-01-24,BMTC,1196.35,Debit,Transport,No
+TXN1849,2026-01-24,Dominos,1445.06,Debit,Food,No
+TXN1907,2026-01-24,Metro Recharge,459.68,Debit,Transport,No
+TXN0413,2026-01-25,Spotify,892.65,Debit,Entertainment,No
+TXN0430,2026-01-25,Spotify,858.06,Debit,Entertainment,No
+TXN0573,2026-01-25,Ajio,4668.88,Debit,Shopping,No
+TXN0598,2026-01-25,Uber,1138.61,Debit,Transport,No
+TXN0712,2026-01-25,Water Bill,2470.76,Debit,Utilities,No
+TXN0832,2026-01-25,Swiggy,1338.68,Debit,Food,No
+TXN0932,2026-01-25,PVR,311.75,Debit,Entertainment,No
+TXN0985,2026-01-25,UPI Transfer,1638.06,Debit,Other,No
+TXN1159,2026-01-25,YouTube Premium,777.24,Debit,Entertainment,No
+TXN1809,2026-01-25,Coding Course,4563.45,Debit,Education,No
+TXN0282,2026-01-26,Cafe Coffee Day,1577.36,Debit,Food,No
+TXN0347,2026-01-26,MakeMyTrip,2310.21,Debit,Travel,No
+TXN0844,2026-01-26,Myntra,2281.61,Debit,Shopping,No
+TXN0871,2026-01-26,Blinkit,2509.64,Debit,Groceries,No
+TXN0946,2026-01-26,BMTC,375.82,Debit,Transport,No
+TXN0966,2026-01-26,Dominos,1750.74,Debit,Food,No
+TXN1273,2026-01-26,BigBasket,1822.73,Debit,Groceries,No
+TXN1327,2026-01-26,UPI Transfer,1717.33,Debit,Other,No
+TXN1398,2026-01-26,BigBasket,1806.35,Debit,Groceries,No
+TXN1508,2026-01-26,Zomato,173.7,Debit,Food,No
+TXN0177,2026-01-27,Swiggy,926.01,Debit,Food,No
+TXN0335,2026-01-27,Metro Recharge,1052.26,Debit,Transport,No
+TXN0502,2026-01-27,Service Payment,1775.14,Debit,Other,No
+TXN1112,2026-01-27,PVR,1612.26,Debit,Entertainment,No
+TXN1211,2026-01-27,Dominos,477.89,Debit,Food,No
+TXN1340,2026-01-27,Zepto,872.37,Debit,Groceries,No
+TXN1450,2026-01-27,DMart,2150.05,Debit,Groceries,No
+TXN0963,2026-01-28,Reliance Smart,3154.6,Debit,Groceries,No
+TXN1005,2026-01-28,BMTC,1161.73,Debit,Transport,No
+TXN1045,2026-01-28,Zomato,1257.11,Debit,Food,No
+TXN1426,2026-01-28,College Fees,1092.9,Debit,Education,No
+TXN1625,2026-01-28,MakeMyTrip,4609.93,Debit,Travel,No
+TXN1911,2026-01-28,Cafe Coffee Day,1044.03,Debit,Food,No
+TXN1990,2026-01-28,Reliance Smart,2921.39,Debit,Groceries,No
+TXN0270,2026-01-29,UPI Transfer,1040.69,Debit,Other,No
+TXN0352,2026-01-29,DMart,3450.23,Debit,Groceries,No
+TXN0371,2026-01-29,BMTC,971.89,Debit,Transport,No
+TXN0462,2026-01-29,Spotify,1195.02,Debit,Entertainment,No
+TXN0568,2026-01-29,Ola,684.53,Debit,Transport,No
+TXN0748,2026-01-29,UPI Transfer,1414.78,Debit,Other,No
+TXN0808,2026-01-29,Zepto,1152.89,Debit,Groceries,No
+TXN0878,2026-01-29,PVR,2194.53,Debit,Entertainment,No
+TXN1373,2026-01-29,BookMyShow,2333.92,Debit,Entertainment,No
+TXN1720,2026-01-29,Wallet Transfer,2368.48,Debit,Other,No
+TXN1729,2026-01-29,BMTC,1046.45,Debit,Transport,No
+TXN0101,2026-01-30,Blinkit,996.64,Debit,Groceries,No
+TXN0577,2026-01-30,Zomato,1479.53,Debit,Food,No
+TXN0899,2026-01-30,Cafe Coffee Day,1413.03,Debit,Food,No
+TXN0916,2026-01-30,Zomato,667.13,Debit,Food,No
+TXN0333,2026-01-31,YouTube Premium,2067.07,Debit,Entertainment,No
+TXN0524,2026-01-31,YouTube Premium,938.69,Debit,Entertainment,No
+TXN0555,2026-01-31,Swiggy,1042.92,Debit,Food,No
+TXN0597,2026-01-31,Cafe Coffee Day,1784.03,Debit,Food,No
+TXN0740,2026-01-31,Zepto,427.45,Debit,Groceries,No
+TXN0007,2026-02-01,Salary,60000.0,Credit,Income,No
+TXN0377,2026-02-01,Gas Bill,877.15,Debit,Utilities,No
+TXN0777,2026-02-01,DMart,539.46,Debit,Groceries,No
+TXN0855,2026-02-01,Service Payment,759.79,Debit,Other,No
+TXN1000,2026-02-01,Miscellaneous,524.64,Debit,Other,No
+TXN1973,2026-02-01,Croma,1436.2,Debit,Shopping,No
+TXN0009,2026-02-02,EMI,10000.0,Debit,EMI,Yes
+TXN0010,2026-02-02,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0012,2026-02-02,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0959,2026-02-02,DMart,1710.2,Debit,Groceries,No
+TXN1114,2026-02-02,Rapido,567.62,Debit,Transport,No
+TXN1230,2026-02-02,Spotify,937.6,Debit,Entertainment,No
+TXN1570,2026-02-02,Metro Recharge,390.4,Debit,Transport,No
+TXN1712,2026-02-02,Book Store,3527.21,Debit,Education,No
+TXN0008,2026-02-03,House Rent,18000.0,Debit,Housing,Yes
+TXN0452,2026-02-03,Miscellaneous,2036.74,Debit,Other,No
+TXN1026,2026-02-03,Service Payment,1646.3,Debit,Other,No
+TXN1354,2026-02-03,Hospital,4263.56,Debit,Healthcare,No
+TXN1573,2026-02-03,BMTC,975.89,Debit,Transport,No
+TXN1691,2026-02-03,Dominos,1127.68,Debit,Food,No
+TXN1974,2026-02-03,Wallet Transfer,1008.51,Debit,Other,No
+TXN1976,2026-02-03,Reliance Smart,2303.79,Debit,Groceries,No
+TXN0370,2026-02-04,College Fees,1934.1,Debit,Education,No
+TXN0422,2026-02-04,Swiggy,739.2,Debit,Food,No
+TXN0442,2026-02-04,Book Store,830.59,Debit,Education,No
+TXN0739,2026-02-04,Netflix,238.39,Debit,Entertainment,No
+TXN0831,2026-02-04,BMTC,314.85,Debit,Transport,No
+TXN0862,2026-02-04,PharmEasy,1802.82,Debit,Healthcare,No
+TXN1566,2026-02-04,Myntra,3248.25,Debit,Shopping,No
+TXN1620,2026-02-04,Blinkit,1877.76,Debit,Groceries,No
+TXN1649,2026-02-04,PVR,756.19,Debit,Entertainment,No
+TXN1982,2026-02-04,BESCOM,756.72,Debit,Utilities,No
+TXN0011,2026-02-05,Netflix,649.0,Debit,Entertainment,Yes
+TXN0178,2026-02-05,Miscellaneous,750.24,Debit,Other,No
+TXN0188,2026-02-05,McDonalds,1241.51,Debit,Food,No
+TXN1049,2026-02-05,Zepto,620.14,Debit,Groceries,No
+TXN1491,2026-02-05,Metro Recharge,1025.34,Debit,Transport,No
+TXN1661,2026-02-05,McDonalds,461.5,Debit,Food,No
+TXN0736,2026-02-06,Uber,350.01,Debit,Transport,No
+TXN0911,2026-02-06,Rapido,729.95,Debit,Transport,No
+TXN1168,2026-02-06,Rapido,720.23,Debit,Transport,No
+TXN1238,2026-02-06,Zepto,2239.05,Debit,Groceries,No
+TXN1277,2026-02-06,Gas Bill,1115.61,Debit,Utilities,No
+TXN1433,2026-02-06,Zomato,371.56,Debit,Food,No
+TXN0151,2026-02-07,Zepto,3448.6,Debit,Groceries,No
+TXN0215,2026-02-07,BigBasket,1582.26,Debit,Groceries,No
+TXN0459,2026-02-07,Metro Recharge,1002.14,Debit,Transport,No
+TXN0473,2026-02-07,Metro Recharge,413.13,Debit,Transport,No
+TXN0819,2026-02-07,PVR,2179.54,Debit,Entertainment,No
+TXN1014,2026-02-07,Rapido,696.18,Debit,Transport,No
+TXN1030,2026-02-07,Blinkit,421.24,Debit,Groceries,No
+TXN1046,2026-02-07,Coding Course,4882.02,Debit,Education,No
+TXN1127,2026-02-07,Reliance Smart,640.69,Debit,Groceries,No
+TXN1480,2026-02-07,YouTube Premium,791.87,Debit,Entertainment,No
+TXN1486,2026-02-07,Miscellaneous,399.53,Debit,Other,No
+TXN1538,2026-02-07,Book Store,8967.97,Debit,Education,No
+TXN1999,2026-02-07,Apollo Pharmacy,2005.24,Debit,Healthcare,No
+TXN0095,2026-02-08,BMTC,598.14,Debit,Transport,No
+TXN0222,2026-02-08,Flipkart,2298.99,Debit,Shopping,No
+TXN0367,2026-02-08,Zomato,1143.96,Debit,Food,No
+TXN0621,2026-02-08,DMart,1042.86,Debit,Groceries,No
+TXN0792,2026-02-08,Jio,2793.57,Debit,Utilities,No
+TXN0944,2026-02-08,BigBasket,2794.48,Debit,Groceries,No
+TXN1699,2026-02-08,McDonalds,482.9,Debit,Food,No
+TXN0373,2026-02-09,Blinkit,2961.43,Debit,Groceries,No
+TXN0546,2026-02-09,Rapido,868.22,Debit,Transport,No
+TXN0754,2026-02-09,Swiggy,583.87,Debit,Food,No
+TXN1074,2026-02-09,McDonalds,752.74,Debit,Food,No
+TXN1242,2026-02-09,Uber,1014.59,Debit,Transport,No
+TXN1452,2026-02-09,Swiggy,359.26,Debit,Food,No
+TXN1575,2026-02-09,Miscellaneous,2878.94,Debit,Other,No
+TXN1627,2026-02-09,Blinkit,1994.76,Debit,Groceries,No
+TXN1674,2026-02-09,Reliance Smart,2294.34,Debit,Groceries,No
+TXN1946,2026-02-09,PVR,386.64,Debit,Entertainment,No
+TXN0079,2026-02-10,Zomato,1598.72,Debit,Food,No
+TXN0362,2026-02-10,Cafe Coffee Day,810.74,Debit,Food,No
+TXN0516,2026-02-10,Dominos,1726.27,Debit,Food,No
+TXN0579,2026-02-10,BMTC,307.74,Debit,Transport,No
+TXN0857,2026-02-10,Airtel,1690.66,Debit,Utilities,No
+TXN1239,2026-02-10,Zepto,2398.4,Debit,Groceries,No
+TXN1442,2026-02-10,DMart,3377.56,Debit,Groceries,No
+TXN0162,2026-02-11,Dominos,677.52,Debit,Food,No
+TXN0323,2026-02-11,Ajio,1051.18,Debit,Shopping,No
+TXN0545,2026-02-11,Spotify,1952.28,Debit,Entertainment,No
+TXN0848,2026-02-11,Zepto,2342.21,Debit,Groceries,No
+TXN0434,2026-02-12,Cafe Coffee Day,590.09,Debit,Food,No
+TXN0611,2026-02-12,BigBasket,2549.1,Debit,Groceries,No
+TXN0742,2026-02-12,BookMyShow,1814.16,Debit,Entertainment,No
+TXN1176,2026-02-12,BESCOM,2427.33,Debit,Utilities,No
+TXN1601,2026-02-12,YouTube Premium,650.15,Debit,Entertainment,No
+TXN1806,2026-02-12,Service Payment,1925.72,Debit,Other,No
+TXN0200,2026-02-13,Gas Bill,2870.16,Debit,Utilities,No
+TXN0346,2026-02-13,Dominos,1431.78,Debit,Food,No
+TXN0378,2026-02-13,BMTC,1180.27,Debit,Transport,No
+TXN0386,2026-02-13,Wallet Transfer,473.96,Debit,Other,No
+TXN0418,2026-02-13,Airtel,2160.93,Debit,Utilities,No
+TXN0655,2026-02-13,Croma,4953.65,Debit,Shopping,No
+TXN0731,2026-02-13,Zomato,558.85,Debit,Food,No
+TXN0791,2026-02-13,DMart,1491.17,Debit,Groceries,No
+TXN1042,2026-02-13,Reliance Smart,1561.06,Debit,Groceries,No
+TXN1283,2026-02-13,Dominos,407.39,Debit,Food,No
+TXN1336,2026-02-13,DMart,2329.03,Debit,Groceries,No
+TXN1866,2026-02-13,Croma,7577.32,Debit,Shopping,No
+TXN1910,2026-02-13,BESCOM,2109.79,Debit,Utilities,No
+TXN0457,2026-02-14,Rapido,225.34,Debit,Transport,No
+TXN0630,2026-02-14,BMTC,194.5,Debit,Transport,No
+TXN0694,2026-02-14,BMTC,1045.66,Debit,Transport,No
+TXN0747,2026-02-14,Flipkart,934.29,Debit,Shopping,No
+TXN0800,2026-02-14,Rapido,616.51,Debit,Transport,No
+TXN1357,2026-02-14,Amazon,4785.25,Debit,Shopping,No
+TXN1389,2026-02-14,BigBasket,2498.57,Debit,Groceries,No
+TXN1546,2026-02-14,Gas Bill,2637.51,Debit,Utilities,No
+TXN1602,2026-02-14,Water Bill,2192.66,Debit,Utilities,No
+TXN0240,2026-02-15,Clinic,472.48,Debit,Healthcare,No
+TXN0876,2026-02-15,McDonalds,1148.22,Debit,Food,No
+TXN0918,2026-02-15,Airtel,1723.94,Debit,Utilities,No
+TXN1216,2026-02-15,Flipkart,3285.49,Debit,Shopping,No
+TXN1278,2026-02-15,McDonalds,683.63,Debit,Food,No
+TXN1444,2026-02-15,Uber,666.16,Debit,Transport,No
+TXN1524,2026-02-15,Water Bill,2030.12,Debit,Utilities,No
+TXN1612,2026-02-15,Reliance Smart,2719.56,Debit,Groceries,No
+TXN1908,2026-02-15,Wallet Transfer,2234.15,Debit,Other,No
+TXN1938,2026-02-15,PVR,360.85,Debit,Entertainment,No
+TXN0067,2026-02-16,Zomato,990.72,Debit,Food,No
+TXN0287,2026-02-16,Blinkit,2643.55,Debit,Groceries,No
+TXN0483,2026-02-16,BMTC,637.05,Debit,Transport,No
+TXN0814,2026-02-16,Airtel,1726.09,Debit,Utilities,No
+TXN0886,2026-02-16,Dominos,1385.79,Debit,Food,No
+TXN0971,2026-02-16,Reliance Smart,300.54,Debit,Groceries,No
+TXN1271,2026-02-16,Service Payment,1768.24,Debit,Other,No
+TXN1334,2026-02-16,Ola,1068.45,Debit,Transport,No
+TXN1494,2026-02-16,Dominos,811.01,Debit,Food,No
+TXN1722,2026-02-16,Book Store,9019.35,Debit,Education,No
+TXN0247,2026-02-17,Swiggy,1061.21,Debit,Food,No
+TXN0466,2026-02-17,Blinkit,2266.17,Debit,Groceries,No
+TXN0632,2026-02-17,BigBasket,1432.53,Debit,Groceries,No
+TXN0705,2026-02-17,Swiggy,1195.49,Debit,Food,No
+TXN0839,2026-02-17,PVR,2366.22,Debit,Entertainment,No
+TXN0951,2026-02-17,Miscellaneous,2647.58,Debit,Other,No
+TXN1474,2026-02-17,Swiggy,189.11,Debit,Food,No
+TXN1599,2026-02-17,Ola,579.49,Debit,Transport,No
+TXN1784,2026-02-17,Zepto,695.69,Debit,Groceries,No
+TXN1875,2026-02-17,Rapido,398.0,Debit,Transport,No
+TXN0700,2026-02-18,Dominos,1721.46,Debit,Food,No
+TXN0961,2026-02-18,Miscellaneous,1605.39,Debit,Other,No
+TXN1263,2026-02-18,Rapido,997.86,Debit,Transport,No
+TXN1526,2026-02-18,Airtel,793.77,Debit,Utilities,No
+TXN1702,2026-02-18,Amazon,5882.8,Debit,Shopping,No
+TXN1767,2026-02-18,Croma,2421.69,Debit,Shopping,No
+TXN1972,2026-02-18,Service Payment,1896.74,Debit,Other,No
+TXN0332,2026-02-19,BigBasket,598.34,Debit,Groceries,No
+TXN0847,2026-02-19,Clinic,2557.54,Debit,Healthcare,No
+TXN0853,2026-02-19,Clinic,589.71,Debit,Healthcare,No
+TXN0906,2026-02-19,Coding Course,2220.79,Debit,Education,No
+TXN1417,2026-02-19,Reliance Smart,1781.31,Debit,Groceries,No
+TXN0092,2026-02-20,Uber,834.17,Debit,Transport,No
+TXN0220,2026-02-20,Cafe Coffee Day,249.38,Debit,Food,No
+TXN0268,2026-02-20,UPI Transfer,1358.52,Debit,Other,No
+TXN0303,2026-02-20,Airtel,2713.53,Debit,Utilities,No
+TXN1099,2026-02-20,BookMyShow,1006.19,Debit,Entertainment,No
+TXN1472,2026-02-20,Amazon,589.71,Debit,Shopping,No
+TXN1918,2026-02-20,Uber,208.4,Debit,Transport,No
+TXN1922,2026-02-20,Swiggy,641.74,Debit,Food,No
+TXN0110,2026-02-21,Uber,90.43,Debit,Transport,No
+TXN0866,2026-02-21,Zepto,774.24,Debit,Groceries,No
+TXN1149,2026-02-21,Zepto,1514.17,Debit,Groceries,No
+TXN1517,2026-02-21,Cafe Coffee Day,217.15,Debit,Food,No
+TXN1696,2026-02-21,Swiggy,1483.74,Debit,Food,No
+TXN1742,2026-02-21,Miscellaneous,2180.42,Debit,Other,No
+TXN1843,2026-02-21,Zepto,2238.4,Debit,Groceries,No
+TXN1980,2026-02-21,Metro Recharge,970.58,Debit,Transport,No
+TXN0723,2026-02-22,DMart,585.86,Debit,Groceries,No
+TXN1199,2026-02-22,Reliance Smart,370.82,Debit,Groceries,No
+TXN1394,2026-02-22,Swiggy,1731.19,Debit,Food,No
+TXN1853,2026-02-22,Service Payment,1868.0,Debit,Other,No
+TXN0336,2026-02-23,Service Payment,1006.1,Debit,Other,No
+TXN0837,2026-02-23,Dominos,580.86,Debit,Food,No
+TXN0937,2026-02-23,Flipkart,3641.19,Debit,Shopping,No
+TXN1851,2026-02-23,Coding Course,6240.75,Debit,Education,No
+TXN1884,2026-02-23,Croma,6031.34,Debit,Shopping,No
+TXN0074,2026-02-24,Gift,1572.28,Debit,Other,No
+TXN0361,2026-02-24,PharmEasy,714.21,Debit,Healthcare,No
+TXN0477,2026-02-24,Gift,2305.93,Debit,Other,No
+TXN0781,2026-02-24,Reliance Smart,648.71,Debit,Groceries,No
+TXN1104,2026-02-24,Myntra,3566.34,Debit,Shopping,No
+TXN1140,2026-02-24,PharmEasy,1033.18,Debit,Healthcare,No
+TXN1410,2026-02-24,Metro Recharge,995.66,Debit,Transport,No
+TXN1485,2026-02-24,DMart,998.84,Debit,Groceries,No
+TXN1510,2026-02-24,Apollo Pharmacy,4143.66,Debit,Healthcare,No
+TXN1790,2026-02-24,Rapido,1120.65,Debit,Transport,No
+TXN0093,2026-02-25,Blinkit,2861.9,Debit,Groceries,No
+TXN0130,2026-02-25,1mg,1553.99,Debit,Healthcare,No
+TXN1056,2026-02-25,BMTC,625.41,Debit,Transport,No
+TXN1484,2026-02-25,Flipkart,5341.12,Debit,Shopping,No
+TXN1670,2026-02-25,Ola,940.16,Debit,Transport,No
+TXN0350,2026-02-26,Netflix,993.9,Debit,Entertainment,No
+TXN0412,2026-02-26,Gas Bill,1819.43,Debit,Utilities,No
+TXN0414,2026-02-26,Cafe Coffee Day,904.24,Debit,Food,No
+TXN0504,2026-02-26,Zepto,401.03,Debit,Groceries,No
+TXN1285,2026-02-26,College Fees,630.47,Debit,Education,No
+TXN1536,2026-02-26,BMTC,337.67,Debit,Transport,No
+TXN1543,2026-02-26,Amazon,2604.53,Debit,Shopping,No
+TXN1656,2026-02-26,BMTC,218.45,Debit,Transport,No
+TXN1747,2026-02-26,Myntra,4818.57,Debit,Shopping,No
+TXN1852,2026-02-26,Ajio,6492.4,Debit,Shopping,No
+TXN0122,2026-02-27,Water Bill,1902.27,Debit,Utilities,No
+TXN0532,2026-02-27,Book Store,3091.95,Debit,Education,No
+TXN0564,2026-02-27,Zepto,3299.71,Debit,Groceries,No
+TXN1454,2026-02-27,Dominos,173.43,Debit,Food,No
+TXN1730,2026-02-27,BMTC,863.57,Debit,Transport,No
+TXN0327,2026-02-28,Metro Recharge,191.08,Debit,Transport,No
+TXN0364,2026-02-28,Zomato,276.03,Debit,Food,No
+TXN0446,2026-02-28,BMTC,359.57,Debit,Transport,No
+TXN0675,2026-02-28,Gas Bill,1481.36,Debit,Utilities,No
+TXN0938,2026-02-28,Rapido,211.86,Debit,Transport,No
+TXN1021,2026-02-28,Miscellaneous,1205.98,Debit,Other,No
+TXN1081,2026-02-28,Ajio,6583.79,Debit,Shopping,No
+TXN1634,2026-02-28,PVR,1610.89,Debit,Entertainment,No
+TXN1847,2026-02-28,BigBasket,1380.75,Debit,Groceries,No
+TXN0013,2026-03-01,Salary,60000.0,Credit,Income,No
+TXN0299,2026-03-01,Miscellaneous,1982.79,Debit,Other,No
+TXN0757,2026-03-01,PVR,1750.48,Debit,Entertainment,No
+TXN0933,2026-03-01,Amazon,861.76,Debit,Shopping,No
+TXN0948,2026-03-01,Dominos,852.89,Debit,Food,No
+TXN1388,2026-03-01,Swiggy,907.96,Debit,Food,No
+TXN1461,2026-03-01,Blinkit,2717.55,Debit,Groceries,No
+TXN1534,2026-03-01,BigBasket,1852.2,Debit,Groceries,No
+TXN1588,2026-03-01,1mg,1057.9,Debit,Healthcare,No
+TXN1774,2026-03-01,Ajio,1563.47,Debit,Shopping,No
+TXN0014,2026-03-02,House Rent,18000.0,Debit,Housing,Yes
+TXN0015,2026-03-02,EMI,10000.0,Debit,EMI,Yes
+TXN0018,2026-03-02,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0248,2026-03-02,Swiggy,911.39,Debit,Food,No
+TXN0491,2026-03-02,Clinic,3497.87,Debit,Healthcare,No
+TXN0584,2026-03-02,Zomato,1737.43,Debit,Food,No
+TXN0752,2026-03-02,YouTube Premium,1885.75,Debit,Entertainment,No
+TXN0910,2026-03-02,Cafe Coffee Day,635.18,Debit,Food,No
+TXN0969,2026-03-02,DMart,1730.62,Debit,Groceries,No
+TXN1033,2026-03-02,Uber,516.24,Debit,Transport,No
+TXN1080,2026-03-02,Reliance Smart,2595.37,Debit,Groceries,No
+TXN1095,2026-03-02,RedBus,6288.29,Debit,Travel,No
+TXN1309,2026-03-02,Cafe Coffee Day,1029.39,Debit,Food,No
+TXN1638,2026-03-02,Blinkit,392.03,Debit,Groceries,No
+TXN1756,2026-03-02,Blinkit,844.39,Debit,Groceries,No
+TXN1893,2026-03-02,Service Payment,2603.49,Debit,Other,No
+TXN1895,2026-03-02,Miscellaneous,2772.92,Debit,Other,No
+TXN1897,2026-03-02,BESCOM,1806.94,Debit,Utilities,No
+TXN0016,2026-03-03,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0017,2026-03-03,Netflix,649.0,Debit,Entertainment,Yes
+TXN0762,2026-03-03,Swiggy,1093.03,Debit,Food,No
+TXN0782,2026-03-03,DMart,1304.91,Debit,Groceries,No
+TXN0980,2026-03-03,Reliance Smart,926.95,Debit,Groceries,No
+TXN1147,2026-03-03,Ola,592.06,Debit,Transport,No
+TXN1266,2026-03-03,McDonalds,837.26,Debit,Food,No
+TXN1476,2026-03-03,UPI Transfer,2153.42,Debit,Other,No
+TXN1622,2026-03-03,Book Store,9755.46,Debit,Education,No
+TXN0334,2026-03-04,Gas Bill,1904.21,Debit,Utilities,No
+TXN1210,2026-03-04,Amazon,6085.43,Debit,Shopping,No
+TXN1571,2026-03-04,McDonalds,952.27,Debit,Food,No
+TXN1592,2026-03-04,Airtel,1834.11,Debit,Utilities,No
+TXN1725,2026-03-04,Uber,346.65,Debit,Transport,No
+TXN1789,2026-03-04,Myntra,694.72,Debit,Shopping,No
+TXN0295,2026-03-05,DMart,344.54,Debit,Groceries,No
+TXN0402,2026-03-05,BESCOM,2278.5,Debit,Utilities,No
+TXN0729,2026-03-05,BigBasket,748.04,Debit,Groceries,No
+TXN0883,2026-03-05,McDonalds,983.46,Debit,Food,No
+TXN1335,2026-03-05,Zomato,1335.32,Debit,Food,No
+TXN1880,2026-03-05,Myntra,1428.6,Debit,Shopping,No
+TXN0080,2026-03-06,DMart,2911.27,Debit,Groceries,No
+TXN0210,2026-03-06,BigBasket,2565.66,Debit,Groceries,No
+TXN0211,2026-03-06,Swiggy,1063.04,Debit,Food,No
+TXN0310,2026-03-06,Blinkit,1079.42,Debit,Groceries,No
+TXN0751,2026-03-06,BMTC,267.0,Debit,Transport,No
+TXN1874,2026-03-06,Reliance Smart,1370.38,Debit,Groceries,No
+TXN1983,2026-03-06,Airtel,2760.92,Debit,Utilities,No
+TXN1409,2026-03-07,College Fees,7795.44,Debit,Education,No
+TXN1957,2026-03-07,Zepto,2687.12,Debit,Groceries,No
+TXN0120,2026-03-08,Apollo Pharmacy,316.66,Debit,Healthcare,No
+TXN0711,2026-03-08,Dominos,707.3,Debit,Food,No
+TXN0816,2026-03-08,Reliance Smart,944.69,Debit,Groceries,No
+TXN1748,2026-03-08,Reliance Smart,2583.4,Debit,Groceries,No
+TXN1794,2026-03-08,Ajio,2936.87,Debit,Shopping,No
+TXN1842,2026-03-08,Amazon,5502.92,Debit,Shopping,No
+TXN1887,2026-03-08,BigBasket,1659.64,Debit,Groceries,No
+TXN1892,2026-03-08,Metro Recharge,876.49,Debit,Transport,No
+TXN0111,2026-03-09,Zepto,1918.83,Debit,Groceries,No
+TXN0244,2026-03-09,Amazon,2026.69,Debit,Shopping,No
+TXN0702,2026-03-09,Coursera,7163.55,Debit,Education,No
+TXN0929,2026-03-09,Zepto,2626.94,Debit,Groceries,No
+TXN1305,2026-03-09,Miscellaneous,1402.59,Debit,Other,No
+TXN1342,2026-03-09,Zomato,343.96,Debit,Food,No
+TXN1387,2026-03-09,BigBasket,2930.84,Debit,Groceries,No
+TXN1635,2026-03-09,Uber,210.55,Debit,Transport,No
+TXN1800,2026-03-09,PharmEasy,4547.55,Debit,Healthcare,No
+TXN0115,2026-03-10,UPI Transfer,2822.9,Debit,Other,No
+TXN0531,2026-03-10,Cafe Coffee Day,1015.13,Debit,Food,No
+TXN0559,2026-03-10,Metro Recharge,500.72,Debit,Transport,No
+TXN0578,2026-03-10,Water Bill,1893.22,Debit,Utilities,No
+TXN0677,2026-03-10,Service Payment,345.78,Debit,Other,No
+TXN0984,2026-03-10,Rapido,1150.93,Debit,Transport,No
+TXN1671,2026-03-10,DMart,1891.28,Debit,Groceries,No
+TXN1943,2026-03-10,Miscellaneous,146.04,Debit,Other,No
+TXN0252,2026-03-11,Rapido,649.23,Debit,Transport,No
+TXN0301,2026-03-11,Zepto,3139.23,Debit,Groceries,No
+TXN0450,2026-03-11,Ajio,2001.34,Debit,Shopping,No
+TXN0557,2026-03-11,DMart,875.94,Debit,Groceries,No
+TXN0642,2026-03-11,Metro Recharge,993.33,Debit,Transport,No
+TXN1187,2026-03-11,Reliance Smart,2909.22,Debit,Groceries,No
+TXN1307,2026-03-11,College Fees,7041.05,Debit,Education,No
+TXN1332,2026-03-11,Reliance Smart,3301.1,Debit,Groceries,No
+TXN0285,2026-03-12,Zomato,1174.47,Debit,Food,No
+TXN0353,2026-03-12,Blinkit,3325.04,Debit,Groceries,No
+TXN0400,2026-03-12,Ola,994.92,Debit,Transport,No
+TXN0408,2026-03-12,Miscellaneous,2395.0,Debit,Other,No
+TXN0724,2026-03-12,Blinkit,3119.16,Debit,Groceries,No
+TXN0749,2026-03-12,Zomato,347.08,Debit,Food,No
+TXN0949,2026-03-12,BigBasket,330.95,Debit,Groceries,No
+TXN1259,2026-03-12,DMart,1438.1,Debit,Groceries,No
+TXN1302,2026-03-12,Dominos,1630.34,Debit,Food,No
+TXN1317,2026-03-12,McDonalds,960.89,Debit,Food,No
+TXN1904,2026-03-12,Clinic,924.21,Debit,Healthcare,No
+TXN1985,2026-03-12,Ajio,1894.43,Debit,Shopping,No
+TXN0094,2026-03-13,Zomato,1034.87,Debit,Food,No
+TXN0409,2026-03-13,DMart,2527.43,Debit,Groceries,No
+TXN0536,2026-03-13,BigBasket,891.3,Debit,Groceries,No
+TXN0619,2026-03-13,Croma,2987.97,Debit,Shopping,No
+TXN0789,2026-03-13,BigBasket,2872.47,Debit,Groceries,No
+TXN1420,2026-03-13,Swiggy,299.38,Debit,Food,No
+TXN1499,2026-03-13,Metro Recharge,903.56,Debit,Transport,No
+TXN1883,2026-03-13,Dominos,1250.42,Debit,Food,No
+TXN0662,2026-03-14,Uber,210.0,Debit,Transport,No
+TXN0773,2026-03-14,Uber,1169.27,Debit,Transport,No
+TXN0812,2026-03-14,Myntra,7606.69,Debit,Shopping,No
+TXN0818,2026-03-14,Zepto,2177.15,Debit,Groceries,No
+TXN0828,2026-03-14,Amazon,7525.16,Debit,Shopping,No
+TXN1043,2026-03-14,Dominos,499.37,Debit,Food,No
+TXN1288,2026-03-14,Gas Bill,2324.81,Debit,Utilities,No
+TXN1330,2026-03-14,Swiggy,1288.42,Debit,Food,No
+TXN1931,2026-03-14,Rapido,307.87,Debit,Transport,No
+TXN0274,2026-03-15,Flipkart,4232.5,Debit,Shopping,No
+TXN0416,2026-03-15,Croma,2314.54,Debit,Shopping,No
+TXN0441,2026-03-15,Zomato,1722.1,Debit,Food,No
+TXN0570,2026-03-15,Jio,1092.26,Debit,Utilities,No
+TXN0725,2026-03-15,Ola,798.57,Debit,Transport,No
+TXN1039,2026-03-15,PVR,878.45,Debit,Entertainment,No
+TXN1610,2026-03-15,Reliance Smart,2213.39,Debit,Groceries,No
+TXN1891,2026-03-15,BookMyShow,2094.77,Debit,Entertainment,No
+TXN0251,2026-03-16,Gift,1424.68,Debit,Other,No
+TXN0313,2026-03-16,PVR,206.52,Debit,Entertainment,No
+TXN0366,2026-03-16,Zomato,539.84,Debit,Food,No
+TXN0515,2026-03-16,Wallet Transfer,2473.29,Debit,Other,No
+TXN0636,2026-03-16,Blinkit,1158.9,Debit,Groceries,No
+TXN1067,2026-03-16,Gas Bill,2148.53,Debit,Utilities,No
+TXN1113,2026-03-16,BigBasket,2873.98,Debit,Groceries,No
+TXN1593,2026-03-16,Wallet Transfer,2800.1,Debit,Other,No
+TXN1824,2026-03-16,Coursera,5070.61,Debit,Education,No
+TXN1987,2026-03-16,BMTC,428.53,Debit,Transport,No
+TXN1989,2026-03-16,Swiggy,1004.17,Debit,Food,No
+TXN0150,2026-03-17,Flipkart,6549.22,Debit,Shopping,No
+TXN0312,2026-03-17,Airtel,1321.4,Debit,Utilities,No
+TXN0403,2026-03-17,Zomato,600.11,Debit,Food,No
+TXN0858,2026-03-17,Uber,642.35,Debit,Transport,No
+TXN0861,2026-03-17,DMart,946.14,Debit,Groceries,No
+TXN1272,2026-03-17,Dominos,1447.51,Debit,Food,No
+TXN1284,2026-03-17,BigBasket,1077.75,Debit,Groceries,No
+TXN1576,2026-03-17,Blinkit,658.48,Debit,Groceries,No
+TXN1871,2026-03-17,UPI Transfer,2498.31,Debit,Other,No
+TXN0227,2026-03-18,Rapido,331.79,Debit,Transport,No
+TXN0411,2026-03-18,UPI Transfer,842.18,Debit,Other,No
+TXN0759,2026-03-18,McDonalds,750.56,Debit,Food,No
+TXN1062,2026-03-18,Gas Bill,1680.26,Debit,Utilities,No
+TXN1093,2026-03-18,Rapido,846.49,Debit,Transport,No
+TXN1156,2026-03-18,Coursera,1885.52,Debit,Education,No
+TXN1339,2026-03-18,Service Payment,2626.79,Debit,Other,No
+TXN1376,2026-03-18,YouTube Premium,352.29,Debit,Entertainment,No
+TXN1421,2026-03-18,IRCTC,9206.39,Debit,Travel,No
+TXN0260,2026-03-19,Ajio,3395.59,Debit,Shopping,No
+TXN0505,2026-03-19,McDonalds,667.59,Debit,Food,No
+TXN0727,2026-03-19,Ola,783.45,Debit,Transport,No
+TXN0913,2026-03-19,Metro Recharge,140.55,Debit,Transport,No
+TXN1850,2026-03-19,PVR,815.23,Debit,Entertainment,No
+TXN1868,2026-03-19,Metro Recharge,930.3,Debit,Transport,No
+TXN0163,2026-03-20,Zepto,1525.71,Debit,Groceries,No
+TXN0467,2026-03-20,Ola,742.83,Debit,Transport,No
+TXN0845,2026-03-20,Rapido,1020.64,Debit,Transport,No
+TXN1029,2026-03-20,Amazon,6101.68,Debit,Shopping,No
+TXN1051,2026-03-20,Myntra,5700.94,Debit,Shopping,No
+TXN1218,2026-03-20,UPI Transfer,273.35,Debit,Other,No
+TXN1232,2026-03-20,Metro Recharge,937.62,Debit,Transport,No
+TXN1432,2026-03-20,College Fees,8479.65,Debit,Education,No
+TXN1458,2026-03-20,Gift,1827.08,Debit,Other,No
+TXN0116,2026-03-21,Swiggy,1374.99,Debit,Food,No
+TXN0263,2026-03-21,Zepto,1611.93,Debit,Groceries,No
+TXN1012,2026-03-21,DMart,2571.01,Debit,Groceries,No
+TXN1258,2026-03-21,Service Payment,1713.34,Debit,Other,No
+TXN1805,2026-03-21,Gift,1978.07,Debit,Other,No
+TXN0103,2026-03-22,Reliance Smart,1825.72,Debit,Groceries,No
+TXN0276,2026-03-22,Wallet Transfer,2713.51,Debit,Other,No
+TXN0453,2026-03-22,Jio,2728.33,Debit,Utilities,No
+TXN0522,2026-03-22,Zepto,316.58,Debit,Groceries,No
+TXN0713,2026-03-22,DMart,352.1,Debit,Groceries,No
+TXN1308,2026-03-22,Ola,814.98,Debit,Transport,No
+TXN1393,2026-03-22,Netflix,827.1,Debit,Entertainment,No
+TXN1518,2026-03-22,PVR,1065.1,Debit,Entertainment,No
+TXN1855,2026-03-22,Flipkart,7332.39,Debit,Shopping,No
+TXN1894,2026-03-22,Ajio,4050.17,Debit,Shopping,No
+TXN0068,2026-03-23,Netflix,551.54,Debit,Entertainment,No
+TXN0246,2026-03-23,Reliance Smart,2857.8,Debit,Groceries,No
+TXN0380,2026-03-23,Service Payment,1615.97,Debit,Other,No
+TXN0480,2026-03-23,Book Store,2858.57,Debit,Education,No
+TXN0807,2026-03-23,Rapido,1199.56,Debit,Transport,No
+TXN0955,2026-03-23,BigBasket,3441.02,Debit,Groceries,No
+TXN1209,2026-03-23,BMTC,1128.56,Debit,Transport,No
+TXN1337,2026-03-23,Metro Recharge,894.1,Debit,Transport,No
+TXN1876,2026-03-23,BMTC,663.9,Debit,Transport,No
+TXN0076,2026-03-24,Airtel,1434.78,Debit,Utilities,No
+TXN0838,2026-03-24,Zepto,3141.38,Debit,Groceries,No
+TXN0999,2026-03-24,BigBasket,939.69,Debit,Groceries,No
+TXN1082,2026-03-24,Metro Recharge,616.5,Debit,Transport,No
+TXN1226,2026-03-24,Coding Course,9187.5,Debit,Education,No
+TXN1586,2026-03-24,Ola,772.87,Debit,Transport,No
+TXN1937,2026-03-24,Gas Bill,1203.28,Debit,Utilities,No
+TXN0183,2026-03-25,BESCOM,2444.48,Debit,Utilities,No
+TXN1632,2026-03-25,McDonalds,829.79,Debit,Food,No
+TXN0081,2026-03-26,DMart,3329.92,Debit,Groceries,No
+TXN0098,2026-03-26,Metro Recharge,1090.74,Debit,Transport,No
+TXN0228,2026-03-26,Gift,307.09,Debit,Other,No
+TXN0394,2026-03-26,Zepto,2960.3,Debit,Groceries,No
+TXN0463,2026-03-26,Clinic,1019.17,Debit,Healthcare,No
+TXN0717,2026-03-26,Dominos,1246.44,Debit,Food,No
+TXN0726,2026-03-26,Reliance Smart,327.12,Debit,Groceries,No
+TXN1065,2026-03-26,Swiggy,1243.42,Debit,Food,No
+TXN1680,2026-03-26,Blinkit,3131.04,Debit,Groceries,No
+TXN1867,2026-03-26,McDonalds,1770.21,Debit,Food,No
+TXN0182,2026-03-27,BMTC,938.93,Debit,Transport,No
+TXN0859,2026-03-27,DMart,853.21,Debit,Groceries,No
+TXN0954,2026-03-27,Ajio,6499.24,Debit,Shopping,No
+TXN1025,2026-03-27,Swiggy,1714.55,Debit,Food,No
+TXN1247,2026-03-27,Ajio,7121.18,Debit,Shopping,No
+TXN1628,2026-03-27,Ola,936.45,Debit,Transport,No
+TXN1854,2026-03-27,Apollo Pharmacy,2684.34,Debit,Healthcare,No
+TXN1934,2026-03-27,Clinic,1659.47,Debit,Healthcare,No
+TXN0635,2026-03-28,Airtel,2213.29,Debit,Utilities,No
+TXN0917,2026-03-28,Blinkit,970.02,Debit,Groceries,No
+TXN0930,2026-03-28,Swiggy,1122.99,Debit,Food,No
+TXN1665,2026-03-28,Rapido,1174.88,Debit,Transport,No
+TXN1754,2026-03-28,Wallet Transfer,674.97,Debit,Other,No
+TXN1785,2026-03-28,Dominos,448.08,Debit,Food,No
+TXN0058,2026-03-29,Amazon,5068.48,Debit,Shopping,No
+TXN0905,2026-03-29,Miscellaneous,1571.21,Debit,Other,No
+TXN1088,2026-03-29,Metro Recharge,1051.38,Debit,Transport,No
+TXN1179,2026-03-29,Flipkart,4450.57,Debit,Shopping,No
+TXN1338,2026-03-29,McDonalds,222.45,Debit,Food,No
+TXN1396,2026-03-29,Blinkit,2137.07,Debit,Groceries,No
+TXN1509,2026-03-29,UPI Transfer,1422.94,Debit,Other,No
+TXN1545,2026-03-29,Dominos,1146.0,Debit,Food,No
+TXN0681,2026-03-30,Rapido,856.64,Debit,Transport,No
+TXN0738,2026-03-30,Reliance Smart,1646.76,Debit,Groceries,No
+TXN0987,2026-03-30,Gift,2106.27,Debit,Other,No
+TXN1009,2026-03-30,UPI Transfer,642.23,Debit,Other,No
+TXN1262,2026-03-30,YouTube Premium,2023.68,Debit,Entertainment,No
+TXN1514,2026-03-30,1mg,3891.87,Debit,Healthcare,No
+TXN0234,2026-03-31,Miscellaneous,1771.12,Debit,Other,No
+TXN0288,2026-03-31,Miscellaneous,2267.69,Debit,Other,No
+TXN0314,2026-03-31,Service Payment,826.9,Debit,Other,No
+TXN0424,2026-03-31,Blinkit,2047.24,Debit,Groceries,No
+TXN0526,2026-03-31,BESCOM,2783.07,Debit,Utilities,No
+TXN0572,2026-03-31,Cafe Coffee Day,1715.06,Debit,Food,No
+TXN0787,2026-03-31,BMTC,371.39,Debit,Transport,No
+TXN0822,2026-03-31,BookMyShow,1693.11,Debit,Entertainment,No
+TXN1073,2026-03-31,PharmEasy,3019.57,Debit,Healthcare,No
+TXN1117,2026-03-31,Croma,930.97,Debit,Shopping,No
+TXN1587,2026-03-31,Myntra,1867.1,Debit,Shopping,No
+TXN1956,2026-03-31,Croma,5541.32,Debit,Shopping,No
+TXN0019,2026-04-01,Salary,60000.0,Credit,Income,No
+TXN1008,2026-04-01,Spotify,876.61,Debit,Entertainment,No
+TXN1182,2026-04-01,Airtel,2923.86,Debit,Utilities,No
+TXN1351,2026-04-01,Gift,2049.06,Debit,Other,No
+TXN1496,2026-04-01,YouTube Premium,1689.92,Debit,Entertainment,No
+TXN1533,2026-04-01,BigBasket,3259.56,Debit,Groceries,No
+TXN0604,2026-04-02,DMart,2879.74,Debit,Groceries,No
+TXN0994,2026-04-02,Gift,2945.87,Debit,Other,No
+TXN1066,2026-04-02,Spotify,1226.31,Debit,Entertainment,No
+TXN1333,2026-04-02,BMTC,584.99,Debit,Transport,No
+TXN0020,2026-04-03,House Rent,18000.0,Debit,Housing,Yes
+TXN0022,2026-04-03,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0235,2026-04-03,Metro Recharge,1106.0,Debit,Transport,No
+TXN0272,2026-04-03,Gas Bill,2204.5,Debit,Utilities,No
+TXN0389,2026-04-03,Uber,486.11,Debit,Transport,No
+TXN0435,2026-04-03,Amazon,3729.55,Debit,Shopping,No
+TXN0647,2026-04-03,Cafe Coffee Day,479.67,Debit,Food,No
+TXN1436,2026-04-03,Coding Course,9337.95,Debit,Education,No
+TXN1787,2026-04-03,BESCOM,1815.04,Debit,Utilities,No
+TXN1913,2026-04-03,Uber,214.72,Debit,Transport,No
+TXN0024,2026-04-04,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0197,2026-04-04,McDonalds,1554.07,Debit,Food,No
+TXN0461,2026-04-04,Rapido,465.86,Debit,Transport,No
+TXN0678,2026-04-04,Zomato,653.88,Debit,Food,No
+TXN0907,2026-04-04,BMTC,892.21,Debit,Transport,No
+TXN1089,2026-04-04,McDonalds,1141.38,Debit,Food,No
+TXN1780,2026-04-04,Zepto,474.61,Debit,Groceries,No
+TXN1813,2026-04-04,DMart,874.57,Debit,Groceries,No
+TXN0021,2026-04-05,EMI,10000.0,Debit,EMI,Yes
+TXN0023,2026-04-05,Netflix,649.0,Debit,Entertainment,Yes
+TXN0207,2026-04-05,Cafe Coffee Day,1718.95,Debit,Food,No
+TXN0669,2026-04-05,Gift,2413.49,Debit,Other,No
+TXN1015,2026-04-05,YouTube Premium,1408.41,Debit,Entertainment,No
+TXN1477,2026-04-05,Reliance Smart,715.7,Debit,Groceries,No
+TXN1653,2026-04-05,Book Store,3981.4,Debit,Education,No
+TXN1745,2026-04-05,Amazon,5310.3,Debit,Shopping,No
+TXN1998,2026-04-05,Hospital,1264.99,Debit,Healthcare,No
+TXN0104,2026-04-06,Reliance Smart,556.36,Debit,Groceries,No
+TXN0528,2026-04-06,Wallet Transfer,2385.09,Debit,Other,No
+TXN0533,2026-04-06,McDonalds,1219.67,Debit,Food,No
+TXN0672,2026-04-06,Swiggy,1102.62,Debit,Food,No
+TXN0680,2026-04-06,Gas Bill,1459.27,Debit,Utilities,No
+TXN0682,2026-04-06,Water Bill,1222.09,Debit,Utilities,No
+TXN0797,2026-04-06,Flipkart,3154.57,Debit,Shopping,No
+TXN1079,2026-04-06,Blinkit,976.85,Debit,Groceries,No
+TXN1150,2026-04-06,Cafe Coffee Day,1572.04,Debit,Food,No
+TXN1224,2026-04-06,Water Bill,974.44,Debit,Utilities,No
+TXN1803,2026-04-06,DMart,2895.18,Debit,Groceries,No
+TXN1816,2026-04-06,Myntra,3060.01,Debit,Shopping,No
+TXN1312,2026-04-07,BMTC,250.19,Debit,Transport,No
+TXN1633,2026-04-07,Zepto,1910.83,Debit,Groceries,No
+TXN1761,2026-04-07,Miscellaneous,2207.45,Debit,Other,No
+TXN1823,2026-04-07,Swiggy,1298.45,Debit,Food,No
+TXN0090,2026-04-08,McDonalds,1482.37,Debit,Food,No
+TXN0138,2026-04-08,Rapido,209.52,Debit,Transport,No
+TXN0481,2026-04-08,Clinic,3689.3,Debit,Healthcare,No
+TXN0580,2026-04-08,Miscellaneous,368.15,Debit,Other,No
+TXN0842,2026-04-08,BigBasket,1359.5,Debit,Groceries,No
+TXN0981,2026-04-08,Wallet Transfer,725.21,Debit,Other,No
+TXN1137,2026-04-08,Cafe Coffee Day,593.98,Debit,Food,No
+TXN1231,2026-04-08,Croma,6642.87,Debit,Shopping,No
+TXN1825,2026-04-08,Ajio,6815.67,Debit,Shopping,No
+TXN0206,2026-04-09,Dominos,530.39,Debit,Food,No
+TXN0510,2026-04-09,Jio,2025.19,Debit,Utilities,No
+TXN0534,2026-04-09,Blinkit,2830.46,Debit,Groceries,No
+TXN1024,2026-04-09,BMTC,1086.08,Debit,Transport,No
+TXN1125,2026-04-10,Dominos,523.39,Debit,Food,No
+TXN1528,2026-04-10,Spotify,835.78,Debit,Entertainment,No
+TXN1955,2026-04-10,Water Bill,926.19,Debit,Utilities,No
+TXN0139,2026-04-11,McDonalds,152.79,Debit,Food,No
+TXN0639,2026-04-11,Ajio,4953.55,Debit,Shopping,No
+TXN1007,2026-04-11,PharmEasy,3849.01,Debit,Healthcare,No
+TXN1058,2026-04-11,Coursera,8967.32,Debit,Education,No
+TXN1276,2026-04-11,Water Bill,1488.3,Debit,Utilities,No
+TXN0185,2026-04-12,Water Bill,1491.64,Debit,Utilities,No
+TXN0226,2026-04-12,Service Payment,2017.43,Debit,Other,No
+TXN0493,2026-04-12,Jio,2387.41,Debit,Utilities,No
+TXN0670,2026-04-12,McDonalds,802.71,Debit,Food,No
+TXN0882,2026-04-12,BigBasket,3237.7,Debit,Groceries,No
+TXN1047,2026-04-12,Swiggy,563.63,Debit,Food,No
+TXN1163,2026-04-12,McDonalds,350.04,Debit,Food,No
+TXN1295,2026-04-12,Coding Course,1336.2,Debit,Education,No
+TXN1401,2026-04-12,Myntra,2992.49,Debit,Shopping,No
+TXN0427,2026-04-13,Zepto,440.18,Debit,Groceries,No
+TXN0523,2026-04-13,Metro Recharge,614.74,Debit,Transport,No
+TXN0643,2026-04-13,Cafe Coffee Day,1713.01,Debit,Food,No
+TXN0939,2026-04-13,BookMyShow,656.89,Debit,Entertainment,No
+TXN1122,2026-04-13,McDonalds,818.99,Debit,Food,No
+TXN1483,2026-04-13,BigBasket,1873.51,Debit,Groceries,No
+TXN1746,2026-04-13,Flipkart,523.07,Debit,Shopping,No
+TXN1801,2026-04-13,Swiggy,1522.89,Debit,Food,No
+TXN0780,2026-04-14,Dominos,535.46,Debit,Food,No
+TXN1092,2026-04-14,Zomato,329.14,Debit,Food,No
+TXN1306,2026-04-14,Zomato,1108.7,Debit,Food,No
+TXN1319,2026-04-14,Wallet Transfer,745.41,Debit,Other,No
+TXN1365,2026-04-14,Zomato,168.64,Debit,Food,No
+TXN1383,2026-04-14,Blinkit,2811.82,Debit,Groceries,No
+TXN1858,2026-04-14,Zomato,352.92,Debit,Food,No
+TXN1991,2026-04-14,Ola,1173.69,Debit,Transport,No
+TXN0585,2026-04-15,BookMyShow,2303.21,Debit,Entertainment,No
+TXN0744,2026-04-15,BigBasket,1936.18,Debit,Groceries,No
+TXN1758,2026-04-15,Hospital,857.01,Debit,Healthcare,No
+TXN0549,2026-04-16,Book Store,1604.28,Debit,Education,No
+TXN0663,2026-04-16,Dominos,901.3,Debit,Food,No
+TXN0697,2026-04-16,Zepto,2811.52,Debit,Groceries,No
+TXN0972,2026-04-16,PVR,1666.34,Debit,Entertainment,No
+TXN1521,2026-04-16,Metro Recharge,855.44,Debit,Transport,No
+TXN1645,2026-04-16,Amazon,6367.78,Debit,Shopping,No
+TXN0311,2026-04-17,Spotify,357.8,Debit,Entertainment,No
+TXN0507,2026-04-17,IRCTC,8616.42,Debit,Travel,No
+TXN0512,2026-04-17,Miscellaneous,2336.41,Debit,Other,No
+TXN0616,2026-04-17,Blinkit,350.11,Debit,Groceries,No
+TXN1208,2026-04-17,Swiggy,1009.88,Debit,Food,No
+TXN1347,2026-04-17,Cafe Coffee Day,608.89,Debit,Food,No
+TXN1363,2026-04-17,Uber,905.96,Debit,Transport,No
+TXN1562,2026-04-17,Croma,4568.26,Debit,Shopping,No
+TXN0125,2026-04-18,Swiggy,1633.23,Debit,Food,No
+TXN0145,2026-04-18,Uber,420.34,Debit,Transport,No
+TXN0470,2026-04-18,Reliance Smart,1146.9,Debit,Groceries,No
+TXN1286,2026-04-18,McDonalds,187.53,Debit,Food,No
+TXN1356,2026-04-18,McDonalds,1015.67,Debit,Food,No
+TXN1391,2026-04-18,Blinkit,2344.32,Debit,Groceries,No
+TXN1568,2026-04-18,Swiggy,1220.91,Debit,Food,No
+TXN1844,2026-04-18,BookMyShow,898.4,Debit,Entertainment,No
+TXN1953,2026-04-18,UPI Transfer,914.19,Debit,Other,No
+TXN0062,2026-04-19,Hospital,1558.38,Debit,Healthcare,No
+TXN0082,2026-04-19,Cafe Coffee Day,848.18,Debit,Food,No
+TXN1430,2026-04-19,Ajio,3361.74,Debit,Shopping,No
+TXN1786,2026-04-19,YouTube Premium,1495.47,Debit,Entertainment,No
+TXN1936,2026-04-19,Hospital,4996.44,Debit,Healthcare,No
+TXN0671,2026-04-20,Metro Recharge,515.5,Debit,Transport,No
+TXN0887,2026-04-20,McDonalds,231.92,Debit,Food,No
+TXN1252,2026-04-20,PharmEasy,3159.54,Debit,Healthcare,No
+TXN0328,2026-04-21,Coding Course,7347.98,Debit,Education,No
+TXN0344,2026-04-21,BigBasket,593.62,Debit,Groceries,No
+TXN0349,2026-04-21,Metro Recharge,543.89,Debit,Transport,No
+TXN1087,2026-04-21,Uber Intercity,11393.42,Debit,Travel,No
+TXN1547,2026-04-21,Rapido,627.92,Debit,Transport,No
+TXN1760,2026-04-21,Metro Recharge,1039.1,Debit,Transport,No
+TXN1900,2026-04-21,Blinkit,3144.98,Debit,Groceries,No
+TXN0181,2026-04-22,BigBasket,2104.7,Debit,Groceries,No
+TXN0582,2026-04-22,MakeMyTrip,9753.48,Debit,Travel,No
+TXN0728,2026-04-22,Service Payment,2091.04,Debit,Other,No
+TXN0992,2026-04-22,Coding Course,8676.72,Debit,Education,No
+TXN1201,2026-04-22,Zomato,174.3,Debit,Food,No
+TXN1261,2026-04-22,Apollo Pharmacy,2981.29,Debit,Healthcare,No
+TXN1475,2026-04-22,Reliance Smart,2401.14,Debit,Groceries,No
+TXN1650,2026-04-22,Reliance Smart,2742.38,Debit,Groceries,No
+TXN1727,2026-04-22,1mg,4696.85,Debit,Healthcare,No
+TXN0154,2026-04-23,UPI Transfer,2357.42,Debit,Other,No
+TXN0169,2026-04-23,Gas Bill,2499.67,Debit,Utilities,No
+TXN0687,2026-04-23,Uber,713.25,Debit,Transport,No
+TXN0805,2026-04-23,Swiggy,676.15,Debit,Food,No
+TXN1132,2026-04-23,BMTC,155.66,Debit,Transport,No
+TXN1511,2026-04-23,Reliance Smart,2857.36,Debit,Groceries,No
+TXN0131,2026-04-24,Uber,1041.62,Debit,Transport,No
+TXN0319,2026-04-24,Uber,586.25,Debit,Transport,No
+TXN0363,2026-04-24,BMTC,915.3,Debit,Transport,No
+TXN0404,2026-04-24,Apollo Pharmacy,4748.14,Debit,Healthcare,No
+TXN0542,2026-04-24,Myntra,3256.58,Debit,Shopping,No
+TXN0659,2026-04-24,BigBasket,1127.96,Debit,Groceries,No
+TXN0790,2026-04-24,BigBasket,2957.19,Debit,Groceries,No
+TXN0827,2026-04-24,Dominos,1669.71,Debit,Food,No
+TXN0908,2026-04-24,Miscellaneous,1997.86,Debit,Other,No
+TXN0976,2026-04-24,Amazon,1230.78,Debit,Shopping,No
+TXN1053,2026-04-24,Blinkit,1087.76,Debit,Groceries,No
+TXN1144,2026-04-24,Rapido,393.9,Debit,Transport,No
+TXN1256,2026-04-24,BMTC,87.36,Debit,Transport,No
+TXN1600,2026-04-24,Cafe Coffee Day,1208.17,Debit,Food,No
+TXN0454,2026-04-25,Flipkart,6452.72,Debit,Shopping,No
+TXN0960,2026-04-25,Dominos,170.39,Debit,Food,No
+TXN1002,2026-04-25,McDonalds,319.09,Debit,Food,No
+TXN1075,2026-04-25,Metro Recharge,1169.4,Debit,Transport,No
+TXN1752,2026-04-25,McDonalds,1708.85,Debit,Food,No
+TXN1963,2026-04-25,Rapido,930.1,Debit,Transport,No
+TXN0293,2026-04-26,Gift,2287.04,Debit,Other,No
+TXN0511,2026-04-26,Miscellaneous,1718.45,Debit,Other,No
+TXN0576,2026-04-26,Cafe Coffee Day,931.31,Debit,Food,No
+TXN0608,2026-04-26,Ola,1189.06,Debit,Transport,No
+TXN0720,2026-04-26,Swiggy,368.95,Debit,Food,No
+TXN0835,2026-04-26,DMart,2823.94,Debit,Groceries,No
+TXN0852,2026-04-26,DMart,1788.19,Debit,Groceries,No
+TXN1701,2026-04-26,Reliance Smart,1586.49,Debit,Groceries,No
+TXN0132,2026-04-27,McDonalds,726.94,Debit,Food,No
+TXN0874,2026-04-27,Udemy,9738.72,Debit,Education,No
+TXN1031,2026-04-27,Blinkit,2085.87,Debit,Groceries,No
+TXN1303,2026-04-27,DMart,1966.3,Debit,Groceries,No
+TXN1655,2026-04-27,Wallet Transfer,721.39,Debit,Other,No
+TXN1078,2026-04-28,Ola,572.69,Debit,Transport,No
+TXN1091,2026-04-28,Service Payment,1812.73,Debit,Other,No
+TXN1154,2026-04-28,Zomato,1092.83,Debit,Food,No
+TXN1753,2026-04-28,BigBasket,3253.96,Debit,Groceries,No
+TXN1996,2026-04-28,Uber,795.42,Debit,Transport,No
+TXN0525,2026-04-29,UPI Transfer,1991.67,Debit,Other,No
+TXN0599,2026-04-29,BookMyShow,516.23,Debit,Entertainment,No
+TXN0774,2026-04-29,Amazon,829.25,Debit,Shopping,No
+TXN0945,2026-04-29,Amazon,7285.85,Debit,Shopping,No
+TXN1119,2026-04-29,Cafe Coffee Day,992.4,Debit,Food,No
+TXN1243,2026-04-29,Service Payment,381.65,Debit,Other,No
+TXN1314,2026-04-29,Gas Bill,1077.28,Debit,Utilities,No
+TXN1580,2026-04-29,Swiggy,186.36,Debit,Food,No
+TXN1837,2026-04-29,Ajio,3078.86,Debit,Shopping,No
+TXN0055,2026-04-30,Myntra,7889.16,Debit,Shopping,No
+TXN0225,2026-04-30,Ajio,1033.85,Debit,Shopping,No
+TXN0258,2026-04-30,Coursera,5932.08,Debit,Education,No
+TXN0520,2026-04-30,Cafe Coffee Day,522.36,Debit,Food,No
+TXN0718,2026-04-30,Blinkit,2623.16,Debit,Groceries,No
+TXN1100,2026-04-30,BMTC,614.4,Debit,Transport,No
+TXN1219,2026-04-30,Amazon,1443.71,Debit,Shopping,No
+TXN1282,2026-04-30,Ajio,836.58,Debit,Shopping,No
+TXN1361,2026-04-30,Ola,1069.7,Debit,Transport,No
+TXN1505,2026-04-30,Service Payment,531.97,Debit,Other,No
+TXN1882,2026-04-30,Zomato,1478.89,Debit,Food,No
+TXN0025,2026-05-01,Salary,60000.0,Credit,Income,No
+TXN0105,2026-05-01,BigBasket,2460.68,Debit,Groceries,No
+TXN0149,2026-05-01,Rapido,455.41,Debit,Transport,No
+TXN1173,2026-05-01,BigBasket,700.13,Debit,Groceries,No
+TXN1212,2026-05-01,Coursera,9746.1,Debit,Education,No
+TXN1415,2026-05-01,Jio,1861.32,Debit,Utilities,No
+TXN1428,2026-05-01,Blinkit,3070.17,Debit,Groceries,No
+TXN1456,2026-05-01,Zomato,581.07,Debit,Food,No
+TXN1714,2026-05-01,Myntra,5651.41,Debit,Shopping,No
+TXN1738,2026-05-01,Miscellaneous,972.58,Debit,Other,No
+TXN1768,2026-05-01,BESCOM,1332.16,Debit,Utilities,No
+TXN0026,2026-05-02,House Rent,18000.0,Debit,Housing,Yes
+TXN0127,2026-05-02,Gift,2784.72,Debit,Other,No
+TXN0395,2026-05-02,Amazon,3581.44,Debit,Shopping,No
+TXN0455,2026-05-02,Zepto,2834.61,Debit,Groceries,No
+TXN0695,2026-05-02,Uber,948.71,Debit,Transport,No
+TXN1459,2026-05-02,Hospital,3920.73,Debit,Healthcare,No
+TXN1736,2026-05-02,UPI Transfer,1651.24,Debit,Other,No
+TXN1971,2026-05-02,UPI Transfer,2482.74,Debit,Other,No
+TXN0027,2026-05-03,EMI,10000.0,Debit,EMI,Yes
+TXN0180,2026-05-03,Swiggy,1175.2,Debit,Food,No
+TXN0519,2026-05-03,Reliance Smart,2670.85,Debit,Groceries,No
+TXN0735,2026-05-03,Swiggy,1443.27,Debit,Food,No
+TXN1500,2026-05-03,BigBasket,2603.16,Debit,Groceries,No
+TXN1555,2026-05-03,Gift,1139.38,Debit,Other,No
+TXN1734,2026-05-03,Udemy,7061.48,Debit,Education,No
+TXN1924,2026-05-03,Swiggy,235.6,Debit,Food,No
+TXN1970,2026-05-03,Coursera,1524.49,Debit,Education,No
+TXN0029,2026-05-04,Netflix,649.0,Debit,Entertainment,Yes
+TXN0030,2026-05-04,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0201,2026-05-04,McDonalds,956.15,Debit,Food,No
+TXN0417,2026-05-04,Swiggy,1164.44,Debit,Food,No
+TXN0484,2026-05-04,Service Payment,1425.97,Debit,Other,No
+TXN0605,2026-05-04,BigBasket,1978.03,Debit,Groceries,No
+TXN0651,2026-05-04,Flipkart,5250.02,Debit,Shopping,No
+TXN1138,2026-05-04,Ola,343.04,Debit,Transport,No
+TXN1469,2026-05-04,Ajio,3958.31,Debit,Shopping,No
+TXN1553,2026-05-04,Uber,586.73,Debit,Transport,No
+TXN1877,2026-05-04,Reliance Smart,2196.01,Debit,Groceries,No
+TXN0028,2026-05-05,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0203,2026-05-05,Zepto,1594.08,Debit,Groceries,No
+TXN0634,2026-05-05,McDonalds,1435.63,Debit,Food,No
+TXN0645,2026-05-05,McDonalds,1746.81,Debit,Food,No
+TXN0667,2026-05-05,Flipkart,7474.42,Debit,Shopping,No
+TXN1020,2026-05-05,Rapido,1108.84,Debit,Transport,No
+TXN1130,2026-05-05,Service Payment,1502.53,Debit,Other,No
+TXN1412,2026-05-05,Metro Recharge,347.2,Debit,Transport,No
+TXN0194,2026-05-06,Rapido,380.6,Debit,Transport,No
+TXN0271,2026-05-06,Dominos,860.63,Debit,Food,No
+TXN0768,2026-05-06,Gift,2224.14,Debit,Other,No
+TXN1619,2026-05-06,Metro Recharge,1095.61,Debit,Transport,No
+TXN1914,2026-05-06,Miscellaneous,2381.6,Debit,Other,No
+TXN0159,2026-05-07,Wallet Transfer,1405.2,Debit,Other,No
+TXN0179,2026-05-07,Netflix,1934.74,Debit,Entertainment,No
+TXN0626,2026-05-07,Reliance Smart,1245.21,Debit,Groceries,No
+TXN0638,2026-05-07,Uber,484.46,Debit,Transport,No
+TXN1690,2026-05-07,Uber,820.59,Debit,Transport,No
+TXN1731,2026-05-07,McDonalds,933.51,Debit,Food,No
+TXN1929,2026-05-07,Cafe Coffee Day,1263.91,Debit,Food,No
+TXN0155,2026-05-08,Reliance Smart,1786.56,Debit,Groceries,No
+TXN0788,2026-05-08,DMart,3034.72,Debit,Groceries,No
+TXN0801,2026-05-08,Zomato,841.74,Debit,Food,No
+TXN0881,2026-05-08,Zepto,2978.33,Debit,Groceries,No
+TXN0989,2026-05-08,Metro Recharge,548.9,Debit,Transport,No
+TXN1139,2026-05-08,MakeMyTrip,3135.89,Debit,Travel,No
+TXN1206,2026-05-08,Apollo Pharmacy,873.22,Debit,Healthcare,No
+TXN1244,2026-05-08,Airtel,982.8,Debit,Utilities,No
+TXN0118,2026-05-09,Dominos,983.92,Debit,Food,No
+TXN1205,2026-05-09,DMart,881.13,Debit,Groceries,No
+TXN1222,2026-05-09,Myntra,5932.99,Debit,Shopping,No
+TXN1724,2026-05-09,Service Payment,2026.23,Debit,Other,No
+TXN1935,2026-05-09,DMart,1174.57,Debit,Groceries,No
+TXN0934,2026-05-10,Metro Recharge,218.43,Debit,Transport,No
+TXN1044,2026-05-10,Zepto,2274.03,Debit,Groceries,No
+TXN1108,2026-05-10,Reliance Smart,2075.72,Debit,Groceries,No
+TXN1343,2026-05-10,UPI Transfer,1905.42,Debit,Other,No
+TXN1811,2026-05-10,Metro Recharge,820.16,Debit,Transport,No
+TXN1959,2026-05-10,Swiggy,1786.72,Debit,Food,No
+TXN0756,2026-05-11,Coursera,3993.03,Debit,Education,No
+TXN0931,2026-05-11,BigBasket,1500.62,Debit,Groceries,No
+TXN1011,2026-05-11,Dominos,364.61,Debit,Food,No
+TXN1160,2026-05-11,Ola,147.24,Debit,Transport,No
+TXN1253,2026-05-11,Cafe Coffee Day,1678.14,Debit,Food,No
+TXN1468,2026-05-11,Dominos,1473.82,Debit,Food,No
+TXN1919,2026-05-11,Jio,860.09,Debit,Utilities,No
+TXN0290,2026-05-12,Jio,2576.18,Debit,Utilities,No
+TXN1128,2026-05-12,BMTC,1140.66,Debit,Transport,No
+TXN1162,2026-05-12,Dominos,1074.58,Debit,Food,No
+TXN1237,2026-05-12,Water Bill,2144.8,Debit,Utilities,No
+TXN1260,2026-05-12,Cafe Coffee Day,562.26,Debit,Food,No
+TXN1085,2026-05-13,Gift,262.14,Debit,Other,No
+TXN1287,2026-05-13,Spotify,668.74,Debit,Entertainment,No
+TXN1405,2026-05-13,Ola,240.97,Debit,Transport,No
+TXN1623,2026-05-13,Cafe Coffee Day,178.95,Debit,Food,No
+TXN1817,2026-05-13,Swiggy,1382.6,Debit,Food,No
+TXN1879,2026-05-13,BigBasket,2993.07,Debit,Groceries,No
+TXN1923,2026-05-13,McDonalds,1623.47,Debit,Food,No
+TXN0174,2026-05-14,DMart,881.53,Debit,Groceries,No
+TXN0448,2026-05-14,UPI Transfer,859.15,Debit,Other,No
+TXN0778,2026-05-14,Ola,345.18,Debit,Transport,No
+TXN1061,2026-05-14,Spotify,2284.5,Debit,Entertainment,No
+TXN1126,2026-05-14,Metro Recharge,723.9,Debit,Transport,No
+TXN1449,2026-05-14,Croma,6120.69,Debit,Shopping,No
+TXN1676,2026-05-14,McDonalds,958.91,Debit,Food,No
+TXN1755,2026-05-14,Reliance Smart,1672.49,Debit,Groceries,No
+TXN1845,2026-05-14,BESCOM,1396.97,Debit,Utilities,No
+TXN0065,2026-05-15,Zepto,1089.21,Debit,Groceries,No
+TXN0073,2026-05-15,BigBasket,3352.21,Debit,Groceries,No
+TXN0673,2026-05-15,Zomato,904.96,Debit,Food,No
+TXN1134,2026-05-15,Service Payment,1653.39,Debit,Other,No
+TXN1227,2026-05-15,Zepto,1738.03,Debit,Groceries,No
+TXN1776,2026-05-15,BookMyShow,850.73,Debit,Entertainment,No
+TXN0136,2026-05-16,Blinkit,871.42,Debit,Groceries,No
+TXN0221,2026-05-16,Gift,1913.99,Debit,Other,No
+TXN0487,2026-05-16,Book Store,1772.38,Debit,Education,No
+TXN0501,2026-05-16,Netflix,1572.89,Debit,Entertainment,No
+TXN0843,2026-05-16,Rapido,888.68,Debit,Transport,No
+TXN0868,2026-05-16,College Fees,8839.99,Debit,Education,No
+TXN1069,2026-05-16,McDonalds,532.39,Debit,Food,No
+TXN1482,2026-05-16,Miscellaneous,2871.26,Debit,Other,No
+TXN1700,2026-05-16,Coding Course,2533.76,Debit,Education,No
+TXN1889,2026-05-16,Gas Bill,2447.06,Debit,Utilities,No
+TXN0057,2026-05-17,Blinkit,970.42,Debit,Groceries,No
+TXN0071,2026-05-17,Amazon,5612.83,Debit,Shopping,No
+TXN1241,2026-05-17,Apollo Pharmacy,4171.12,Debit,Healthcare,No
+TXN1313,2026-05-17,Zepto,383.83,Debit,Groceries,No
+TXN1569,2026-05-17,Spotify,937.07,Debit,Entertainment,No
+TXN0690,2026-05-18,BESCOM,1931.79,Debit,Utilities,No
+TXN0888,2026-05-18,Coursera,6938.1,Debit,Education,No
+TXN1439,2026-05-18,Airtel,2280.32,Debit,Utilities,No
+TXN1792,2026-05-18,Hospital,2434.06,Debit,Healthcare,No
+TXN0192,2026-05-19,Reliance Smart,3389.52,Debit,Groceries,No
+TXN0936,2026-05-19,Swiggy,1243.1,Debit,Food,No
+TXN1290,2026-05-19,Swiggy,618.62,Debit,Food,No
+TXN1291,2026-05-19,BigBasket,513.11,Debit,Groceries,No
+TXN1395,2026-05-19,Dominos,1056.45,Debit,Food,No
+TXN1561,2026-05-19,Jio,1564.76,Debit,Utilities,No
+TXN0341,2026-05-20,Jio,572.38,Debit,Utilities,No
+TXN0518,2026-05-20,Cafe Coffee Day,597.37,Debit,Food,No
+TXN0623,2026-05-20,Miscellaneous,185.91,Debit,Other,No
+TXN1181,2026-05-20,Book Store,9762.32,Debit,Education,No
+TXN1194,2026-05-20,Croma,6234.04,Debit,Shopping,No
+TXN1197,2026-05-20,DMart,2276.73,Debit,Groceries,No
+TXN1380,2026-05-20,Myntra,5823.8,Debit,Shopping,No
+TXN1467,2026-05-20,Wallet Transfer,1870.41,Debit,Other,No
+TXN1717,2026-05-20,Uber,306.23,Debit,Transport,No
+TXN0324,2026-05-21,Zomato,258.38,Debit,Food,No
+TXN0465,2026-05-21,College Fees,2364.87,Debit,Education,No
+TXN1072,2026-05-21,Miscellaneous,399.35,Debit,Other,No
+TXN1143,2026-05-21,Dominos,962.36,Debit,Food,No
+TXN1225,2026-05-21,Jio,2331.01,Debit,Utilities,No
+TXN1355,2026-05-21,Zomato,351.34,Debit,Food,No
+TXN1728,2026-05-21,Zepto,985.15,Debit,Groceries,No
+TXN1740,2026-05-21,Hotel Booking,9577.15,Debit,Travel,No
+TXN1958,2026-05-21,Cafe Coffee Day,1561.54,Debit,Food,No
+TXN0199,2026-05-22,Cafe Coffee Day,1306.95,Debit,Food,No
+TXN0307,2026-05-22,Jio,651.38,Debit,Utilities,No
+TXN0701,2026-05-22,DMart,3240.06,Debit,Groceries,No
+TXN0897,2026-05-22,Ajio,978.78,Debit,Shopping,No
+TXN1213,2026-05-22,Myntra,613.01,Debit,Shopping,No
+TXN1257,2026-05-22,Dominos,185.81,Debit,Food,No
+TXN1479,2026-05-22,Amazon,5290.85,Debit,Shopping,No
+TXN0088,2026-05-23,Udemy,5384.48,Debit,Education,No
+TXN0133,2026-05-23,Zomato,807.47,Debit,Food,No
+TXN0743,2026-05-23,Croma,5120.35,Debit,Shopping,No
+TXN1647,2026-05-23,Zepto,3006.76,Debit,Groceries,No
+TXN1667,2026-05-23,DMart,2620.64,Debit,Groceries,No
+TXN1718,2026-05-23,Blinkit,2826.94,Debit,Groceries,No
+TXN1954,2026-05-23,DMart,655.03,Debit,Groceries,No
+TXN0304,2026-05-24,Clinic,2218.14,Debit,Healthcare,No
+TXN0490,2026-05-24,Reliance Smart,1741.13,Debit,Groceries,No
+TXN0698,2026-05-24,Clinic,1948.83,Debit,Healthcare,No
+TXN1057,2026-05-24,Reliance Smart,562.32,Debit,Groceries,No
+TXN1301,2026-05-24,UPI Transfer,2838.0,Debit,Other,No
+TXN1443,2026-05-24,Reliance Smart,3447.45,Debit,Groceries,No
+TXN1453,2026-05-24,College Fees,2894.48,Debit,Education,No
+TXN1775,2026-05-24,Zomato,973.7,Debit,Food,No
+TXN1939,2026-05-24,Uber,1010.16,Debit,Transport,No
+TXN0208,2026-05-25,McDonalds,606.22,Debit,Food,No
+TXN0224,2026-05-25,Zomato,625.37,Debit,Food,No
+TXN0485,2026-05-25,Dominos,230.29,Debit,Food,No
+TXN0586,2026-05-25,Ola,698.33,Debit,Transport,No
+TXN0764,2026-05-25,UPI Transfer,2643.27,Debit,Other,No
+TXN1036,2026-05-25,Blinkit,2241.01,Debit,Groceries,No
+TXN1631,2026-05-25,Apollo Pharmacy,943.66,Debit,Healthcare,No
+TXN1795,2026-05-25,Swiggy,1472.57,Debit,Food,No
+TXN1841,2026-05-25,Spotify,1630.24,Debit,Entertainment,No
+TXN0148,2026-05-26,Spotify,1715.36,Debit,Entertainment,No
+TXN0464,2026-05-26,Zepto,1407.27,Debit,Groceries,No
+TXN0732,2026-05-26,Cafe Coffee Day,1140.01,Debit,Food,No
+TXN1123,2026-05-26,Uber,1109.48,Debit,Transport,No
+TXN1164,2026-05-26,Gas Bill,936.35,Debit,Utilities,No
+TXN1473,2026-05-26,Metro Recharge,473.7,Debit,Transport,No
+TXN1520,2026-05-26,BigBasket,2561.57,Debit,Groceries,No
+TXN1585,2026-05-26,UPI Transfer,530.18,Debit,Other,No
+TXN0161,2026-05-27,Myntra,3799.04,Debit,Shopping,No
+TXN0283,2026-05-27,Wallet Transfer,2515.23,Debit,Other,No
+TXN0449,2026-05-27,Flipkart,7972.74,Debit,Shopping,No
+TXN0603,2026-05-27,Reliance Smart,2611.02,Debit,Groceries,No
+TXN0867,2026-05-27,Service Payment,2360.68,Debit,Other,No
+TXN1116,2026-05-27,Ajio,5104.74,Debit,Shopping,No
+TXN1118,2026-05-27,Ajio,580.33,Debit,Shopping,No
+TXN1713,2026-05-27,Ajio,2502.01,Debit,Shopping,No
+TXN0229,2026-05-28,PVR,1922.6,Debit,Entertainment,No
+TXN0267,2026-05-28,Flipkart,5233.71,Debit,Shopping,No
+TXN0489,2026-05-28,Reliance Smart,922.9,Debit,Groceries,No
+TXN0688,2026-05-28,Dominos,520.99,Debit,Food,No
+TXN1003,2026-05-28,PVR,1094.44,Debit,Entertainment,No
+TXN1358,2026-05-28,Rapido,1125.96,Debit,Transport,No
+TXN1608,2026-05-28,BookMyShow,2048.48,Debit,Entertainment,No
+TXN1618,2026-05-28,Wallet Transfer,460.11,Debit,Other,No
+TXN1657,2026-05-28,Metro Recharge,933.75,Debit,Transport,No
+TXN1836,2026-05-28,Metro Recharge,103.3,Debit,Transport,No
+TXN0925,2026-05-29,BigBasket,1254.25,Debit,Groceries,No
+TXN0947,2026-05-29,Zepto,3097.25,Debit,Groceries,No
+TXN1063,2026-05-29,Zomato,1620.87,Debit,Food,No
+TXN1196,2026-05-29,Swiggy,450.97,Debit,Food,No
+TXN1595,2026-05-29,Dominos,931.95,Debit,Food,No
+TXN1831,2026-05-29,Wallet Transfer,2237.53,Debit,Other,No
+TXN2000,2026-05-29,Cafe Coffee Day,340.06,Debit,Food,No
+TXN0249,2026-05-30,Flipkart,4237.82,Debit,Shopping,No
+TXN0649,2026-05-30,Gift,1371.52,Debit,Other,No
+TXN0699,2026-05-30,Airtel,1309.13,Debit,Utilities,No
+TXN0977,2026-05-30,Blinkit,2955.63,Debit,Groceries,No
+TXN1572,2026-05-30,Rapido,839.71,Debit,Transport,No
+TXN1988,2026-05-30,Blinkit,2230.65,Debit,Groceries,No
+TXN0846,2026-05-31,BigBasket,1668.34,Debit,Groceries,No
+TXN1223,2026-05-31,Wallet Transfer,2149.22,Debit,Other,No
+TXN1839,2026-05-31,Wallet Transfer,480.36,Debit,Other,No
+TXN1977,2026-05-31,BigBasket,2089.63,Debit,Groceries,No
+TXN0031,2026-06-01,Salary,60000.0,Credit,Income,No
+TXN0142,2026-06-01,Metro Recharge,445.32,Debit,Transport,No
+TXN0280,2026-06-01,DMart,2130.15,Debit,Groceries,No
+TXN0291,2026-06-01,Wallet Transfer,2905.41,Debit,Other,No
+TXN0391,2026-06-01,Zomato,405.66,Debit,Food,No
+TXN0661,2026-06-01,BigBasket,1844.87,Debit,Groceries,No
+TXN0799,2026-06-01,Croma,2343.39,Debit,Shopping,No
+TXN0901,2026-06-01,Amazon,5415.5,Debit,Shopping,No
+TXN1869,2026-06-01,UPI Transfer,2935.43,Debit,Other,No
+TXN0035,2026-06-02,Netflix,649.0,Debit,Entertainment,Yes
+TXN0036,2026-06-02,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0676,2026-06-02,McDonalds,1168.65,Debit,Food,No
+TXN0896,2026-06-02,Gas Bill,2022.63,Debit,Utilities,No
+TXN0898,2026-06-02,Myntra,2458.6,Debit,Shopping,No
+TXN1349,2026-06-02,BigBasket,2434.39,Debit,Groceries,No
+TXN1721,2026-06-02,Udemy,3482.1,Debit,Education,No
+TXN1814,2026-06-02,Udemy,1291.26,Debit,Education,No
+TXN0032,2026-06-03,House Rent,18000.0,Debit,Housing,Yes
+TXN0033,2026-06-03,EMI,10000.0,Debit,EMI,Yes
+TXN0109,2026-06-03,McDonalds,365.95,Debit,Food,No
+TXN0114,2026-06-03,Croma,558.67,Debit,Shopping,No
+TXN0141,2026-06-03,Amazon,5898.16,Debit,Shopping,No
+TXN0269,2026-06-03,Netflix,1220.46,Debit,Entertainment,No
+TXN0277,2026-06-03,Blinkit,3460.49,Debit,Groceries,No
+TXN0497,2026-06-03,Reliance Smart,2665.82,Debit,Groceries,No
+TXN0571,2026-06-03,Service Payment,741.02,Debit,Other,No
+TXN0617,2026-06-03,Water Bill,2822.19,Debit,Utilities,No
+TXN0637,2026-06-03,DMart,1183.08,Debit,Groceries,No
+TXN0665,2026-06-03,Ajio,2891.82,Debit,Shopping,No
+TXN0991,2026-06-03,1mg,2239.9,Debit,Healthcare,No
+TXN1497,2026-06-03,Water Bill,2151.84,Debit,Utilities,No
+TXN1617,2026-06-03,Swiggy,404.14,Debit,Food,No
+TXN1698,2026-06-03,PharmEasy,1083.15,Debit,Healthcare,No
+TXN1711,2026-06-03,Ola,248.53,Debit,Transport,No
+TXN1808,2026-06-03,Zomato,1279.12,Debit,Food,No
+TXN1994,2026-06-03,Coding Course,9649.12,Debit,Education,No
+TXN0034,2026-06-04,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0113,2026-06-04,McDonalds,1525.68,Debit,Food,No
+TXN0144,2026-06-04,Flipkart,5116.36,Debit,Shopping,No
+TXN0186,2026-06-04,Zepto,626.08,Debit,Groceries,No
+TXN0320,2026-06-04,UPI Transfer,2209.0,Debit,Other,No
+TXN0472,2026-06-04,Rapido,404.43,Debit,Transport,No
+TXN0538,2026-06-04,Dominos,1724.16,Debit,Food,No
+TXN0715,2026-06-04,Zomato,1605.54,Debit,Food,No
+TXN0733,2026-06-04,Netflix,2150.15,Debit,Entertainment,No
+TXN1013,2026-06-04,Blinkit,2210.02,Debit,Groceries,No
+TXN1382,2026-06-04,BMTC,322.08,Debit,Transport,No
+TXN1462,2026-06-04,DMart,1575.98,Debit,Groceries,No
+TXN1615,2026-06-04,McDonalds,219.68,Debit,Food,No
+TXN1629,2026-06-04,Jio,2567.05,Debit,Utilities,No
+TXN1644,2026-06-04,Blinkit,438.5,Debit,Groceries,No
+TXN1704,2026-06-04,BMTC,971.13,Debit,Transport,No
+TXN1770,2026-06-04,Reliance Smart,2282.91,Debit,Groceries,No
+TXN1873,2026-06-04,Ajio,6315.5,Debit,Shopping,No
+TXN0216,2026-06-05,BESCOM,879.32,Debit,Utilities,No
+TXN0766,2026-06-05,Zepto,1233.1,Debit,Groceries,No
+TXN0784,2026-06-05,Swiggy,299.19,Debit,Food,No
+TXN1186,2026-06-05,McDonalds,578.68,Debit,Food,No
+TXN1311,2026-06-05,Hotel Booking,11553.76,Debit,Travel,No
+TXN1328,2026-06-05,McDonalds,806.77,Debit,Food,No
+TXN1423,2026-06-05,Dominos,644.56,Debit,Food,No
+TXN1951,2026-06-05,YouTube Premium,640.48,Debit,Entertainment,No
+TXN0891,2026-06-06,Cafe Coffee Day,1478.39,Debit,Food,No
+TXN0924,2026-06-06,Swiggy,782.86,Debit,Food,No
+TXN1556,2026-06-06,Amazon,619.48,Debit,Shopping,No
+TXN1583,2026-06-06,Rapido,227.79,Debit,Transport,No
+TXN0078,2026-06-07,Uber,1120.59,Debit,Transport,No
+TXN0351,2026-06-07,Cafe Coffee Day,952.94,Debit,Food,No
+TXN0500,2026-06-07,Swiggy,1766.83,Debit,Food,No
+TXN0552,2026-06-07,Uber,705.85,Debit,Transport,No
+TXN0587,2026-06-07,Rapido,806.57,Debit,Transport,No
+TXN0629,2026-06-07,Swiggy,158.57,Debit,Food,No
+TXN0771,2026-06-07,BookMyShow,2152.71,Debit,Entertainment,No
+TXN1366,2026-06-07,Myntra,6426.47,Debit,Shopping,No
+TXN1379,2026-06-07,Swiggy,1576.58,Debit,Food,No
+TXN1501,2026-06-07,Uber,967.87,Debit,Transport,No
+TXN1639,2026-06-07,Zomato,1285.28,Debit,Food,No
+TXN0385,2026-06-08,Zepto,3233.59,Debit,Groceries,No
+TXN1902,2026-06-08,BigBasket,1636.24,Debit,Groceries,No
+TXN1909,2026-06-08,Udemy,5933.95,Debit,Education,No
+TXN0184,2026-06-09,UPI Transfer,1778.19,Debit,Other,No
+TXN0541,2026-06-09,McDonalds,1282.02,Debit,Food,No
+TXN1304,2026-06-09,Rapido,251.08,Debit,Transport,No
+TXN1390,2026-06-09,Swiggy,320.12,Debit,Food,No
+TXN1445,2026-06-09,Swiggy,1278.72,Debit,Food,No
+TXN1659,2026-06-09,Blinkit,1762.23,Debit,Groceries,No
+TXN0102,2026-06-10,Gas Bill,652.39,Debit,Utilities,No
+TXN0108,2026-06-10,Gift,2042.21,Debit,Other,No
+TXN0137,2026-06-10,Reliance Smart,1690.6,Debit,Groceries,No
+TXN0330,2026-06-10,Uber,430.05,Debit,Transport,No
+TXN0475,2026-06-10,BMTC,759.46,Debit,Transport,No
+TXN0508,2026-06-10,Water Bill,1813.69,Debit,Utilities,No
+TXN0674,2026-06-10,Ajio,4457.86,Debit,Shopping,No
+TXN1705,2026-06-10,BMTC,564.86,Debit,Transport,No
+TXN1870,2026-06-10,Rapido,1058.37,Debit,Transport,No
+TXN0063,2026-06-11,Service Payment,2641.47,Debit,Other,No
+TXN0107,2026-06-11,Ajio,5430.3,Debit,Shopping,No
+TXN1158,2026-06-11,Reliance Smart,2008.74,Debit,Groceries,No
+TXN1374,2026-06-11,PharmEasy,2955.23,Debit,Healthcare,No
+TXN1465,2026-06-11,DMart,1522.41,Debit,Groceries,No
+TXN1678,2026-06-11,UPI Transfer,1212.53,Debit,Other,No
+TXN1964,2026-06-11,DMart,2003.71,Debit,Groceries,No
+TXN0628,2026-06-12,Flipkart,6047.41,Debit,Shopping,No
+TXN0737,2026-06-12,Uber,1185.31,Debit,Transport,No
+TXN0810,2026-06-12,Zomato,440.57,Debit,Food,No
+TXN1169,2026-06-12,Blinkit,1030.3,Debit,Groceries,No
+TXN1429,2026-06-12,Rapido,521.58,Debit,Transport,No
+TXN1603,2026-06-12,Wallet Transfer,663.91,Debit,Other,No
+TXN1739,2026-06-12,Zomato,1661.22,Debit,Food,No
+TXN1773,2026-06-12,Wallet Transfer,482.57,Debit,Other,No
+TXN1917,2026-06-12,Zomato,834.65,Debit,Food,No
+TXN1926,2026-06-12,Uber,381.6,Debit,Transport,No
+TXN1940,2026-06-12,MakeMyTrip,7520.12,Debit,Travel,No
+TXN0407,2026-06-13,Miscellaneous,751.16,Debit,Other,No
+TXN0496,2026-06-13,Reliance Smart,747.3,Debit,Groceries,No
+TXN0569,2026-06-13,Blinkit,1049.32,Debit,Groceries,No
+TXN0574,2026-06-13,Wallet Transfer,2378.83,Debit,Other,No
+TXN0589,2026-06-13,DMart,2737.21,Debit,Groceries,No
+TXN0644,2026-06-13,Ola,1160.32,Debit,Transport,No
+TXN0761,2026-06-13,Zomato,836.82,Debit,Food,No
+TXN0829,2026-06-13,Swiggy,542.69,Debit,Food,No
+TXN0900,2026-06-13,Clinic,2199.26,Debit,Healthcare,No
+TXN1310,2026-06-13,Zomato,1349.68,Debit,Food,No
+TXN1392,2026-06-13,Zomato,622.84,Debit,Food,No
+TXN1749,2026-06-13,Book Store,8030.1,Debit,Education,No
+TXN0146,2026-06-14,Rapido,759.46,Debit,Transport,No
+TXN0257,2026-06-14,Cafe Coffee Day,772.4,Debit,Food,No
+TXN0376,2026-06-14,Rapido,810.06,Debit,Transport,No
+TXN0875,2026-06-14,DMart,2776.9,Debit,Groceries,No
+TXN0921,2026-06-14,Jio,2875.17,Debit,Utilities,No
+TXN0988,2026-06-14,Spotify,438.17,Debit,Entertainment,No
+TXN1233,2026-06-14,Myntra,3573.53,Debit,Shopping,No
+TXN1513,2026-06-14,Cafe Coffee Day,1050.71,Debit,Food,No
+TXN1915,2026-06-14,Clinic,2387.88,Debit,Healthcare,No
+TXN0077,2026-06-15,Gas Bill,2796.23,Debit,Utilities,No
+TXN0232,2026-06-15,BigBasket,3146.15,Debit,Groceries,No
+TXN0369,2026-06-15,Croma,5322.44,Debit,Shopping,No
+TXN0817,2026-06-15,Zomato,1665.99,Debit,Food,No
+TXN1765,2026-06-15,DMart,726.26,Debit,Groceries,No
+TXN1961,2026-06-15,Amazon,6903.95,Debit,Shopping,No
+TXN0060,2026-06-16,Cafe Coffee Day,512.37,Debit,Food,No
+TXN0325,2026-06-16,Croma,4612.67,Debit,Shopping,No
+TXN0863,2026-06-16,Reliance Smart,1571.54,Debit,Groceries,No
+TXN1180,2026-06-16,Blinkit,3053.18,Debit,Groceries,No
+TXN1250,2026-06-16,Miscellaneous,1695.24,Debit,Other,No
+TXN1535,2026-06-16,Zepto,2608.49,Debit,Groceries,No
+TXN1921,2026-06-16,Amazon,5108.57,Debit,Shopping,No
+TXN0297,2026-06-17,Zepto,1808.73,Debit,Groceries,No
+TXN0436,2026-06-17,Jio,756.49,Debit,Utilities,No
+TXN0535,2026-06-17,DMart,2946.37,Debit,Groceries,No
+TXN0548,2026-06-17,Cafe Coffee Day,397.26,Debit,Food,No
+TXN0779,2026-06-17,Book Store,7156.89,Debit,Education,No
+TXN0785,2026-06-17,Clinic,489.55,Debit,Healthcare,No
+TXN1386,2026-06-17,PVR,913.83,Debit,Entertainment,No
+TXN1673,2026-06-17,Flipkart,3369.75,Debit,Shopping,No
+TXN1750,2026-06-17,Ola,371.96,Debit,Transport,No
+TXN0238,2026-06-18,Swiggy,1565.26,Debit,Food,No
+TXN0387,2026-06-18,McDonalds,1211.76,Debit,Food,No
+TXN0641,2026-06-18,Cafe Coffee Day,776.82,Debit,Food,No
+TXN1050,2026-06-18,Miscellaneous,1509.0,Debit,Other,No
+TXN1489,2026-06-18,Wallet Transfer,872.67,Debit,Other,No
+TXN1967,2026-06-18,Gift,670.94,Debit,Other,No
+TXN1981,2026-06-18,Swiggy,899.23,Debit,Food,No
+TXN0140,2026-06-19,Swiggy,1715.64,Debit,Food,No
+TXN0164,2026-06-19,Amazon,3611.51,Debit,Shopping,No
+TXN0261,2026-06-19,Uber,221.4,Debit,Transport,No
+TXN0612,2026-06-19,Metro Recharge,802.3,Debit,Transport,No
+TXN0794,2026-06-19,Apollo Pharmacy,4553.87,Debit,Healthcare,No
+TXN0909,2026-06-19,Dominos,843.78,Debit,Food,No
+TXN0974,2026-06-19,1mg,4268.29,Debit,Healthcare,No
+TXN1017,2026-06-19,Zepto,3126.87,Debit,Groceries,No
+TXN1375,2026-06-19,BESCOM,1020.66,Debit,Utilities,No
+TXN1406,2026-06-19,Wallet Transfer,631.72,Debit,Other,No
+TXN1447,2026-06-19,Rapido,1094.78,Debit,Transport,No
+TXN1993,2026-06-19,Ajio,4998.22,Debit,Shopping,No
+TXN1997,2026-06-19,Ola,347.7,Debit,Transport,No
+TXN0237,2026-06-20,Wallet Transfer,1109.09,Debit,Other,No
+TXN0384,2026-06-20,Cafe Coffee Day,1590.91,Debit,Food,No
+TXN0423,2026-06-20,Swiggy,1422.98,Debit,Food,No
+TXN1364,2026-06-20,BookMyShow,1152.29,Debit,Entertainment,No
+TXN1481,2026-06-20,Swiggy,781.62,Debit,Food,No
+TXN1560,2026-06-20,Udemy,4156.35,Debit,Education,No
+TXN0382,2026-06-21,Amazon,6419.2,Debit,Shopping,No
+TXN0530,2026-06-21,Cafe Coffee Day,327.05,Debit,Food,No
+TXN0830,2026-06-21,BigBasket,2929.32,Debit,Groceries,No
+TXN1161,2026-06-21,Uber,583.84,Debit,Transport,No
+TXN1265,2026-06-21,BigBasket,3249.99,Debit,Groceries,No
+TXN1563,2026-06-21,Netflix,1627.05,Debit,Entertainment,No
+TXN1567,2026-06-21,Airtel,846.01,Debit,Utilities,No
+TXN1611,2026-06-21,McDonalds,1780.83,Debit,Food,No
+TXN1969,2026-06-21,Clinic,4046.94,Debit,Healthcare,No
+TXN0175,2026-06-22,Zomato,900.25,Debit,Food,No
+TXN0468,2026-06-22,Reliance Smart,2606.02,Debit,Groceries,No
+TXN0594,2026-06-22,Airtel,1748.25,Debit,Utilities,No
+TXN0820,2026-06-22,McDonalds,1116.93,Debit,Food,No
+TXN0926,2026-06-22,Rapido,747.93,Debit,Transport,No
+TXN1167,2026-06-22,Flipkart,7011.93,Debit,Shopping,No
+TXN1248,2026-06-22,PVR,1123.58,Debit,Entertainment,No
+TXN1470,2026-06-22,PVR,1972.14,Debit,Entertainment,No
+TXN0381,2026-06-23,Dominos,789.24,Debit,Food,No
+TXN0492,2026-06-23,BigBasket,1560.49,Debit,Groceries,No
+TXN1217,2026-06-23,McDonalds,300.81,Debit,Food,No
+TXN1369,2026-06-23,1mg,1853.42,Debit,Healthcare,No
+TXN1838,2026-06-23,Rapido,1098.16,Debit,Transport,No
+TXN0198,2026-06-24,BMTC,973.57,Debit,Transport,No
+TXN0213,2026-06-24,Water Bill,1696.79,Debit,Utilities,No
+TXN1413,2026-06-24,Water Bill,1459.54,Debit,Utilities,No
+TXN1688,2026-06-24,Clinic,426.43,Debit,Healthcare,No
+TXN1804,2026-06-24,Metro Recharge,184.1,Debit,Transport,No
+TXN0117,2026-06-25,Cafe Coffee Day,497.54,Debit,Food,No
+TXN0509,2026-06-25,Wallet Transfer,2745.16,Debit,Other,No
+TXN0666,2026-06-25,BigBasket,372.27,Debit,Groceries,No
+TXN0721,2026-06-25,Metro Recharge,90.4,Debit,Transport,No
+TXN0903,2026-06-25,Gas Bill,2540.04,Debit,Utilities,No
+TXN1090,2026-06-25,Croma,2483.91,Debit,Shopping,No
+TXN1135,2026-06-25,Swiggy,808.24,Debit,Food,No
+TXN1151,2026-06-25,Airtel,1173.52,Debit,Utilities,No
+TXN1457,2026-06-25,Rapido,1045.46,Debit,Transport,No
+TXN1544,2026-06-25,Book Store,4473.13,Debit,Education,No
+TXN1637,2026-06-25,DMart,3147.12,Debit,Groceries,No
+TXN0204,2026-06-26,Cafe Coffee Day,758.88,Debit,Food,No
+TXN0256,2026-06-26,Book Store,5616.52,Debit,Education,No
+TXN0476,2026-06-26,College Fees,7474.9,Debit,Education,No
+TXN0923,2026-06-26,Flipkart,2196.99,Debit,Shopping,No
+TXN0993,2026-06-26,Cafe Coffee Day,1328.73,Debit,Food,No
+TXN1076,2026-06-26,BMTC,995.31,Debit,Transport,No
+TXN1424,2026-06-26,Wallet Transfer,2181.59,Debit,Other,No
+TXN1460,2026-06-26,Flipkart,2081.43,Debit,Shopping,No
+TXN0563,2026-06-27,Airtel,1118.78,Debit,Utilities,No
+TXN0620,2026-06-27,Netflix,1351.82,Debit,Entertainment,No
+TXN0750,2026-06-27,Flipkart,4223.1,Debit,Shopping,No
+TXN0769,2026-06-27,DMart,376.51,Debit,Groceries,No
+TXN1019,2026-06-27,UPI Transfer,432.69,Debit,Other,No
+TXN1146,2026-06-27,Rapido,116.47,Debit,Transport,No
+TXN1184,2026-06-27,Rapido,426.82,Debit,Transport,No
+TXN1220,2026-06-27,Cafe Coffee Day,1451.13,Debit,Food,No
+TXN1835,2026-06-27,IRCTC,6190.07,Debit,Travel,No
+TXN0365,2026-06-28,Airtel,2764.81,Debit,Utilities,No
+TXN0513,2026-06-28,Ajio,2877.81,Debit,Shopping,No
+TXN1124,2026-06-28,Croma,7362.57,Debit,Shopping,No
+TXN1279,2026-06-28,DMart,1655.33,Debit,Groceries,No
+TXN1348,2026-06-28,Zepto,476.2,Debit,Groceries,No
+TXN1687,2026-06-28,Airtel,2592.34,Debit,Utilities,No
+TXN1901,2026-06-28,McDonalds,153.44,Debit,Food,No
+TXN0342,2026-06-29,Myntra,7411.53,Debit,Shopping,No
+TXN0885,2026-06-29,DMart,2178.02,Debit,Groceries,No
+TXN1646,2026-06-29,Airtel,961.95,Debit,Utilities,No
+TXN0284,2026-06-30,Spotify,1596.25,Debit,Entertainment,No
+TXN0995,2026-06-30,BMTC,875.6,Debit,Transport,No
+TXN1298,2026-06-30,Ola,100.58,Debit,Transport,No
+TXN1630,2026-06-30,Dominos,308.13,Debit,Food,No
+TXN1685,2026-06-30,Cafe Coffee Day,1751.94,Debit,Food,No
+TXN1743,2026-06-30,PharmEasy,2679.77,Debit,Healthcare,No
+TXN1947,2026-06-30,Water Bill,2180.61,Debit,Utilities,No
+TXN0037,2026-07-01,Salary,60000.0,Credit,Income,No
+TXN0356,2026-07-01,Airtel,1750.66,Debit,Utilities,No
+TXN0606,2026-07-01,Cafe Coffee Day,566.49,Debit,Food,No
+TXN0656,2026-07-01,Zepto,2404.33,Debit,Groceries,No
+TXN1136,2026-07-01,Zepto,1824.98,Debit,Groceries,No
+TXN1359,2026-07-01,BMTC,370.82,Debit,Transport,No
+TXN1466,2026-07-01,UPI Transfer,382.36,Debit,Other,No
+TXN1654,2026-07-01,Uber,282.55,Debit,Transport,No
+TXN0039,2026-07-02,EMI,10000.0,Debit,EMI,Yes
+TXN0624,2026-07-02,BookMyShow,1328.39,Debit,Entertainment,No
+TXN0823,2026-07-02,Croma,5701.7,Debit,Shopping,No
+TXN1048,2026-07-02,Ajio,7636.55,Debit,Shopping,No
+TXN1626,2026-07-02,McDonalds,1199.81,Debit,Food,No
+TXN1689,2026-07-02,Metro Recharge,466.56,Debit,Transport,No
+TXN1782,2026-07-02,Metro Recharge,125.69,Debit,Transport,No
+TXN0315,2026-07-03,BigBasket,721.77,Debit,Groceries,No
+TXN0683,2026-07-03,McDonalds,1172.03,Debit,Food,No
+TXN0940,2026-07-03,PVR,2438.18,Debit,Entertainment,No
+TXN1427,2026-07-03,Reliance Smart,2926.41,Debit,Groceries,No
+TXN1493,2026-07-03,Reliance Smart,3292.14,Debit,Groceries,No
+TXN1498,2026-07-03,Amazon,5229.63,Debit,Shopping,No
+TXN1541,2026-07-03,McDonalds,1337.71,Debit,Food,No
+TXN1948,2026-07-03,Wallet Transfer,2499.65,Debit,Other,No
+TXN0040,2026-07-04,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0041,2026-07-04,Netflix,649.0,Debit,Entertainment,Yes
+TXN0042,2026-07-04,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0209,2026-07-04,Gift,959.11,Debit,Other,No
+TXN0539,2026-07-04,Gas Bill,528.59,Debit,Utilities,No
+TXN0654,2026-07-04,Water Bill,1859.11,Debit,Utilities,No
+TXN0716,2026-07-04,Blinkit,598.69,Debit,Groceries,No
+TXN1054,2026-07-04,Ajio,2575.1,Debit,Shopping,No
+TXN1070,2026-07-04,Swiggy,1253.17,Debit,Food,No
+TXN1604,2026-07-04,Gas Bill,2858.51,Debit,Utilities,No
+TXN1840,2026-07-04,Ajio,7698.53,Debit,Shopping,No
+TXN1885,2026-07-04,Cafe Coffee Day,467.72,Debit,Food,No
+TXN0038,2026-07-05,House Rent,18000.0,Debit,Housing,Yes
+TXN0190,2026-07-05,Apollo Pharmacy,2337.56,Debit,Healthcare,No
+TXN0318,2026-07-05,Uber,613.4,Debit,Transport,No
+TXN1171,2026-07-05,McDonalds,1438.61,Debit,Food,No
+TXN1636,2026-07-05,Wallet Transfer,1109.81,Debit,Other,No
+TXN1735,2026-07-05,McDonalds,660.29,Debit,Food,No
+TXN1864,2026-07-05,Wallet Transfer,2860.34,Debit,Other,No
+TXN0056,2026-07-06,Book Store,3140.75,Debit,Education,No
+TXN0973,2026-07-06,Ajio,7627.66,Debit,Shopping,No
+TXN0975,2026-07-06,Gas Bill,1999.88,Debit,Utilities,No
+TXN1229,2026-07-06,Zomato,1606.84,Debit,Food,No
+TXN1564,2026-07-06,Netflix,1383.89,Debit,Entertainment,No
+TXN1710,2026-07-06,UPI Transfer,1614.58,Debit,Other,No
+TXN1857,2026-07-06,Netflix,554.88,Debit,Entertainment,No
+TXN0289,2026-07-07,Cafe Coffee Day,1596.16,Debit,Food,No
+TXN0294,2026-07-07,Book Store,9689.06,Debit,Education,No
+TXN0445,2026-07-07,Uber,722.79,Debit,Transport,No
+TXN0306,2026-07-08,Miscellaneous,388.13,Debit,Other,No
+TXN0338,2026-07-08,Swiggy,727.69,Debit,Food,No
+TXN0431,2026-07-08,College Fees,3095.56,Debit,Education,No
+TXN0456,2026-07-08,Netflix,1030.06,Debit,Entertainment,No
+TXN0706,2026-07-08,BMTC,858.07,Debit,Transport,No
+TXN1441,2026-07-08,Service Payment,1501.48,Debit,Other,No
+TXN1662,2026-07-08,Wallet Transfer,2823.34,Debit,Other,No
+TXN1732,2026-07-08,Gift,1152.69,Debit,Other,No
+TXN1751,2026-07-08,Spotify,394.12,Debit,Entertainment,No
+TXN0112,2026-07-09,UPI Transfer,2649.88,Debit,Other,No
+TXN0123,2026-07-09,Zepto,2045.89,Debit,Groceries,No
+TXN0345,2026-07-09,McDonalds,712.48,Debit,Food,No
+TXN1097,2026-07-09,Wallet Transfer,1613.93,Debit,Other,No
+TXN1896,2026-07-09,Water Bill,775.84,Debit,Utilities,No
+TXN1949,2026-07-09,Uber,219.74,Debit,Transport,No
+TXN0296,2026-07-10,BMTC,734.71,Debit,Transport,No
+TXN0401,2026-07-10,IRCTC,7873.56,Debit,Travel,No
+TXN0444,2026-07-10,Water Bill,2872.06,Debit,Utilities,No
+TXN0775,2026-07-10,Service Payment,1297.86,Debit,Other,No
+TXN1381,2026-07-10,Metro Recharge,1062.29,Debit,Transport,No
+TXN1584,2026-07-10,Blinkit,1025.7,Debit,Groceries,No
+TXN1605,2026-07-10,Metro Recharge,493.99,Debit,Transport,No
+TXN0421,2026-07-11,IRCTC,7810.21,Debit,Travel,No
+TXN0895,2026-07-11,BESCOM,1778.78,Debit,Utilities,No
+TXN1316,2026-07-11,Reliance Smart,1800.04,Debit,Groceries,No
+TXN0393,2026-07-12,Croma,1482.87,Debit,Shopping,No
+TXN0575,2026-07-12,Ajio,1619.13,Debit,Shopping,No
+TXN0834,2026-07-12,Metro Recharge,473.38,Debit,Transport,No
+TXN0892,2026-07-12,Myntra,3678.55,Debit,Shopping,No
+TXN1103,2026-07-12,BESCOM,1799.4,Debit,Utilities,No
+TXN1377,2026-07-12,Swiggy,709.6,Debit,Food,No
+TXN0652,2026-07-13,Zomato,1330.14,Debit,Food,No
+TXN0824,2026-07-13,Cafe Coffee Day,1493.85,Debit,Food,No
+TXN0059,2026-07-14,Airtel,908.51,Debit,Utilities,No
+TXN0143,2026-07-14,Airtel,1551.12,Debit,Utilities,No
+TXN0196,2026-07-14,McDonalds,1090.25,Debit,Food,No
+TXN0218,2026-07-14,Gas Bill,1064.22,Debit,Utilities,No
+TXN0265,2026-07-14,Myntra,6892.56,Debit,Shopping,No
+TXN0355,2026-07-14,Metro Recharge,276.78,Debit,Transport,No
+TXN0503,2026-07-14,Airtel,1810.58,Debit,Utilities,No
+TXN0514,2026-07-14,Jio,1219.47,Debit,Utilities,No
+TXN0593,2026-07-14,Zomato,694.28,Debit,Food,No
+TXN0625,2026-07-14,Water Bill,1579.62,Debit,Utilities,No
+TXN0627,2026-07-14,Amazon,2509.79,Debit,Shopping,No
+TXN1293,2026-07-14,McDonalds,531.43,Debit,Food,No
+TXN1353,2026-07-14,Blinkit,1333.03,Debit,Groceries,No
+TXN1419,2026-07-14,BigBasket,2493.63,Debit,Groceries,No
+TXN0273,2026-07-15,BigBasket,2250.37,Debit,Groceries,No
+TXN0558,2026-07-15,BookMyShow,1061.26,Debit,Entertainment,No
+TXN0796,2026-07-15,Hospital,2631.79,Debit,Healthcare,No
+TXN0802,2026-07-15,Croma,6461.35,Debit,Shopping,No
+TXN0912,2026-07-15,Ola,640.53,Debit,Transport,No
+TXN0998,2026-07-15,Clinic,800.41,Debit,Healthcare,No
+TXN1264,2026-07-15,Jio,593.43,Debit,Utilities,No
+TXN1614,2026-07-15,Flipkart,1994.43,Debit,Shopping,No
+TXN1796,2026-07-15,Swiggy,1377.27,Debit,Food,No
+TXN0152,2026-07-16,Rapido,297.77,Debit,Transport,No
+TXN0479,2026-07-16,Swiggy,233.5,Debit,Food,No
+TXN0537,2026-07-16,Ola,87.65,Debit,Transport,No
+TXN0684,2026-07-16,Wallet Transfer,495.95,Debit,Other,No
+TXN1431,2026-07-16,Ajio,1543.02,Debit,Shopping,No
+TXN1766,2026-07-16,Wallet Transfer,2091.87,Debit,Other,No
+TXN0069,2026-07-17,BookMyShow,1571.74,Debit,Entertainment,No
+TXN0383,2026-07-17,BigBasket,2085.48,Debit,Groceries,No
+TXN0406,2026-07-17,Reliance Smart,1496.68,Debit,Groceries,No
+TXN0432,2026-07-17,Metro Recharge,912.5,Debit,Transport,No
+TXN0953,2026-07-17,Metro Recharge,384.45,Debit,Transport,No
+TXN0962,2026-07-17,Ola,619.76,Debit,Transport,No
+TXN0447,2026-07-18,Zepto,1896.94,Debit,Groceries,No
+TXN0804,2026-07-18,Cafe Coffee Day,978.95,Debit,Food,No
+TXN0809,2026-07-18,Spotify,1524.09,Debit,Entertainment,No
+TXN0850,2026-07-18,BMTC,182.07,Debit,Transport,No
+TXN1004,2026-07-18,Amazon,7448.64,Debit,Shopping,No
+TXN1300,2026-07-18,Swiggy,1182.56,Debit,Food,No
+TXN1540,2026-07-18,Reliance Smart,1755.97,Debit,Groceries,No
+TXN0420,2026-07-19,PVR,1474.55,Debit,Entertainment,No
+TXN0618,2026-07-19,Zepto,2113.43,Debit,Groceries,No
+TXN1177,2026-07-19,Reliance Smart,796.88,Debit,Groceries,No
+TXN1192,2026-07-19,Ola,880.73,Debit,Transport,No
+TXN1378,2026-07-19,Flipkart,4782.36,Debit,Shopping,No
+TXN1463,2026-07-19,Rapido,341.7,Debit,Transport,No
+TXN1681,2026-07-19,Ola,429.95,Debit,Transport,No
+TXN1695,2026-07-19,Jio,1444.34,Debit,Utilities,No
+TXN1726,2026-07-19,YouTube Premium,957.36,Debit,Entertainment,No
+TXN0734,2026-07-20,Cafe Coffee Day,990.71,Debit,Food,No
+TXN0745,2026-07-20,Gift,1655.53,Debit,Other,No
+TXN1038,2026-07-20,Rapido,326.25,Debit,Transport,No
+TXN1204,2026-07-20,Zomato,242.46,Debit,Food,No
+TXN1399,2026-07-20,BigBasket,575.58,Debit,Groceries,No
+TXN1574,2026-07-20,McDonalds,294.06,Debit,Food,No
+TXN1684,2026-07-20,Airtel,1766.71,Debit,Utilities,No
+TXN1829,2026-07-20,Airtel,1237.08,Debit,Utilities,No
+TXN0172,2026-07-21,Service Payment,1648.96,Debit,Other,No
+TXN0560,2026-07-21,Myntra,1389.75,Debit,Shopping,No
+TXN0646,2026-07-21,Dominos,1497.22,Debit,Food,No
+TXN0703,2026-07-21,Dominos,1516.99,Debit,Food,No
+TXN1270,2026-07-21,Flipkart,878.9,Debit,Shopping,No
+TXN1323,2026-07-21,Water Bill,2300.5,Debit,Utilities,No
+TXN1552,2026-07-21,PVR,277.33,Debit,Entertainment,No
+TXN1737,2026-07-21,Book Store,574.73,Debit,Education,No
+TXN0281,2026-07-22,Miscellaneous,163.62,Debit,Other,No
+TXN0640,2026-07-22,Ola,421.22,Debit,Transport,No
+TXN0786,2026-07-22,Zepto,3398.88,Debit,Groceries,No
+TXN1170,2026-07-22,Myntra,5040.39,Debit,Shopping,No
+TXN1326,2026-07-22,MakeMyTrip,6465.08,Debit,Travel,No
+TXN1663,2026-07-22,DMart,2450.71,Debit,Groceries,No
+TXN1664,2026-07-22,Uber,213.52,Debit,Transport,No
+TXN1821,2026-07-22,Cafe Coffee Day,745.2,Debit,Food,No
+TXN0264,2026-07-23,Blinkit,1383.4,Debit,Groceries,No
+TXN0428,2026-07-23,Uber Intercity,11233.77,Debit,Travel,No
+TXN0622,2026-07-23,Cafe Coffee Day,1725.52,Debit,Food,No
+TXN0709,2026-07-23,Myntra,6875.8,Debit,Shopping,No
+TXN0849,2026-07-23,Uber,425.36,Debit,Transport,No
+TXN0894,2026-07-23,Cafe Coffee Day,1510.11,Debit,Food,No
+TXN1064,2026-07-23,Reliance Smart,1933.32,Debit,Groceries,No
+TXN1106,2026-07-23,Gas Bill,1188.9,Debit,Utilities,No
+TXN1109,2026-07-23,Service Payment,1098.63,Debit,Other,No
+TXN1174,2026-07-23,Amazon,2079.29,Debit,Shopping,No
+TXN1254,2026-07-23,McDonalds,888.37,Debit,Food,No
+TXN0066,2026-07-24,BookMyShow,2264.99,Debit,Entertainment,No
+TXN0083,2026-07-24,Gift,2167.55,Debit,Other,No
+TXN0134,2026-07-24,College Fees,3835.89,Debit,Education,No
+TXN0657,2026-07-24,Reliance Smart,441.75,Debit,Groceries,No
+TXN1121,2026-07-24,UPI Transfer,2990.77,Debit,Other,No
+TXN1668,2026-07-24,PVR,1565.39,Debit,Entertainment,No
+TXN1797,2026-07-24,Blinkit,869.63,Debit,Groceries,No
+TXN0239,2026-07-25,Metro Recharge,402.8,Debit,Transport,No
+TXN0343,2026-07-25,Zepto,2112.23,Debit,Groceries,No
+TXN0488,2026-07-25,Ajio,3244.53,Debit,Shopping,No
+TXN0653,2026-07-25,Reliance Smart,1833.55,Debit,Groceries,No
+TXN0870,2026-07-25,Blinkit,1589.52,Debit,Groceries,No
+TXN0952,2026-07-25,Dominos,451.73,Debit,Food,No
+TXN1111,2026-07-25,Spotify,430.64,Debit,Entertainment,No
+TXN1153,2026-07-25,Myntra,3238.08,Debit,Shopping,No
+TXN1512,2026-07-25,Zepto,1663.88,Debit,Groceries,No
+TXN0230,2026-07-26,Metro Recharge,851.32,Debit,Transport,No
+TXN0241,2026-07-26,Dominos,341.27,Debit,Food,No
+TXN0919,2026-07-26,DMart,2327.16,Debit,Groceries,No
+TXN0928,2026-07-26,Zomato,422.06,Debit,Food,No
+TXN0967,2026-07-26,Rapido,800.52,Debit,Transport,No
+TXN1016,2026-07-26,Rapido,258.49,Debit,Transport,No
+TXN1425,2026-07-26,Service Payment,123.55,Debit,Other,No
+TXN1666,2026-07-26,Zepto,1383.62,Debit,Groceries,No
+TXN1798,2026-07-26,Zepto,821.41,Debit,Groceries,No
+TXN1888,2026-07-26,Metro Recharge,167.44,Debit,Transport,No
+TXN0358,2026-07-27,Miscellaneous,1769.7,Debit,Other,No
+TXN0359,2026-07-27,Ajio,2671.36,Debit,Shopping,No
+TXN0440,2026-07-27,Swiggy,273.82,Debit,Food,No
+TXN0607,2026-07-27,McDonalds,280.38,Debit,Food,No
+TXN1032,2026-07-27,Wallet Transfer,1225.29,Debit,Other,No
+TXN1060,2026-07-27,Udemy,8220.1,Debit,Education,No
+TXN1418,2026-07-27,1mg,1747.77,Debit,Healthcare,No
+TXN1558,2026-07-27,Wallet Transfer,2338.32,Debit,Other,No
+TXN0126,2026-07-28,Amazon,3152.59,Debit,Shopping,No
+TXN0631,2026-07-28,McDonalds,1069.03,Debit,Food,No
+TXN0877,2026-07-28,Zomato,1657.16,Debit,Food,No
+TXN1554,2026-07-28,BigBasket,2518.11,Debit,Groceries,No
+TXN1660,2026-07-28,Ajio,2194.05,Debit,Shopping,No
+TXN1920,2026-07-28,Spotify,905.63,Debit,Entertainment,No
+TXN1930,2026-07-28,Spotify,900.61,Debit,Entertainment,No
+TXN0650,2026-07-29,Apollo Pharmacy,4149.14,Debit,Healthcare,No
+TXN0685,2026-07-29,Service Payment,1993.9,Debit,Other,No
+TXN0979,2026-07-29,Wallet Transfer,507.3,Debit,Other,No
+TXN1101,2026-07-29,UPI Transfer,921.47,Debit,Other,No
+TXN1906,2026-07-29,Blinkit,585.81,Debit,Groceries,No
+TXN0091,2026-07-30,DMart,1433.75,Debit,Groceries,No
+TXN0129,2026-07-30,Blinkit,2803.64,Debit,Groceries,No
+TXN0602,2026-07-30,Amazon,549.59,Debit,Shopping,No
+TXN1522,2026-07-30,Blinkit,1973.88,Debit,Groceries,No
+TXN1581,2026-07-30,Clinic,3329.96,Debit,Healthcare,No
+TXN1886,2026-07-30,Ola,877.04,Debit,Transport,No
+TXN1978,2026-07-30,Book Store,1410.39,Debit,Education,No
+TXN0833,2026-07-31,Metro Recharge,1165.39,Debit,Transport,No
+TXN0854,2026-07-31,Blinkit,2886.18,Debit,Groceries,No
+TXN0970,2026-07-31,UPI Transfer,397.67,Debit,Other,No
+TXN1133,2026-07-31,Flipkart,6501.21,Debit,Shopping,No
+TXN1172,2026-07-31,PVR,2420.71,Debit,Entertainment,No
+TXN1195,2026-07-31,Cafe Coffee Day,1484.53,Debit,Food,No
+TXN1537,2026-07-31,Swiggy,541.25,Debit,Food,No
+TXN1741,2026-07-31,Book Store,4975.37,Debit,Education,No
+TXN1863,2026-07-31,Spotify,2044.07,Debit,Entertainment,No
+TXN0043,2026-08-01,Salary,60000.0,Credit,Income,No
+TXN0253,2026-08-01,College Fees,7840.41,Debit,Education,No
+TXN0405,2026-08-01,PharmEasy,4673.22,Debit,Healthcare,No
+TXN0551,2026-08-01,Hospital,920.14,Debit,Healthcare,No
+TXN0704,2026-08-01,Rapido,788.29,Debit,Transport,No
+TXN1240,2026-08-01,Uber,484.24,Debit,Transport,No
+TXN1245,2026-08-01,Airtel,1896.06,Debit,Utilities,No
+TXN1435,2026-08-01,Flipkart,1134.98,Debit,Shopping,No
+TXN1515,2026-08-01,Swiggy,601.92,Debit,Food,No
+TXN1609,2026-08-01,DMart,2631.54,Debit,Groceries,No
+TXN1861,2026-08-01,Blinkit,1491.8,Debit,Groceries,No
+TXN0044,2026-08-02,House Rent,18000.0,Debit,Housing,Yes
+TXN0046,2026-08-02,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0048,2026-08-02,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0217,2026-08-02,Zepto,679.04,Debit,Groceries,No
+TXN0592,2026-08-02,Cafe Coffee Day,1105.59,Debit,Food,No
+TXN0996,2026-08-02,Gas Bill,1926.6,Debit,Utilities,No
+TXN1350,2026-08-02,Swiggy,230.9,Debit,Food,No
+TXN1834,2026-08-02,Gas Bill,658.78,Debit,Utilities,No
+TXN0168,2026-08-03,Miscellaneous,2285.08,Debit,Other,No
+TXN0302,2026-08-03,BMTC,830.94,Debit,Transport,No
+TXN0679,2026-08-03,Zomato,992.86,Debit,Food,No
+TXN0760,2026-08-03,BigBasket,2069.17,Debit,Groceries,No
+TXN0772,2026-08-03,Reliance Smart,3445.97,Debit,Groceries,No
+TXN0865,2026-08-03,PVR,1551.43,Debit,Entertainment,No
+TXN1152,2026-08-03,McDonalds,849.51,Debit,Food,No
+TXN0165,2026-08-04,Water Bill,655.66,Debit,Utilities,No
+TXN0176,2026-08-04,BookMyShow,839.99,Debit,Entertainment,No
+TXN0189,2026-08-04,BMTC,94.17,Debit,Transport,No
+TXN0317,2026-08-04,BigBasket,705.63,Debit,Groceries,No
+TXN1862,2026-08-04,Zomato,400.16,Debit,Food,No
+TXN1899,2026-08-04,Zepto,754.85,Debit,Groceries,No
+TXN0045,2026-08-05,EMI,10000.0,Debit,EMI,Yes
+TXN0047,2026-08-05,Netflix,649.0,Debit,Entertainment,Yes
+TXN0119,2026-08-05,UPI Transfer,367.67,Debit,Other,No
+TXN0388,2026-08-05,Clinic,739.23,Debit,Healthcare,No
+TXN0554,2026-08-05,PVR,367.97,Debit,Entertainment,No
+TXN0860,2026-08-05,Gift,465.94,Debit,Other,No
+TXN0997,2026-08-05,Croma,2644.46,Debit,Shopping,No
+TXN1105,2026-08-05,Reliance Smart,1111.62,Debit,Groceries,No
+TXN1145,2026-08-05,Spotify,324.54,Debit,Entertainment,No
+TXN1193,2026-08-05,1mg,1536.01,Debit,Healthcare,No
+TXN1329,2026-08-05,YouTube Premium,1261.1,Debit,Entertainment,No
+TXN1693,2026-08-05,BESCOM,1652.27,Debit,Utilities,No
+TXN1802,2026-08-05,Metro Recharge,613.61,Debit,Transport,No
+TXN1826,2026-08-05,DMart,774.13,Debit,Groceries,No
+TXN1833,2026-08-05,Swiggy,1021.71,Debit,Food,No
+TXN1932,2026-08-05,Zomato,1440.34,Debit,Food,No
+TXN1966,2026-08-05,Gift,2936.48,Debit,Other,No
+TXN0348,2026-08-06,Myntra,3823.35,Debit,Shopping,No
+TXN0562,2026-08-06,Wallet Transfer,2053.15,Debit,Other,No
+TXN0692,2026-08-06,BookMyShow,1456.61,Debit,Entertainment,No
+TXN1027,2026-08-06,Zomato,1577.17,Debit,Food,No
+TXN1640,2026-08-06,Zepto,3439.55,Debit,Groceries,No
+TXN1810,2026-08-06,BESCOM,1783.54,Debit,Utilities,No
+TXN0437,2026-08-07,Myntra,3844.37,Debit,Shopping,No
+TXN0668,2026-08-07,Rapido,259.35,Debit,Transport,No
+TXN1960,2026-08-07,Ajio,514.66,Debit,Shopping,No
+TXN0173,2026-08-08,BESCOM,709.87,Debit,Utilities,No
+TXN0219,2026-08-08,Metro Recharge,413.04,Debit,Transport,No
+TXN0339,2026-08-08,Blinkit,2137.12,Debit,Groceries,No
+TXN0696,2026-08-08,Cafe Coffee Day,1287.07,Debit,Food,No
+TXN0714,2026-08-08,Uber,1190.86,Debit,Transport,No
+TXN0730,2026-08-08,Water Bill,1378.84,Debit,Utilities,No
+TXN0753,2026-08-08,Netflix,970.53,Debit,Entertainment,No
+TXN1010,2026-08-08,Netflix,1067.56,Debit,Entertainment,No
+TXN1052,2026-08-08,Jio,2519.25,Debit,Utilities,No
+TXN1548,2026-08-08,Water Bill,1197.93,Debit,Utilities,No
+TXN0658,2026-08-09,Miscellaneous,2900.58,Debit,Other,No
+TXN1189,2026-08-09,Wallet Transfer,968.87,Debit,Other,No
+TXN1251,2026-08-09,Book Store,7759.75,Debit,Education,No
+TXN0795,2026-08-10,DMart,462.04,Debit,Groceries,No
+TXN1155,2026-08-10,PharmEasy,4079.21,Debit,Healthcare,No
+TXN1830,2026-08-10,BigBasket,628.52,Debit,Groceries,No
+TXN1968,2026-08-10,Swiggy,195.99,Debit,Food,No
+TXN0072,2026-08-11,YouTube Premium,456.57,Debit,Entertainment,No
+TXN0191,2026-08-11,Ajio,5804.81,Debit,Shopping,No
+TXN0439,2026-08-11,Myntra,5111.39,Debit,Shopping,No
+TXN0841,2026-08-11,Ola,760.2,Debit,Transport,No
+TXN1028,2026-08-11,1mg,2827.44,Debit,Healthcare,No
+TXN1183,2026-08-11,Water Bill,2077.62,Debit,Utilities,No
+TXN1414,2026-08-11,Cafe Coffee Day,861.4,Debit,Food,No
+TXN1464,2026-08-11,Ola,674.1,Debit,Transport,No
+TXN1531,2026-08-11,Blinkit,1212.21,Debit,Groceries,No
+TXN1549,2026-08-11,Spotify,770.01,Debit,Entertainment,No
+TXN1709,2026-08-11,McDonalds,592.09,Debit,Food,No
+TXN0746,2026-08-12,BESCOM,1275.42,Debit,Utilities,No
+TXN0821,2026-08-12,Zomato,1760.17,Debit,Food,No
+TXN1191,2026-08-12,Airtel,1529.34,Debit,Utilities,No
+TXN1539,2026-08-12,Metro Recharge,140.86,Debit,Transport,No
+TXN1621,2026-08-12,Jio,1952.66,Debit,Utilities,No
+TXN1716,2026-08-12,Dominos,915.86,Debit,Food,No
+TXN1777,2026-08-12,Myntra,4377.3,Debit,Shopping,No
+TXN1986,2026-08-12,Netflix,493.67,Debit,Entertainment,No
+TXN0231,2026-08-13,Service Payment,1665.95,Debit,Other,No
+TXN0379,2026-08-13,Ola,123.84,Debit,Transport,No
+TXN0664,2026-08-13,BMTC,613.3,Debit,Transport,No
+TXN0950,2026-08-13,Flipkart,2964.96,Debit,Shopping,No
+TXN0956,2026-08-13,Reliance Smart,1844.56,Debit,Groceries,No
+TXN1320,2026-08-13,Netflix,607.28,Debit,Entertainment,No
+TXN1516,2026-08-13,Blinkit,2070.9,Debit,Groceries,No
+TXN0286,2026-08-14,Amazon,2817.0,Debit,Shopping,No
+TXN0398,2026-08-14,Gift,1166.74,Debit,Other,No
+TXN1589,2026-08-14,Blinkit,2138.48,Debit,Groceries,No
+TXN1779,2026-08-14,Spotify,1478.05,Debit,Entertainment,No
+TXN0121,2026-08-15,Myntra,1711.86,Debit,Shopping,No
+TXN0157,2026-08-15,Croma,4965.89,Debit,Shopping,No
+TXN1006,2026-08-15,Blinkit,949.88,Debit,Groceries,No
+TXN1129,2026-08-15,RedBus,3376.63,Debit,Travel,No
+TXN1178,2026-08-15,Zomato,1367.03,Debit,Food,No
+TXN1185,2026-08-15,Ola,981.27,Debit,Transport,No
+TXN1249,2026-08-15,Croma,7988.25,Debit,Shopping,No
+TXN1281,2026-08-15,Spotify,2471.6,Debit,Entertainment,No
+TXN1596,2026-08-15,Service Payment,2033.97,Debit,Other,No
+TXN1872,2026-08-15,Ajio,5329.1,Debit,Shopping,No
+TXN1975,2026-08-15,Netflix,2313.97,Debit,Entertainment,No
+TXN0305,2026-08-16,Blinkit,995.26,Debit,Groceries,No
+TXN0451,2026-08-16,Book Store,2140.24,Debit,Education,No
+TXN0686,2026-08-16,Ajio,5826.07,Debit,Shopping,No
+TXN0793,2026-08-16,BigBasket,932.8,Debit,Groceries,No
+TXN1397,2026-08-16,Reliance Smart,3155.18,Debit,Groceries,No
+TXN1582,2026-08-16,Jio,1715.37,Debit,Utilities,No
+TXN1607,2026-08-16,IRCTC,2980.49,Debit,Travel,No
+TXN1827,2026-08-16,Zepto,3187.73,Debit,Groceries,No
+TXN0158,2026-08-17,Croma,3700.56,Debit,Shopping,No
+TXN0550,2026-08-17,Ajio,1182.06,Debit,Shopping,No
+TXN0851,2026-08-17,McDonalds,759.51,Debit,Food,No
+TXN0884,2026-08-17,Flipkart,3293.5,Debit,Shopping,No
+TXN1023,2026-08-17,Miscellaneous,1591.5,Debit,Other,No
+TXN1110,2026-08-17,Netflix,1919.97,Debit,Entertainment,No
+TXN1165,2026-08-17,Cafe Coffee Day,954.36,Debit,Food,No
+TXN1341,2026-08-17,BMTC,897.78,Debit,Transport,No
+TXN1400,2026-08-17,Reliance Smart,3152.08,Debit,Groceries,No
+TXN1422,2026-08-17,BMTC,516.78,Debit,Transport,No
+TXN1455,2026-08-17,Gas Bill,2347.42,Debit,Utilities,No
+TXN1606,2026-08-17,Blinkit,1424.34,Debit,Groceries,No
+TXN0368,2026-08-18,DMart,1784.65,Debit,Groceries,No
+TXN0396,2026-08-18,Service Payment,926.29,Debit,Other,No
+TXN0968,2026-08-18,Apollo Pharmacy,2457.74,Debit,Healthcare,No
+TXN1591,2026-08-18,Myntra,1609.58,Debit,Shopping,No
+TXN1905,2026-08-18,Metro Recharge,933.08,Debit,Transport,No
+TXN0195,2026-08-19,Apollo Pharmacy,1610.96,Debit,Healthcare,No
+TXN0460,2026-08-19,Blinkit,2355.48,Debit,Groceries,No
+TXN0478,2026-08-19,McDonalds,352.16,Debit,Food,No
+TXN0983,2026-08-19,Service Payment,457.34,Debit,Other,No
+TXN1437,2026-08-19,Metro Recharge,698.3,Debit,Transport,No
+TXN1763,2026-08-19,Dominos,538.55,Debit,Food,No
+TXN1815,2026-08-19,McDonalds,1399.63,Debit,Food,No
+TXN1828,2026-08-19,Wallet Transfer,156.92,Debit,Other,No
+TXN0084,2026-08-20,Miscellaneous,1370.49,Debit,Other,No
+TXN0372,2026-08-20,Swiggy,662.17,Debit,Food,No
+TXN0990,2026-08-20,Dominos,1751.31,Debit,Food,No
+TXN1941,2026-08-20,Uber Intercity,7804.45,Debit,Travel,No
+TXN0099,2026-08-21,McDonalds,587.59,Debit,Food,No
+TXN0205,2026-08-21,Rapido,450.49,Debit,Transport,No
+TXN0308,2026-08-21,Swiggy,1715.87,Debit,Food,No
+TXN0326,2026-08-21,Rapido,674.22,Debit,Transport,No
+TXN0329,2026-08-21,Ola,543.47,Debit,Transport,No
+TXN0543,2026-08-21,Zomato,939.0,Debit,Food,No
+TXN1532,2026-08-21,Cafe Coffee Day,1478.5,Debit,Food,No
+TXN1706,2026-08-21,McDonalds,564.59,Debit,Food,No
+TXN1744,2026-08-21,Rapido,906.32,Debit,Transport,No
+TXN1757,2026-08-21,Reliance Smart,1692.51,Debit,Groceries,No
+TXN1881,2026-08-21,Rapido,905.28,Debit,Transport,No
+TXN0262,2026-08-22,Book Store,1447.26,Debit,Education,No
+TXN0278,2026-08-22,Ajio,5677.35,Debit,Shopping,No
+TXN0495,2026-08-22,Blinkit,2872.69,Debit,Groceries,No
+TXN0765,2026-08-22,YouTube Premium,952.79,Debit,Entertainment,No
+TXN0064,2026-08-23,McDonalds,802.79,Debit,Food,No
+TXN0426,2026-08-23,Flipkart,973.25,Debit,Shopping,No
+TXN0708,2026-08-23,Udemy,7443.85,Debit,Education,No
+TXN0914,2026-08-23,Zepto,1396.54,Debit,Groceries,No
+TXN1246,2026-08-23,PVR,1023.32,Debit,Entertainment,No
+TXN1321,2026-08-23,Book Store,7034.7,Debit,Education,No
+TXN1504,2026-08-23,Ola,983.96,Debit,Transport,No
+TXN1764,2026-08-23,Miscellaneous,1790.42,Debit,Other,No
+TXN0357,2026-08-24,BigBasket,1695.9,Debit,Groceries,No
+TXN0360,2026-08-24,Blinkit,849.99,Debit,Groceries,No
+TXN1371,2026-08-24,Ajio,1665.4,Debit,Shopping,No
+TXN1495,2026-08-24,Dominos,282.75,Debit,Food,No
+TXN1791,2026-08-24,1mg,435.71,Debit,Healthcare,No
+TXN1942,2026-08-24,Dominos,713.69,Debit,Food,No
+TXN0242,2026-08-25,Udemy,6747.77,Debit,Education,No
+TXN0648,2026-08-25,Croma,701.87,Debit,Shopping,No
+TXN1055,2026-08-25,Blinkit,3109.23,Debit,Groceries,No
+TXN1372,2026-08-25,Service Payment,2698.19,Debit,Other,No
+TXN1408,2026-08-25,BigBasket,1424.61,Debit,Groceries,No
+TXN1411,2026-08-25,Swiggy,1457.51,Debit,Food,No
+TXN1613,2026-08-25,Blinkit,1626.44,Debit,Groceries,No
+TXN1624,2026-08-25,BigBasket,767.64,Debit,Groceries,No
+TXN0156,2026-08-26,UPI Transfer,1423.74,Debit,Other,No
+TXN0298,2026-08-26,Gift,1978.19,Debit,Other,No
+TXN0783,2026-08-26,Airtel,1629.79,Debit,Utilities,No
+TXN1166,2026-08-26,Hotel Booking,7557.13,Debit,Travel,No
+TXN1527,2026-08-26,Croma,4306.56,Debit,Shopping,No
+TXN1616,2026-08-26,PharmEasy,2622.27,Debit,Healthcare,No
+TXN0193,2026-08-27,Croma,6309.81,Debit,Shopping,No
+TXN0540,2026-08-27,Amazon,5508.4,Debit,Shopping,No
+TXN0588,2026-08-27,Cafe Coffee Day,1606.64,Debit,Food,No
+TXN0893,2026-08-27,Book Store,2893.99,Debit,Education,No
+TXN1402,2026-08-27,Croma,1089.09,Debit,Shopping,No
+TXN1404,2026-08-27,Blinkit,2490.33,Debit,Groceries,No
+TXN1565,2026-08-27,IRCTC,4903.98,Debit,Travel,No
+TXN1675,2026-08-27,Croma,6256.79,Debit,Shopping,No
+TXN1962,2026-08-27,Metro Recharge,386.92,Debit,Transport,No
+TXN0171,2026-08-28,Metro Recharge,891.08,Debit,Transport,No
+TXN0292,2026-08-28,YouTube Premium,2049.73,Debit,Entertainment,No
+TXN0482,2026-08-28,BookMyShow,2490.73,Debit,Entertainment,No
+TXN1403,2026-08-28,BESCOM,2532.13,Debit,Utilities,No
+TXN1478,2026-08-28,Gift,834.67,Debit,Other,No
+TXN1781,2026-08-28,Blinkit,823.38,Debit,Groceries,No
+TXN0223,2026-08-29,DMart,1741.61,Debit,Groceries,No
+TXN0397,2026-08-29,Zomato,660.62,Debit,Food,No
+TXN0964,2026-08-29,Zepto,1917.82,Debit,Groceries,No
+TXN1551,2026-08-29,Uber,124.87,Debit,Transport,No
+TXN1643,2026-08-29,PVR,1564.31,Debit,Entertainment,No
+TXN1694,2026-08-29,Water Bill,1166.55,Debit,Utilities,No
+TXN0506,2026-08-30,Ola,539.62,Debit,Transport,No
+TXN0521,2026-08-30,DMart,1356.94,Debit,Groceries,No
+TXN0544,2026-08-30,PVR,1059.34,Debit,Entertainment,No
+TXN0556,2026-08-30,UPI Transfer,2959.8,Debit,Other,No
+TXN0806,2026-08-30,Blinkit,487.49,Debit,Groceries,No
+TXN0089,2026-08-31,Flipkart,4544.25,Debit,Shopping,No
+TXN0147,2026-08-31,Metro Recharge,836.7,Debit,Transport,No
+TXN0259,2026-08-31,Book Store,914.65,Debit,Education,No
+TXN0331,2026-08-31,Myntra,7651.94,Debit,Shopping,No
+TXN0869,2026-08-31,Metro Recharge,720.67,Debit,Transport,No
+TXN1175,2026-08-31,BigBasket,3297.74,Debit,Groceries,No
+TXN1529,2026-08-31,Zepto,2492.78,Debit,Groceries,No
+TXN1578,2026-08-31,Cafe Coffee Day,1687.34,Debit,Food,No
+TXN0049,2026-09-01,Salary,60000.0,Credit,Income,No
+TXN0610,2026-09-01,DMart,1506.94,Debit,Groceries,No
+TXN0856,2026-09-01,Coding Course,4477.0,Debit,Education,No
+TXN0904,2026-09-01,Flipkart,5647.39,Debit,Shopping,No
+TXN1018,2026-09-01,Dominos,510.43,Debit,Food,No
+TXN1215,2026-09-01,Service Payment,2372.08,Debit,Other,No
+TXN1345,2026-09-01,Water Bill,1094.7,Debit,Utilities,No
+TXN1683,2026-09-01,Croma,4791.58,Debit,Shopping,No
+TXN1703,2026-09-01,Jio,668.17,Debit,Utilities,No
+TXN1903,2026-09-01,Jio,2453.37,Debit,Utilities,No
+TXN1912,2026-09-01,Service Payment,649.25,Debit,Other,No
+TXN1992,2026-09-01,YouTube Premium,635.52,Debit,Entertainment,No
+TXN0053,2026-09-02,Netflix,649.0,Debit,Entertainment,Yes
+TXN0054,2026-09-02,Internet Bill,999.0,Debit,Utilities,Yes
+TXN0214,2026-09-02,Swiggy,566.59,Debit,Food,No
+TXN0722,2026-09-02,Hospital,3561.95,Debit,Healthcare,No
+TXN0815,2026-09-02,Reliance Smart,1000.19,Debit,Groceries,No
+TXN1315,2026-09-02,Swiggy,742.78,Debit,Food,No
+TXN1807,2026-09-02,McDonalds,280.65,Debit,Food,No
+TXN1819,2026-09-02,BigBasket,342.57,Debit,Groceries,No
+TXN0052,2026-09-03,SIP Investment,5000.0,Debit,Investment,Yes
+TXN0321,2026-09-03,Uber,148.12,Debit,Transport,No
+TXN0425,2026-09-03,Hospital,4909.85,Debit,Healthcare,No
+TXN0458,2026-09-03,DMart,3498.7,Debit,Groceries,No
+TXN0517,2026-09-03,McDonalds,1232.35,Debit,Food,No
+TXN0050,2026-09-04,House Rent,18000.0,Debit,Housing,Yes
+TXN0051,2026-09-04,EMI,10000.0,Debit,EMI,Yes
+TXN0337,2026-09-04,Airtel,886.83,Debit,Utilities,No
+TXN1098,2026-09-04,RedBus,5433.0,Debit,Travel,No
+TXN1142,2026-09-04,Croma,7684.95,Debit,Shopping,No
+TXN1275,2026-09-04,Ola,933.48,Debit,Transport,No
+TXN1492,2026-09-04,BESCOM,1461.06,Debit,Utilities,No
+TXN1984,2026-09-04,Myntra,3165.43,Debit,Shopping,No
+TXN0250,2026-09-05,BMTC,545.35,Debit,Transport,No
+TXN0279,2026-09-05,Coursera,9994.05,Debit,Education,No
+TXN0474,2026-09-05,Flipkart,3797.04,Debit,Shopping,No
+TXN0601,2026-09-05,Uber,771.98,Debit,Transport,No
+TXN0986,2026-09-05,Water Bill,2597.04,Debit,Utilities,No
+TXN1107,2026-09-05,BookMyShow,1469.84,Debit,Entertainment,No
+TXN1384,2026-09-05,Wallet Transfer,1567.38,Debit,Other,No
+TXN1385,2026-09-05,Gift,651.61,Debit,Other,No
+TXN1641,2026-09-05,Amazon,1083.01,Debit,Shopping,No
+TXN0097,2026-09-06,Gift,582.3,Debit,Other,No
+TXN0160,2026-09-06,PharmEasy,3899.32,Debit,Healthcare,No
+TXN0245,2026-09-06,Wallet Transfer,2654.46,Debit,Other,No
+TXN0390,2026-09-06,Miscellaneous,2848.24,Debit,Other,No
+TXN0803,2026-09-06,YouTube Premium,1303.27,Debit,Entertainment,No
+TXN1294,2026-09-06,Uber,1092.34,Debit,Transport,No
+TXN1669,2026-09-06,Cafe Coffee Day,1717.73,Debit,Food,No
+TXN1898,2026-09-06,Dominos,650.38,Debit,Food,No
+TXN0100,2026-09-07,Cafe Coffee Day,1242.09,Debit,Food,No
+TXN0915,2026-09-07,Zepto,2792.61,Debit,Groceries,No
+TXN0958,2026-09-07,Coursera,5089.26,Debit,Education,No
+TXN1416,2026-09-07,BigBasket,2665.97,Debit,Groceries,No
+TXN1434,2026-09-07,Flipkart,5910.04,Debit,Shopping,No
+TXN1820,2026-09-07,Metro Recharge,1053.03,Debit,Transport,No
+TXN1832,2026-09-07,DMart,1855.52,Debit,Groceries,No
+TXN1848,2026-09-07,Amazon,4714.86,Debit,Shopping,No
+TXN0255,2026-09-08,Dominos,1531.84,Debit,Food,No
+TXN0498,2026-09-08,Gas Bill,2570.72,Debit,Utilities,No
+TXN0596,2026-09-08,BMTC,269.58,Debit,Transport,No
+TXN0927,2026-09-08,Ola,463.86,Debit,Transport,No
+TXN1297,2026-09-08,Reliance Smart,1275.77,Debit,Groceries,No
+TXN1506,2026-09-08,UPI Transfer,2232.83,Debit,Other,No
+TXN1890,2026-09-08,Water Bill,2991.28,Debit,Utilities,No
+TXN1945,2026-09-08,Gift,1298.17,Debit,Other,No
+TXN0236,2026-09-09,Wallet Transfer,1940.88,Debit,Other,No
+TXN0322,2026-09-09,Book Store,7017.93,Debit,Education,No
+TXN0595,2026-09-09,McDonalds,1744.74,Debit,Food,No
+TXN0873,2026-09-09,Dominos,663.07,Debit,Food,No
+TXN0965,2026-09-09,Coursera,1211.22,Debit,Education,No
+TXN1188,2026-09-09,McDonalds,1032.91,Debit,Food,No
+TXN1490,2026-09-09,Service Payment,110.74,Debit,Other,No
+TXN1682,2026-09-09,Uber,717.12,Debit,Transport,No
+TXN1778,2026-09-09,Miscellaneous,2236.92,Debit,Other,No
+TXN1799,2026-09-09,Zomato,348.99,Debit,Food,No
+TXN0300,2026-09-10,BigBasket,1273.97,Debit,Groceries,No
+TXN0767,2026-09-10,Spotify,1267.03,Debit,Entertainment,No
+TXN0813,2026-09-10,Airtel,2591.74,Debit,Utilities,No
+TXN0943,2026-09-10,BigBasket,3202.02,Debit,Groceries,No
+TXN1141,2026-09-10,BigBasket,2462.6,Debit,Groceries,No
+TXN1658,2026-09-10,BESCOM,705.62,Debit,Utilities,No
+TXN1772,2026-09-10,Jio,924.67,Debit,Utilities,No
+TXN1783,2026-09-10,Service Payment,1507.08,Debit,Other,No
+TXN1952,2026-09-10,1mg,1401.01,Debit,Healthcare,No
+TXN0689,2026-09-11,DMart,2110.08,Debit,Groceries,No
+TXN0710,2026-09-11,McDonalds,1511.0,Debit,Food,No
+TXN1759,2026-09-11,Dominos,625.14,Debit,Food,No
+TXN0433,2026-09-12,Zomato,968.74,Debit,Food,No
+TXN0941,2026-09-12,Myntra,1702.8,Debit,Shopping,No
+TXN1360,2026-09-12,Service Payment,1731.64,Debit,Other,No
+TXN0243,2026-09-13,Ola,660.65,Debit,Transport,No
+TXN0755,2026-09-13,Rapido,483.34,Debit,Transport,No
+TXN1157,2026-09-13,Uber,277.8,Debit,Transport,No
+TXN1202,2026-09-13,Dominos,1446.45,Debit,Food,No
+TXN1672,2026-09-13,BigBasket,2957.0,Debit,Groceries,No
+TXN1708,2026-09-13,Croma,6970.32,Debit,Shopping,No
+TXN1788,2026-09-13,Uber,355.7,Debit,Transport,No
+TXN1856,2026-09-13,Ajio,6214.74,Debit,Shopping,No
+TXN0660,2026-09-14,Metro Recharge,598.63,Debit,Transport,No
+TXN0741,2026-09-14,Wallet Transfer,1569.17,Debit,Other,No
+TXN1274,2026-09-14,Jio,712.7,Debit,Utilities,No
+TXN1299,2026-09-14,Dominos,539.74,Debit,Food,No
+TXN1331,2026-09-14,Metro Recharge,181.29,Debit,Transport,No
+TXN1648,2026-09-14,Miscellaneous,1121.39,Debit,Other,No
+TXN1723,2026-09-14,Ola,344.37,Debit,Transport,No
+TXN0399,2026-09-15,BMTC,951.5,Debit,Transport,No
+TXN1035,2026-09-15,Amazon,3182.75,Debit,Shopping,No
+TXN1269,2026-09-15,Cafe Coffee Day,396.81,Debit,Food,No
+TXN1697,2026-09-15,Flipkart,3019.76,Debit,Shopping,No
+TXN1812,2026-09-15,Cafe Coffee Day,284.92,Debit,Food,No
+TXN1846,2026-09-15,Zomato,438.28,Debit,Food,No
+TXN0547,2026-09-16,UPI Transfer,279.1,Debit,Other,No
+TXN0600,2026-09-16,Zepto,329.25,Debit,Groceries,No
+TXN0776,2026-09-16,Uber,730.46,Debit,Transport,No
+TXN1652,2026-09-16,UPI Transfer,2780.27,Debit,Other,No
+TXN1860,2026-09-16,McDonalds,713.18,Debit,Food,No
+TXN1878,2026-09-16,PharmEasy,3714.59,Debit,Healthcare,No
+TXN1925,2026-09-16,PVR,743.93,Debit,Entertainment,No
+TXN0075,2026-09-17,Uber Intercity,10179.2,Debit,Travel,No
+TXN0374,2026-09-17,Amazon,5112.56,Debit,Shopping,No
+TXN0419,2026-09-17,BMTC,155.8,Debit,Transport,No
+TXN0879,2026-09-17,Ola,153.49,Debit,Transport,No
+TXN1228,2026-09-17,Water Bill,501.8,Debit,Utilities,No
+TXN1594,2026-09-17,Miscellaneous,552.55,Debit,Other,No
