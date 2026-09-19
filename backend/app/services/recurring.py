@@ -79,6 +79,7 @@ def get_recurring_commitments(
         group.sort(key=lambda transaction: transaction.date)
 
         latest = group[-1]
+        previous = group[-2] if len(group) > 1 else None
 
         frequency, expected_days = _infer_frequency(
             [transaction.date for transaction in group]
@@ -94,12 +95,16 @@ def get_recurring_commitments(
         is_active = days_since_last <= active_threshold
         next_expected_date = latest.date + timedelta(days=int(expected_days))
         overdue_days = max((as_of_date - next_expected_date).days, 0)
+        protected_amount = latest.amount
+        if days_since_last == 0:
+            protected_amount = previous.amount if previous else 0.0
 
         commitments.append(
             {
                 "description": latest.description,
                 "category": latest.category,
                 "amount": latest.amount,
+                "protected_amount": protected_amount,
                 "frequency": frequency,
                 "last_seen": latest.date,
                 "days_since_last": days_since_last,
@@ -125,13 +130,9 @@ def get_recurring_commitment_total(
 
     return round(
         sum(
-            item["amount"]
+            item["protected_amount"]
             for item in commitments
             if item["status"] == "active"
-            and (
-                item["days_since_last"] > 0
-                or item["occurrence_count"] > 1
-            )
         ),
         2,
     )
