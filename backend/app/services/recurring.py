@@ -96,8 +96,8 @@ def get_recurring_commitments(
         next_expected_date = latest.date + timedelta(days=int(expected_days))
         overdue_days = max((as_of_date - next_expected_date).days, 0)
         protected_amount = latest.amount
-        if days_since_last == 0:
-            protected_amount = previous.amount if previous else 0.0
+        if days_since_last == 0 and previous:
+            protected_amount = max(previous.amount, latest.amount)
 
         commitments.append(
             {

@@ -321,7 +321,7 @@ def test_recurring_commitments_use_latest_changed_amount():
     assert recurring.get_recurring_commitment_total(sample) == 1200.0
 
 
-def test_new_recurring_debit_reduces_safe_to_spend_once(tmp_path, monkeypatch):
+def test_new_recurring_debit_is_added_to_protected_money(tmp_path, monkeypatch):
     csv_file = tmp_path / "transactions.csv"
     account_file = tmp_path / "account.json"
     csv_file.write_text(
@@ -353,8 +353,9 @@ def test_new_recurring_debit_reduces_safe_to_spend_once(tmp_path, monkeypatch):
 
     assert created.recurring is True
     assert json.loads(account_file.read_text(encoding="utf-8"))["current_balance"] == 900.0
-    assert recurring.get_recurring_commitment_total(loaded) == 0.0
-    assert financial.get_safe_to_spend(loaded)["safe_to_spend"] == 900.0
+    assert recurring.get_recurring_commitment_total(loaded) == 100.0
+    assert financial.get_safe_to_spend(loaded)["protected_money"] == 100.0
+    assert financial.get_safe_to_spend(loaded)["safe_to_spend"] == 800.0
 
 
 def test_existing_recurring_debit_still_reduces_safe_to_spend(tmp_path, monkeypatch):
@@ -439,6 +440,47 @@ def test_changed_recurring_debit_amount_does_not_increase_safe_to_spend(tmp_path
     assert after["safe_to_spend"] == 251.0
 
 
+def test_smaller_existing_recurring_debit_drops_safe_to_spend_by_new_debit(tmp_path, monkeypatch):
+    csv_file = tmp_path / "transactions.csv"
+    account_file = tmp_path / "account.json"
+    csv_file.write_text(
+        "\n".join(
+            [
+                "transaction_id,date,description,amount,type,category,recurring",
+                "TXN0001,2026-08-18,Subscription,800.0,Debit,Entertainment,Yes",
+                "TXN0002,2026-09-01,Salary,1000.0,Credit,Income,No",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    account_file.write_text(
+        '{"current_balance": 1000.0, "currency": "INR"}',
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(transactions, "DATA_FILE", csv_file)
+    monkeypatch.setattr(transactions, "ACCOUNT_FILE", account_file)
+    monkeypatch.setattr(financial, "ACCOUNT_FILE", account_file)
+    monkeypatch.setattr(financial, "SAVINGS_GOAL", 0.0)
+    monkeypatch.setattr(financial, "EMERGENCY_BUFFER", 0.0)
+
+    before = financial.get_safe_to_spend(transactions.load_transactions())
+
+    transactions.create_transaction(
+        transactions.TransactionCreate(
+            date=date(2026, 9, 18),
+            description="Subscription",
+            amount=200.0,
+            type="Debit",
+            category="Entertainment",
+            recurring=True,
+        )
+    )
+    after = financial.get_safe_to_spend(transactions.load_transactions())
+
+    assert before["safe_to_spend"] == 200.0
+    assert after["safe_to_spend"] == 0.0
+
+
 def test_recurring_commitments_become_inactive_when_overdue():
     sample = [
         make_transaction("R1", date(2026, 1, 1), "Gym", 1000.0, is_recurring=True),
@@ -462,7 +504,7 @@ def test_recurring_commitments_detect_new_active_candidate_without_double_counti
     commitments = recurring.get_recurring_commitments(sample)
 
     assert {item["description"] for item in commitments} == {"Rent", "Internet"}
-    assert recurring.get_recurring_commitment_total(sample) == 18000.0
+    assert recurring.get_recurring_commitment_total(sample) == 18999.0
 
 
 def test_cashflow_metrics_separate_history_from_balance():
