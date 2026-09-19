@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from .routes.finance import router as finance_router
 
 
-app = FastAPI()
+app = FastAPI(title="Paytm Sense Backend")
 
 
 @app.get("/")

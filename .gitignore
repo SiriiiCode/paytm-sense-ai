@@ -1,19 +1,33 @@
-# Python virtual environment
+# Python virtual environments
 .venv/
+venv/
+env/
 
 # Python cache
 __pycache__/
-*.pyc
-
-# Environment variables / secrets
-.env
+*.py[cod]
 
 # Test / tooling cache
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
 
-# Frontend dependencies
+# Environment variables / local secrets
+.env
+.env.*
+!.env.example
+
+# Local account state
+backend/data/account.json
+backend/data/account.json.tmp
+
+# Frontend dependencies and build output
 node_modules/
-
-# Frontend build output
 dist/
 build/
+
+# Local logs / temp files
+*.log
+*.tmp

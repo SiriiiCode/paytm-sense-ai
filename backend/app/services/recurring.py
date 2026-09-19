@@ -1,3 +1,4 @@
+from datetime import timedelta
 from statistics import median
 
 from ..schemas import Transaction
@@ -35,6 +36,15 @@ def _infer_frequency(dates: list) -> tuple[str, float]:
     return "unknown", float(typical_gap)
 
 
+def _commitment_key(transaction: Transaction) -> str:
+    return "|".join(
+        [
+            transaction.description.strip().lower(),
+            transaction.category.strip().lower(),
+        ]
+    )
+
+
 def get_recurring_commitments(
     transactions: list[Transaction],
 ) -> list[dict]:
@@ -56,10 +66,10 @@ def get_recurring_commitments(
         for transaction in transactions
     )
 
-    groups = {}
+    groups: dict[str, list[Transaction]] = {}
 
     for transaction in recurring_transactions:
-        key = transaction.description.strip().lower()
+        key = _commitment_key(transaction)
 
         groups.setdefault(key, []).append(transaction)
 
@@ -82,6 +92,8 @@ def get_recurring_commitments(
         active_threshold = expected_days * 1.5
 
         is_active = days_since_last <= active_threshold
+        next_expected_date = latest.date + timedelta(days=int(expected_days))
+        overdue_days = max((as_of_date - next_expected_date).days, 0)
 
         commitments.append(
             {
@@ -92,6 +104,8 @@ def get_recurring_commitments(
                 "last_seen": latest.date,
                 "days_since_last": days_since_last,
                 "status": "active" if is_active else "inactive",
+                "next_expected_date": next_expected_date,
+                "overdue_days": overdue_days,
             }
         )
 

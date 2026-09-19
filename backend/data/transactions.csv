@@ -1999,3 +1999,5 @@ TXN0419,2026-09-17,BMTC,155.8,Debit,Transport,No
 TXN0879,2026-09-17,Ola,153.49,Debit,Transport,No
 TXN1228,2026-09-17,Water Bill,501.8,Debit,Utilities,No
 TXN1594,2026-09-17,Miscellaneous,552.55,Debit,Other,No
+TXN2001,2026-09-19,Test SMS Alert,100.0,Debit,Food,No
+TXN2002,2026-09-19,Test SMS Alert,100.0,Debit,Food,No
