@@ -357,6 +357,47 @@ def test_new_recurring_debit_reduces_safe_to_spend_once(tmp_path, monkeypatch):
     assert financial.get_safe_to_spend(loaded)["safe_to_spend"] == 900.0
 
 
+def test_existing_recurring_debit_still_reduces_safe_to_spend(tmp_path, monkeypatch):
+    csv_file = tmp_path / "transactions.csv"
+    account_file = tmp_path / "account.json"
+    csv_file.write_text(
+        "\n".join(
+            [
+                "transaction_id,date,description,amount,type,category,recurring",
+                "TXN0001,2026-08-18,Gym,100.0,Debit,Fitness,Yes",
+                "TXN0002,2026-09-01,Salary,1000.0,Credit,Income,No",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    account_file.write_text(
+        '{"current_balance": 1000.0, "currency": "INR"}',
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(transactions, "DATA_FILE", csv_file)
+    monkeypatch.setattr(transactions, "ACCOUNT_FILE", account_file)
+    monkeypatch.setattr(financial, "ACCOUNT_FILE", account_file)
+    monkeypatch.setattr(financial, "SAVINGS_GOAL", 0.0)
+    monkeypatch.setattr(financial, "EMERGENCY_BUFFER", 0.0)
+
+    before = financial.get_safe_to_spend(transactions.load_transactions())
+
+    transactions.create_transaction(
+        transactions.TransactionCreate(
+            date=date(2026, 9, 18),
+            description="Gym",
+            amount=100.0,
+            type="Debit",
+            category="Fitness",
+            recurring=True,
+        )
+    )
+    after = financial.get_safe_to_spend(transactions.load_transactions())
+
+    assert before["safe_to_spend"] == 900.0
+    assert after["safe_to_spend"] == 800.0
+
+
 def test_recurring_commitments_become_inactive_when_overdue():
     sample = [
         make_transaction("R1", date(2026, 1, 1), "Gym", 1000.0, is_recurring=True),

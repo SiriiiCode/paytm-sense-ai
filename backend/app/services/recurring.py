@@ -103,6 +103,7 @@ def get_recurring_commitments(
                 "frequency": frequency,
                 "last_seen": latest.date,
                 "days_since_last": days_since_last,
+                "occurrence_count": len(group),
                 "status": "active" if is_active else "inactive",
                 "next_expected_date": next_expected_date,
                 "overdue_days": overdue_days,
@@ -127,7 +128,10 @@ def get_recurring_commitment_total(
             item["amount"]
             for item in commitments
             if item["status"] == "active"
-            and item["days_since_last"] > 0
+            and (
+                item["days_since_last"] > 0
+                or item["occurrence_count"] > 1
+            )
         ),
         2,
     )
