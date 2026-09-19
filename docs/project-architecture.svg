@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1250" viewBox="0 0 1800 1250" role="img" aria-labelledby="title desc">
+  <title id="title">Paytm Sense AI project architecture</title>
+  <desc id="desc">End-to-end architecture diagram for the Paytm Sense AI frontend, FastAPI backend, deterministic financial services, AI assistance layer, local data stores, and optional external integrations.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f6f8fb; }
+      .panel { fill: #ffffff; stroke: #d8e1ef; stroke-width: 2; rx: 22; }
+      .panel-soft { fill: #eef6ff; stroke: #b9d8ff; stroke-width: 2; rx: 22; }
+      .panel-green { fill: #eefbf4; stroke: #a9e3c5; stroke-width: 2; rx: 22; }
+      .panel-orange { fill: #fff6eb; stroke: #ffd19a; stroke-width: 2; rx: 22; }
+      .panel-purple { fill: #f5f0ff; stroke: #d4c2ff; stroke-width: 2; rx: 22; }
+      .panel-red { fill: #fff0f2; stroke: #ffc0ca; stroke-width: 2; rx: 22; }
+      .title { font: 700 42px Arial, sans-serif; fill: #132238; }
+      .subtitle { font: 400 20px Arial, sans-serif; fill: #4f6178; }
+      .section { font: 700 22px Arial, sans-serif; fill: #132238; }
+      .label { font: 700 18px Arial, sans-serif; fill: #17253a; }
+      .body { font: 400 15px Arial, sans-serif; fill: #33445a; }
+      .small { font: 400 13px Arial, sans-serif; fill: #586b82; }
+      .mono { font: 400 13px Consolas, monospace; fill: #344761; }
+      .chip { fill: #132238; rx: 12; }
+      .chip-text { font: 700 12px Arial, sans-serif; fill: #ffffff; letter-spacing: .6px; }
+      .line { fill: none; stroke: #3f6fa5; stroke-width: 3; marker-end: url(#arrow); }
+      .line-soft { fill: none; stroke: #8a9bb0; stroke-width: 2.5; marker-end: url(#arrow-soft); }
+      .line-green { fill: none; stroke: #27945d; stroke-width: 3; marker-end: url(#arrow-green); }
+      .line-orange { fill: none; stroke: #c56b12; stroke-width: 3; marker-end: url(#arrow-orange); }
+      .dash { stroke-dasharray: 8 8; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3f6fa5" />
+    </marker>
+    <marker id="arrow-soft" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a9bb0" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#27945d" />
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c56b12" />
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1800" height="1250" />
+
+  <text class="title" x="70" y="70">Paytm Sense AI - Project Architecture</text>
+  <text class="subtitle" x="70" y="104">React/Vite financial dashboard + FastAPI deterministic money engine + optional AI explanation, memory, and automation adapters.</text>
+  <rect class="chip" x="70" y="132" width="438" height="30" />
+  <text class="chip-text" x="92" y="152">PRINCIPLE: LLM EXPLAINS RESULTS; PYTHON SERVICES CALCULATE MONEY</text>
+
+  <!-- User and Frontend -->
+  <rect class="panel-soft" x="70" y="205" width="405" height="330" />
+  <text class="section" x="100" y="244">1. Browser Experience</text>
+  <text class="body" x="100" y="280">Frontend stack</text>
+  <text class="mono" x="120" y="306">React 19, Vite 7, fetch API</text>
+  <text class="mono" x="120" y="329">react-markdown + remark-gfm</text>
+  <text class="body" x="100" y="370">Feature screens</text>
+  <text class="small" x="120" y="397">Dashboard: balance, protected money, safe-to-spend</text>
+  <text class="small" x="120" y="421">Transactions: add and review activity</text>
+  <text class="small" x="120" y="445">Cash Flow: monthly bars and forecasts</text>
+  <text class="small" x="120" y="469">Firewall: protected allocation and commitments</text>
+  <text class="small" x="120" y="493">Income: targets, pathways, guidance flow</text>
+  <text class="small" x="120" y="517">Assistant: financial chat using backend tools</text>
+
+  <rect class="panel" x="545" y="205" width="385" height="330" />
+  <text class="section" x="575" y="244">2. Frontend API Boundary</text>
+  <text class="body" x="575" y="280">File: frontend/src/services/api.js</text>
+  <text class="small" x="595" y="310">VITE_API_BASE_URL or http://localhost:8000</text>
+  <text class="small" x="595" y="334">Central request() wrapper handles JSON and errors</text>
+  <text class="body" x="575" y="374">Primary calls</text>
+  <text class="mono" x="595" y="402">GET /financial-summary</text>
+  <text class="mono" x="595" y="424">GET /safe-to-spend</text>
+  <text class="mono" x="595" y="446">GET/POST /transactions</text>
+  <text class="mono" x="595" y="468">GET /cashflow, /forecast</text>
+  <text class="mono" x="595" y="490">POST /chat</text>
+  <text class="mono" x="595" y="512">POST /income-guidance</text>
+
+  <line class="line" x1="475" y1="370" x2="545" y2="370" />
+
+  <!-- Backend API -->
+  <rect class="panel-green" x="1000" y="205" width="730" height="330" />
+  <text class="section" x="1030" y="244">3. FastAPI Backend</text>
+  <text class="body" x="1030" y="280">Entry and transport</text>
+  <text class="mono" x="1050" y="306">backend/app/main.py - FastAPI app + CORS</text>
+  <text class="mono" x="1050" y="329">backend/app/routes/finance.py - route handlers</text>
+  <text class="mono" x="1050" y="352">backend/app/schemas.py - Pydantic models</text>
+  <text class="body" x="1030" y="393">Route families</text>
+  <text class="small" x="1050" y="421">Financial summary, safe-to-spend, cashflow, moving-average forecast</text>
+  <text class="small" x="1050" y="445">Transaction create/read, upcoming recurring commitments</text>
+  <text class="small" x="1050" y="469">Income analysis, income pathways, structured career guidance</text>
+  <text class="small" x="1050" y="493">Assistant chat over deterministic backend tool results</text>
+
+  <line class="line" x1="930" y1="370" x2="1000" y2="370" />
+
+  <!-- Data Store -->
+  <rect class="panel-orange" x="70" y="610" width="405" height="235" />
+  <text class="section" x="100" y="649">4. Local Data Layer</text>
+  <text class="body" x="100" y="686">Demo persistence</text>
+  <text class="mono" x="120" y="714">backend/data/transactions.csv</text>
+  <text class="small" x="140" y="737">CSV rows become Transaction models</text>
+  <text class="mono" x="120" y="770">backend/data/account.json</text>
+  <text class="small" x="140" y="793">current_balance updated on POST /transactions</text>
+  <text class="small" x="100" y="826">Designed for hackathon/demo data, not concurrent production writes.</text>
+
+  <!-- Deterministic Engine -->
+  <rect class="panel" x="545" y="610" width="1185" height="365" />
+  <text class="section" x="575" y="649">5. Deterministic Financial Engine</text>
+  <text class="subtitle" x="575" y="678">All authoritative INR values are computed here before UI rendering or AI explanation.</text>
+
+  <rect class="panel-soft" x="575" y="715" width="250" height="215" />
+  <text class="label" x="600" y="750">Transactions</text>
+  <text class="mono" x="600" y="778">services/transactions.py</text>
+  <text class="small" x="600" y="808">load CSV rows</text>
+  <text class="small" x="600" y="832">generate TXN ids</text>
+  <text class="small" x="600" y="856">persist CSV + account JSON</text>
+
+  <rect class="panel-green" x="855" y="715" width="250" height="215" />
+  <text class="label" x="880" y="750">Firewall</text>
+  <text class="mono" x="880" y="778">services/financial.py</text>
+  <text class="small" x="880" y="808">balance from account.json</text>
+  <text class="small" x="880" y="832">recurring commitments</text>
+  <text class="small" x="880" y="856">savings goal + emergency buffer</text>
+  <text class="small" x="880" y="880">safe_to_spend = max(balance - protected, 0)</text>
+
+  <rect class="panel-orange" x="1135" y="715" width="250" height="215" />
+  <text class="label" x="1160" y="750">Prediction</text>
+  <text class="mono" x="1160" y="778">cashflow.py + forecast.py</text>
+  <text class="small" x="1160" y="808">income, expense, net metrics</text>
+  <text class="small" x="1160" y="832">category spending analysis</text>
+  <text class="small" x="1160" y="856">3-month moving average</text>
+  <text class="small" x="1160" y="880">30-day projected balance</text>
+
+  <rect class="panel-purple" x="1415" y="715" width="285" height="215" />
+  <text class="label" x="1440" y="750">Income and Summary</text>
+  <text class="mono" x="1440" y="778">income.py, pathways.py</text>
+  <text class="mono" x="1440" y="800">summary.py, recurring.py</text>
+  <text class="small" x="1440" y="830">survival, comfortable, aspirational targets</text>
+  <text class="small" x="1440" y="854">recurring frequency and active/inactive status</text>
+  <text class="small" x="1440" y="878">financial-summary aggregates all feature payloads</text>
+
+  <line class="line-orange" x1="475" y1="728" x2="545" y2="728" />
+  <line class="line-soft" x1="825" y1="822" x2="855" y2="822" />
+  <line class="line-soft" x1="1105" y1="822" x2="1135" y2="822" />
+  <line class="line-soft" x1="1385" y1="822" x2="1415" y2="822" />
+  <line class="line-green" x1="1365" y1="535" x2="1365" y2="610" />
+
+  <!-- AI Layer -->
+  <rect class="panel-purple" x="70" y="1030" width="830" height="170" />
+  <text class="section" x="100" y="1069">6. AI Assistance and Career Guidance</text>
+  <text class="body" x="100" y="1104">Chat workflow</text>
+  <text class="small" x="120" y="1130">POST /chat - answer_chat() - Groq tool calling when configured, local rule-based fallback otherwise</text>
+  <text class="small" x="120" y="1154">Tool schemas execute backend services: safe-to-spend, commitments, spending, forecast, income, memory</text>
+  <text class="body" x="100" y="1185">Income guidance workflow</text>
+  <text class="small" x="325" y="1185">POST /income-guidance combines selected pathway + career profile + optional career memory + Groq evaluation.</text>
+
+  <!-- Integrations -->
+  <rect class="panel-red" x="950" y="1030" width="780" height="170" />
+  <text class="section" x="980" y="1069">7. Optional External Integrations</text>
+  <text class="body" x="980" y="1104">Groq OpenAI-compatible chat completions</text>
+  <text class="small" x="1000" y="1130">Used by assistant and career guidance when GROQ_API_KEY is set</text>
+  <text class="body" x="980" y="1160">Cognee HTTP memory</text>
+  <text class="small" x="1000" y="1186">Financial goals and career memory; local in-process fallback if unavailable</text>
+  <text class="body" x="1335" y="1160">n8n webhook</text>
+  <text class="small" x="1455" y="1160">financial_state_updated, safe_to_spend_changed, recurring commitment events</text>
+
+  <line class="line-soft dash" x1="680" y1="975" x2="450" y2="1030" />
+  <line class="line-soft dash" x1="1020" y1="975" x2="1180" y2="1030" />
+  <line class="line-soft dash" x1="1560" y1="535" x2="1515" y2="1030" />
+
+  <!-- Workflow labels -->
+  <text class="small" x="496" y="352">user action</text>
+  <text class="small" x="942" y="352">HTTP JSON</text>
+  <text class="small" x="496" y="710">load/write</text>
+  <text class="small" x="1378" y="580">route calls services</text>
+  <text class="small" x="705" y="1015">assistant/guidance requests</text>
+  <text class="small" x="1058" y="1015">optional adapters</text>
+
+  <!-- End-to-end happy path -->
+  <rect class="panel" x="70" y="900" width="405" height="75" />
+  <text class="label" x="100" y="930">Typical Summary Workflow</text>
+  <text class="small" x="100" y="955">UI loads - api.js calls /financial-summary - route loads CSV - services compute - JSON response renders dashboard.</text>
+  <line class="line" x1="475" y1="938" x2="545" y2="875" />
+
+  <rect class="panel" x="1000" y="560" width="730" height="80" />
+  <text class="label" x="1030" y="592">Response contract</text>
+  <text class="small" x="1030" y="617">FastAPI returns Pydantic-shaped JSON for the frontend; external services are skipped safely when env vars are not configured.</text>
+</svg>

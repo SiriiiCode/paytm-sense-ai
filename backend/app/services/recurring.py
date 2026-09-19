@@ -127,6 +127,7 @@ def get_recurring_commitment_total(
             item["amount"]
             for item in commitments
             if item["status"] == "active"
+            and item["days_since_last"] > 0
         ),
         2,
     )
