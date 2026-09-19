@@ -7,6 +7,9 @@ from ..schemas import (
     ChatResponse,
     FinancialSummaryResponse,
     ForecastResponse,
+    IncomeGuidanceRequest,
+    IncomeGuidanceResponse,
+    IncomePathway,
     IncomeAnalysisResponse,
     RecurringCommitment,
     SafeToSpendResponse,
@@ -18,6 +21,8 @@ from ..services.automation import publish_financial_state_events
 from ..services.financial import get_safe_to_spend
 from ..services.forecast import get_cashflow_forecast
 from ..services.income import get_income_analysis
+from ..services.career_guidance import create_income_guidance
+from ..services.income_pathways import get_income_pathways
 from ..services.recurring import get_recurring_commitments
 from ..services.summary import get_financial_summary
 from ..services.transactions import create_transaction, load_transactions
@@ -125,6 +130,16 @@ def income_analysis():
     return get_income_analysis(transactions)
 
 
+@router.get("/income-pathways", response_model=list[IncomePathway])
+def income_pathways():
+    return get_income_pathways()
+
+
 @router.post("/chat", response_model=ChatResponse)
 def chat(payload: ChatRequest):
     return answer_chat(payload.message)
+
+
+@router.post("/income-guidance", response_model=IncomeGuidanceResponse)
+def income_guidance(payload: IncomeGuidanceRequest):
+    return create_income_guidance(payload)

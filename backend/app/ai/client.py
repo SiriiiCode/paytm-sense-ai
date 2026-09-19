@@ -31,6 +31,19 @@ def _json_default(value: Any) -> str:
     return str(value)
 
 
+def _multi_tool_result(
+    used_tools: list[str],
+    tool_results: list[Any],
+) -> list[dict[str, Any]]:
+    return [
+        {
+            "tool_name": tool_name,
+            "result": tool_result,
+        }
+        for tool_name, tool_result in zip(used_tools, tool_results)
+    ]
+
+
 class RuleBasedAIClient:
     provider_name = "local-rule-based"
 
@@ -44,9 +57,13 @@ class RuleBasedAIClient:
 
         if tool_name == "get_safe_to_spend":
             return (
-                f"You can safely spend Rs {tool_result['safe_to_spend']:.2f}. "
-                f"That keeps Rs {tool_result['protected_money']:.2f} protected for "
-                "active commitments, savings, and emergency buffer."
+                "### AFFORDABILITY\n"
+                f"- Safe to spend: Rs {tool_result['safe_to_spend']:.2f}\n"
+                f"- Protected money: Rs {tool_result['protected_money']:.2f}\n\n"
+                "### WHY\n"
+                "- Active commitments, savings, and emergency buffer are already protected.\n\n"
+                "### NEXT STEP\n"
+                "- Spend within the safe-to-spend amount."
             )
 
         if tool_name == "get_upcoming_commitments":
@@ -58,8 +75,8 @@ class RuleBasedAIClient:
 
             if not active:
                 return (
-                    "I do not see active recurring commitments "
-                    "in the current data."
+                    "### COMMITMENTS\n"
+                    "- No active recurring commitments found in the current data."
                 )
 
             names = ", ".join(
@@ -68,17 +85,20 @@ class RuleBasedAIClient:
             )
 
             return (
-                f"Your active recurring commitments are: {names}."
+                "### UPCOMING COMMITMENTS\n"
+                f"- {names}\n\n"
+                "### NEXT STEP\n"
+                "- Keep this amount protected before discretionary spending."
             )
 
         if tool_name == "get_ideal_income":
             return (
-                "Prototype income targets: "
-                f"survival Rs {tool_result['survival_target']:.2f}, "
-                f"comfortable Rs {tool_result['comfortable_target']:.2f}, "
-                f"aspirational Rs {tool_result['aspirational_target']:.2f}. "
-                f"Your current income gap to comfortable is "
-                f"Rs {tool_result['income_gap']:.2f}."
+                "### INCOME PATHWAYS\n"
+                f"- Current income: Rs {tool_result['current_income']:.2f}\n"
+                f"- Comfortable target: Rs {tool_result['comfortable_target']:.2f}\n"
+                f"- Income gap: Rs {tool_result['income_gap']:.2f}\n\n"
+                "### NEXT STEP\n"
+                "- Use the gap as the next income milestone."
             )
 
         if tool_name == "get_spending_analysis":
@@ -90,33 +110,40 @@ class RuleBasedAIClient:
 
             if top:
                 return (
-                    f"You are spending the most on {top['category']} "
-                    f"at Rs {top['amount']:.2f} in the available history."
+                    "### SPENDING\n"
+                    f"- Highest category: {top['category']}\n"
+                    f"- Amount: Rs {top['amount']:.2f}\n\n"
+                    "### NEXT STEP\n"
+                    "- Review this category first for optimization."
                 )
 
             return (
-                "I do not see debit transactions to analyze yet."
+                "### SPENDING\n"
+                "- No debit transactions are available to analyze yet."
             )
 
         if tool_name == "get_cashflow_forecast":
             return (
-                f"Using {tool_result['method']}, the next "
-                f"{tool_result['horizon_days']} days forecast net cashflow "
-                f"is Rs {tool_result['forecast_net_cashflow']:.2f}."
+                "### FORECAST\n"
+                f"- Horizon: {tool_result['horizon_days']} days\n"
+                f"- Forecast net cashflow: Rs {tool_result['forecast_net_cashflow']:.2f}\n"
+                f"- Projected balance: Rs {tool_result['projected_balance']:.2f}\n\n"
+                "### METHOD\n"
+                f"- {tool_result['method']}"
             )
 
         if tool_name == "get_cashflow":
             return (
-                "Your historical cash flow for the available data is: "
-                f"income Rs {tool_result['total_income']:.2f}, "
-                f"expenses Rs {tool_result['total_expenses']:.2f}, "
-                f"net cashflow Rs {tool_result['net_cashflow']:.2f}."
+                "### CASH FLOW\n"
+                f"- Income: Rs {tool_result['total_income']:.2f}\n"
+                f"- Expenses: Rs {tool_result['total_expenses']:.2f}\n"
+                f"- Net cashflow: Rs {tool_result['net_cashflow']:.2f}"
             )
 
         if tool_name == "remember_financial_goal":
             return (
-                "I remembered that financial goal for future "
-                "Paytm Sense answers."
+                "### SAVED\n"
+                "- I remembered that financial goal for future Paytm Sense answers."
             )
 
         if tool_name == "recall_financial_goals":
@@ -124,18 +151,20 @@ class RuleBasedAIClient:
 
             if not goals:
                 return (
-                    "I do not have any saved financial goals yet."
+                    "### GOALS\n"
+                    "- No saved financial goals found yet."
                 )
 
             return (
-                f"I found saved financial context: {goals}."
+                "### GOALS\n"
+                f"- Saved financial context: {goals}"
             )
 
         return (
-            f"Your balance is Rs {tool_result['balance']:.2f}, "
-            f"protected money is Rs {tool_result['protected_money']:.2f}, "
-            f"and safe-to-spend is "
-            f"Rs {tool_result['safe_to_spend']:.2f}."
+            "### SUMMARY\n"
+            f"- Balance: Rs {tool_result['balance']:.2f}\n"
+            f"- Protected money: Rs {tool_result['protected_money']:.2f}\n"
+            f"- Safe to spend: Rs {tool_result['safe_to_spend']:.2f}"
         )
 
     def answer_with_tools(
@@ -209,7 +238,12 @@ class GroqAIClient:
             "You are Paytm Sense. Use the provided tools whenever "
             "financial data, memory, goals, or spending decisions "
             "are needed. Never invent financial numbers. "
-            "Backend tool results are authoritative."
+            "Backend tool results are authoritative. Keep answers brief, "
+            "structured, and easy to scan. Prefer 2 to 4 short sections "
+            "with headings like AFFORDABILITY, WHY, WATCH OUT, NEXT STEP. "
+            "Use 3 to 6 bullets by default. Avoid long paragraphs, repeated "
+            "numbers, raw tables unless useful, and unnecessary disclaimers. "
+            "Give detailed explanations only when the user asks for detail."
         )
 
         messages: list[dict[str, Any]] = [
@@ -269,7 +303,10 @@ class GroqAIClient:
                     "tool_result": (
                         tool_results[0]
                         if len(tool_results) == 1
-                        else tool_results
+                        else _multi_tool_result(
+                            used_tools,
+                            tool_results,
+                        )
                         if tool_results
                         else None
                     ),

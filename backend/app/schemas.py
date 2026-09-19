@@ -123,3 +123,104 @@ class ChatResponse(BaseModel):
     tool_result: dict[str, Any] | list[dict[str, Any]] | None = None
     ai_provider: str
     memory_context: dict[str, Any] | None = None
+
+
+class IncomePathway(BaseModel):
+    id: Literal["survival", "comfortable", "aspirational"]
+    name: str
+    target_monthly_income: float
+    target_additional_income: float
+    description: str
+
+
+class CareerSkill(BaseModel):
+    skill: str
+    proficiency: Literal["Beginner", "Intermediate", "Advanced"] = "Beginner"
+
+    @field_validator("skill")
+    @classmethod
+    def skill_must_not_be_blank(cls, value: str) -> str:
+        value = value.strip()
+        if not value:
+            raise ValueError("must not be blank")
+        return value
+
+
+class CareerProfile(BaseModel):
+    education_status: str
+    highest_qualification: str | None = None
+    field_of_study: str | None = None
+    graduation_year: int | None = Field(default=None, ge=1950, le=2100)
+    employment_status: str
+    current_designation: str | None = None
+    years_of_experience: float = Field(default=0, ge=0, le=60)
+    industry: str | None = None
+    previous_experience: str | None = None
+    skills: list[CareerSkill] = Field(default_factory=list, min_length=1)
+    preferred_job_types: list[str] = Field(default_factory=list)
+    preferred_work_mode: str | None = None
+    preferred_location: str | None = None
+    hours_available_per_week: int | None = Field(default=None, ge=1, le=100)
+    minimum_additional_income: float | None = Field(default=None, ge=0)
+    industries_of_interest: list[str] = Field(default_factory=list)
+    roles_of_interest: list[str] = Field(default_factory=list)
+    work_to_avoid: str | None = None
+    willingness_to_learn: Literal["Low", "Medium", "High"] = "Medium"
+    career_context: str | None = None
+
+    @field_validator("education_status", "employment_status")
+    @classmethod
+    def required_text_must_not_be_blank(cls, value: str) -> str:
+        value = value.strip()
+        if not value:
+            raise ValueError("must not be blank")
+        return value
+
+
+class IncomeGuidanceRequest(BaseModel):
+    user_id: str = Field(min_length=1, max_length=120)
+    pathway_id: Literal["survival", "comfortable", "aspirational"]
+    career_profile: CareerProfile
+    remember_profile: bool = False
+
+    @field_validator("user_id")
+    @classmethod
+    def user_id_must_not_be_blank(cls, value: str) -> str:
+        value = value.strip()
+        if not value:
+            raise ValueError("must not be blank")
+        return value
+
+
+class RecommendedRole(BaseModel):
+    role: str
+    why_it_fits: str
+    required_skills: list[str] = Field(default_factory=list)
+    skills_user_already_has: list[str] = Field(default_factory=list)
+    skill_gaps: list[str] = Field(default_factory=list)
+    search_queries: list[str] = Field(default_factory=list)
+
+
+class ActionPlanItem(BaseModel):
+    period: str
+    actions: list[str]
+
+
+class MemoryContext(BaseModel):
+    enabled: bool
+    provider: str
+    recalled: bool = False
+    remembered: bool = False
+    summary: str | None = None
+    fallback: bool = False
+
+
+class IncomeGuidanceResponse(BaseModel):
+    selected_pathway: IncomePathway
+    profile_summary: str
+    recommended_roles: list[RecommendedRole]
+    skill_gaps: list[str]
+    action_plan: list[ActionPlanItem]
+    application_strategy: list[str]
+    profile_notes: list[str] = Field(default_factory=list)
+    memory_context: MemoryContext

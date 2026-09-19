@@ -10,6 +10,7 @@ The LLM never calculates authoritative money values. Balance, protected money, s
 - Deterministic financial engine: balance, recurring commitments, protected money, safe-to-spend.
 - Statistical intelligence: cashflow metrics, moving-average forecast, prototype income targets.
 - AI agent: uses Groq/OpenAI-style tool calling when configured, receives computed backend results, and explains them.
+- Income guidance: uses existing income targets, optional career memory, and structured Groq career evaluation.
 - API layer: FastAPI routes with Pydantic response models.
 - Optional adapters: Groq, Cognee HTTP memory, n8n webhook.
 
@@ -375,6 +376,41 @@ Returns the moving-average forecast object used inside `/financial-summary`.
 
 Returns the income analysis object used inside `/financial-summary`.
 
+### `GET /income-pathways`
+
+Returns three backend-derived income pathways based on the existing income
+analysis targets: survival, comfortable, and aspirational. Each pathway includes
+the target monthly income and additional monthly income required.
+
+### `POST /income-guidance`
+
+Generates structured GROW guidance from a selected backend income pathway and a
+career profile. The backend handles career-memory recall, Groq career
+evaluation, and optional memory persistence.
+
+Request body:
+
+```json
+{
+  "user_id": "demo-user",
+  "pathway_id": "comfortable",
+  "remember_profile": true,
+  "career_profile": {
+    "education_status": "Student",
+    "employment_status": "Student",
+    "skills": [
+      {
+        "skill": "JavaScript",
+        "proficiency": "Beginner"
+      }
+    ]
+  }
+}
+```
+
+The response includes selected pathway, profile summary, recommended roles,
+skill gaps, action plan, application strategy, and memory status.
+
 ### `POST /chat`
 
 Optional AI explanation layer. Request body:
@@ -409,6 +445,8 @@ Copy `.env.example` to `.env` for local secrets. Do not commit `.env`.
 - `COGNEE_BASE_URL`: optional tenant-specific Cognee base URL, defaults to `https://api.cognee.ai`.
 - `COGNEE_DATASET`: optional Cognee dataset name for Paytm Sense memory.
 - `COGNEE_DATASET_ID`: optional Cognee dataset id; when set, it is used instead of `COGNEE_DATASET`.
+- `COGNEE_CAREER_DATASET`: optional Cognee dataset name for career memory, defaults to `paytm_sense_career_memory`.
+- `COGNEE_CAREER_DATASET_ID`: optional Cognee dataset id for career memory.
 - `N8N_WEBHOOK_URL`: optional webhook for automation events.
 - `DATABASE_URL`: reserved for a future database-backed store.
 
@@ -421,6 +459,9 @@ Without `GROQ_API_KEY`, chat uses a deterministic local fallback for demo reliab
 ## Cognee Memory
 
 When `COGNEE_API_KEY` is set, Paytm Sense uses Cognee's HTTP API with `/api/v1/add`, `/api/v1/cognify`, and `/api/v1/search` for financial goals and intentions. `/api/v1/add` sends multipart/form-data with a `data` text file part plus either `datasetName` or `datasetId`; `/api/v1/cognify` and `/api/v1/search` use JSON and target either `datasets` or `datasetIds`. Without Cognee credentials, it uses an in-process fallback memory. The fallback is useful for local demo flow but is not persistent across process restarts.
+
+Income Guidance uses a separate career-memory dataset so career context can be
+scoped independently from financial goals. See `docs/income-guidance.md`.
 
 ## n8n Automation
 

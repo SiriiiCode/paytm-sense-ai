@@ -31,6 +31,11 @@ class Settings:
         self.cognee_api_key: str | None = getenv("COGNEE_API_KEY") or None
         self.cognee_base_url: str = getenv("COGNEE_BASE_URL", "https://api.cognee.ai")
         self.cognee_dataset: str = getenv("COGNEE_DATASET", "paytm_sense_financial_memory")
+        self.career_memory_dataset: str = getenv(
+            "COGNEE_CAREER_DATASET",
+            "paytm_sense_career_memory",
+        )
+        self.career_memory_dataset_id: str | None = getenv("COGNEE_CAREER_DATASET_ID") or None
         self.cognee_dataset_id: str | None = getenv("COGNEE_DATASET_ID") or None
         self.n8n_webhook_url: str | None = getenv("N8N_WEBHOOK_URL") or None
         self.database_url: str | None = getenv("DATABASE_URL") or None

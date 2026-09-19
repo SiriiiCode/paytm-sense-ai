@@ -538,7 +538,8 @@ def test_local_chat_formats_cashflow_response(monkeypatch):
     result = answer_chat("Show me my cash flow.", RuleBasedAIClient())
 
     assert result["tool_used"] == "get_cashflow"
-    assert "net cashflow Rs 42000.00" in result["answer"]
+    assert "### CASH FLOW" in result["answer"]
+    assert "- Net cashflow: Rs 42000.00" in result["answer"]
 
 
 def test_groq_tool_calling_path_uses_backend_tool(monkeypatch):
@@ -698,7 +699,135 @@ def test_groq_tool_calling_executes_multiple_requested_tools(monkeypatch):
     assert calls[1]["messages"][-2]["name"] == "get_safe_to_spend"
     assert calls[1]["messages"][-1]["name"] == "recall_financial_goals"
     assert result["tool_used"] == "get_safe_to_spend,recall_financial_goals"
-    assert result["tool_result"] == [{"safe_to_spend": 123.0}, {"goals": ["Laptop"]}]
+    assert result["tool_result"] == [
+        {
+            "tool_name": "get_safe_to_spend",
+            "result": {"safe_to_spend": 123.0},
+        },
+        {
+            "tool_name": "recall_financial_goals",
+            "result": {"goals": ["Laptop"]},
+        },
+    ]
+
+
+def test_chat_endpoint_accepts_multi_tool_result_with_list_payload(monkeypatch):
+    calls = []
+
+    class FakeResponse:
+        def __init__(self, payload):
+            self.payload = payload
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_post(url, headers, json, timeout):
+        del url, headers, timeout
+        calls.append(json)
+        if len(calls) == 1:
+            return FakeResponse(
+                {
+                    "choices": [
+                        {
+                            "message": {
+                                "role": "assistant",
+                                "tool_calls": [
+                                    {
+                                        "id": "call_safe",
+                                        "type": "function",
+                                        "function": {
+                                            "name": "get_safe_to_spend",
+                                            "arguments": "{}",
+                                        },
+                                    },
+                                    {
+                                        "id": "call_commitments",
+                                        "type": "function",
+                                        "function": {
+                                            "name": "get_upcoming_commitments",
+                                            "arguments": "{}",
+                                        },
+                                    },
+                                ],
+                            }
+                        }
+                    ]
+                }
+            )
+        return FakeResponse(
+            {
+                "choices": [
+                    {
+                        "message": {
+                            "role": "assistant",
+                            "content": "Safe-to-spend and commitments reviewed.",
+                        }
+                    }
+                ]
+            }
+        )
+
+    sample = [
+        make_transaction(
+            "R1",
+            date(2026, 1, 2),
+            "House Rent",
+            18000.0,
+            category="Housing",
+            is_recurring=True,
+        ),
+        make_transaction(
+            "R2",
+            date(2026, 2, 2),
+            "House Rent",
+            18000.0,
+            category="Housing",
+            is_recurring=True,
+        ),
+        make_transaction(
+            "R3",
+            date(2026, 3, 2),
+            "House Rent",
+            18000.0,
+            category="Housing",
+            is_recurring=True,
+        ),
+        make_transaction(
+            "C1",
+            date(2026, 3, 15),
+            "Salary",
+            60000.0,
+            transaction_type="Credit",
+            category="Income",
+        ),
+    ]
+
+    from app.ai import agent, client, tools
+
+    monkeypatch.setattr(
+        agent,
+        "get_ai_client",
+        lambda: GroqAIClient("test-key", "configured-model"),
+    )
+    monkeypatch.setattr(client.httpx, "post", fake_post)
+    monkeypatch.setattr(tools, "load_transactions", lambda: sample)
+    monkeypatch.setattr(financial, "get_balance", lambda: 59800.0)
+
+    response = TestClient(app).post(
+        "/chat",
+        json={"message": "Can I spend safely and what commitments are next?"},
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["tool_used"] == "get_safe_to_spend,get_upcoming_commitments"
+    assert body["tool_result"][0]["tool_name"] == "get_safe_to_spend"
+    assert body["tool_result"][0]["result"]["safe_to_spend"] == 26800.0
+    assert body["tool_result"][1]["tool_name"] == "get_upcoming_commitments"
+    assert body["tool_result"][1]["result"][0]["description"] == "House Rent"
 
 
 def test_cognee_memory_uses_http_api_with_mock(monkeypatch):
@@ -800,7 +929,7 @@ def test_memory_without_cognee_credentials_uses_local_fallback(monkeypatch):
     from app.services import memory
 
     config.get_settings.cache_clear()
-    monkeypatch.delenv("COGNEE_API_KEY", raising=False)
+    monkeypatch.setenv("COGNEE_API_KEY", "")
     memory._LOCAL_MEMORY = InMemoryFinancialMemory()
 
     selected = memory.get_memory()
@@ -970,3 +1099,241 @@ def test_chat_endpoint_validates_blank_message():
     response = TestClient(app).post("/chat", json={"message": "   "})
 
     assert response.status_code == 422
+
+
+def _career_profile_payload():
+    return {
+        "education_status": "Student",
+        "highest_qualification": "BTech",
+        "field_of_study": "Computer Science",
+        "graduation_year": 2027,
+        "employment_status": "Student",
+        "current_designation": "",
+        "years_of_experience": 0,
+        "industry": "Technology",
+        "previous_experience": "Built small web projects.",
+        "skills": [
+            {"skill": "HTML", "proficiency": "Intermediate"},
+            {"skill": "CSS", "proficiency": "Intermediate"},
+            {"skill": "JavaScript", "proficiency": "Beginner"},
+        ],
+        "preferred_job_types": ["Internship", "Freelance"],
+        "preferred_work_mode": "Remote",
+        "preferred_location": "India",
+        "hours_available_per_week": 12,
+        "minimum_additional_income": 10000,
+        "industries_of_interest": ["Technology"],
+        "roles_of_interest": ["Frontend Developer"],
+        "work_to_avoid": "Night shift support",
+        "willingness_to_learn": "High",
+        "career_context": "I want frontend work.",
+    }
+
+
+def test_income_pathways_endpoint_uses_existing_income_analysis():
+    response = TestClient(app).get("/income-pathways")
+
+    assert response.status_code == 200
+    body = response.json()
+    assert [item["id"] for item in body] == [
+        "survival",
+        "comfortable",
+        "aspirational",
+    ]
+    assert all("target_additional_income" in item for item in body)
+
+
+def test_income_guidance_request_validation_rejects_missing_skills():
+    payload = {
+        "user_id": "demo-user",
+        "pathway_id": "comfortable",
+        "remember_profile": False,
+        "career_profile": {
+            **_career_profile_payload(),
+            "skills": [],
+        },
+    }
+
+    response = TestClient(app).post("/income-guidance", json=payload)
+
+    assert response.status_code == 422
+
+
+def test_income_guidance_full_flow_with_memory_disabled(monkeypatch):
+    from app.services import career_guidance
+
+    def fake_generate(pathway, profile, memory_context=None):
+        del pathway, memory_context
+        return {
+            "profile_summary": f"{profile.education_status} profile reviewed.",
+            "recommended_roles": [
+                {
+                    "role": "Frontend Developer",
+                    "why_it_fits": "Matches current skills.",
+                    "required_skills": ["HTML", "CSS", "JavaScript"],
+                    "skills_user_already_has": ["HTML", "CSS"],
+                    "skill_gaps": ["React"],
+                    "search_queries": ["frontend developer"],
+                }
+            ],
+            "skill_gaps": ["React"],
+            "action_plan": [{"period": "Week 1", "actions": ["Build a UI project."]}],
+            "application_strategy": ["Apply with proof of work."],
+            "profile_notes": ["No memory used."],
+        }
+
+    monkeypatch.setattr(career_guidance, "generate_career_guidance", fake_generate)
+
+    response = TestClient(app).post(
+        "/income-guidance",
+        json={
+            "user_id": "demo-user",
+            "pathway_id": "comfortable",
+            "remember_profile": False,
+            "career_profile": _career_profile_payload(),
+        },
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["selected_pathway"]["id"] == "comfortable"
+    assert body["recommended_roles"][0]["role"] == "Frontend Developer"
+    assert body["skill_gaps"] == ["React"]
+    assert body["action_plan"][0]["period"] == "Week 1"
+    assert body["memory_context"]["enabled"] is False
+
+
+def test_income_guidance_memory_enabled(monkeypatch):
+    from app.services import career_guidance
+
+    remembered = []
+
+    class FakeMemory:
+        provider_name = "fake-memory"
+
+        def recall_career_context(self, user_id):
+            return {
+                "recalled": True,
+                "provider": self.provider_name,
+                "context": {"previous_focus": "Frontend"},
+            }
+
+        def remember_guidance(self, user_id, payload):
+            remembered.append({"user_id": user_id, "payload": payload})
+            return {"remembered": True, "provider": self.provider_name}
+
+    def fake_generate(pathway, profile, memory_context=None):
+        assert memory_context == {"previous_focus": "Frontend"}
+        return {
+            "profile_summary": "Memory-aware profile reviewed.",
+            "recommended_roles": [
+                {
+                    "role": "Frontend Developer",
+                    "why_it_fits": "Matches recalled context.",
+                    "required_skills": ["React"],
+                    "skills_user_already_has": ["JavaScript"],
+                    "skill_gaps": ["React"],
+                    "search_queries": ["frontend developer"],
+                }
+            ],
+            "skill_gaps": ["React"],
+            "action_plan": [{"period": "Week 1", "actions": ["Learn React basics."]}],
+            "application_strategy": ["Apply selectively."],
+            "profile_notes": [],
+        }
+
+    monkeypatch.setattr(career_guidance, "get_career_memory", lambda: FakeMemory())
+    monkeypatch.setattr(career_guidance, "generate_career_guidance", fake_generate)
+
+    response = TestClient(app).post(
+        "/income-guidance",
+        json={
+            "user_id": "demo-user",
+            "pathway_id": "comfortable",
+            "remember_profile": True,
+            "career_profile": _career_profile_payload(),
+        },
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["recommended_roles"][0]["skill_gaps"] == ["React"]
+    assert body["action_plan"][0]["actions"] == ["Learn React basics."]
+    assert body["memory_context"]["recalled"] is True
+    assert body["memory_context"]["remembered"] is True
+    assert remembered[0]["user_id"] == "demo-user"
+
+
+def test_career_memory_without_cognee_key_is_disabled(monkeypatch):
+    from app.services import career_memory
+
+    config.get_settings.cache_clear()
+    monkeypatch.setenv("COGNEE_API_KEY", "")
+
+    selected = career_memory.get_career_memory()
+    remembered = selected.remember_guidance("demo-user", {"role": "Frontend"})
+    recalled = selected.recall_career_context("demo-user")
+
+    assert selected.provider_name == "disabled"
+    assert remembered == {"remembered": False, "provider": "disabled"}
+    assert recalled == {
+        "recalled": False,
+        "provider": "disabled",
+        "context": None,
+    }
+    config.get_settings.cache_clear()
+
+
+def test_cognee_career_memory_writes_and_recalls_with_career_dataset(monkeypatch):
+    from app.services import career_memory
+
+    requests = []
+
+    class FakeResponse:
+        def __init__(self, payload=None):
+            self.payload = payload or {"result": "frontend career memory"}
+
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return self.payload
+
+    def fake_post(url, headers, timeout, json=None, data=None, files=None):
+        del timeout
+        requests.append(
+            {
+                "url": url,
+                "headers": headers,
+                "json": json,
+                "data": data,
+                "files": files,
+            }
+        )
+        return FakeResponse()
+
+    monkeypatch.setattr(career_memory.httpx, "post", fake_post)
+    memory = career_memory.CogneeHttpCareerMemory(
+        api_key="test-key",
+        base_url="https://api.cognee.ai",
+        dataset="paytm_sense_career_memory",
+    )
+
+    remembered = memory.remember_guidance(
+        "demo-user",
+        {"selected_pathway": {"id": "comfortable"}, "skill_gaps": ["React"]},
+    )
+    recalled = memory.recall_career_context("demo-user")
+
+    assert remembered["remembered"] is True
+    assert requests[0]["url"].endswith("/api/v1/add")
+    assert requests[0]["headers"]["X-Api-Key"] == "test-key"
+    assert requests[0]["data"] == {"datasetName": "paytm_sense_career_memory"}
+    assert requests[0]["files"][0][1][0] == "career_guidance.txt"
+    assert b"user:demo-user" in requests[0]["files"][0][1][1]
+    assert requests[1]["url"].endswith("/api/v1/cognify")
+    assert requests[1]["json"]["datasets"] == ["paytm_sense_career_memory"]
+    assert requests[2]["url"].endswith("/api/v1/search")
+    assert requests[2]["json"]["datasets"] == ["paytm_sense_career_memory"]
+    assert "user:demo-user" in requests[2]["json"]["query"]
+    assert recalled["provider"] == "cognee-http"

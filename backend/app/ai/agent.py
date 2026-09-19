@@ -61,14 +61,24 @@ def _answer_spend_decision(message: str, tool_result: dict[str, Any]) -> str | N
 
     safe_to_spend = float(tool_result["safe_to_spend"])
     if requested <= safe_to_spend:
+        remaining = safe_to_spend - requested
         return (
-            f"Yes, Rs {requested:.2f} is within your deterministic safe-to-spend "
-            f"limit of Rs {safe_to_spend:.2f}."
+            "### AFFORDABILITY\n"
+            f"- Purchase: Rs {requested:.2f}\n"
+            f"- Safe to spend: Rs {safe_to_spend:.2f}\n"
+            f"- Remaining after purchase: Rs {remaining:.2f}\n"
+            f"- Protected money remains: Rs {float(tool_result['protected_money']):.2f}\n\n"
+            "### RECOMMENDATION\n"
+            "- Yes, this purchase is within your safe-to-spend limit."
         )
     gap = requested - safe_to_spend
     return (
-        f"Not safely. Rs {requested:.2f} is Rs {gap:.2f} above your deterministic "
-        f"safe-to-spend limit of Rs {safe_to_spend:.2f}."
+        "### AFFORDABILITY\n"
+        f"- Purchase: Rs {requested:.2f}\n"
+        f"- Safe to spend: Rs {safe_to_spend:.2f}\n"
+        f"- Gap: Rs {gap:.2f}\n\n"
+        "### RECOMMENDATION\n"
+        "- Not safely. This purchase is above your safe-to-spend limit."
     )
 
 
